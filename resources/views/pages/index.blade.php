@@ -186,9 +186,150 @@
 
 	<div style="border-top: 8px solid black; background-color: #eef0f1; padding: 24px;">
 		<div class="container">
-			<div class="row">
+			<div class="row" style="margin-bottom: 24px;">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 					<h3><b>Featured Attorneys</b></h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+					<div class="attorney-box">
+						<div class="attorney-box-image">
+							<img src="{{ URL::asset('img/attorney-1.png') }}" class="regular-image">
+						</div>
+
+						<div class="attorney-box-info">
+							<h4>Attorney Name</h4>
+							<p class="role">Managing Attorney</p>
+							<p>Former Federal Prosecutor</p>
+							<p>Former chief of the Orange County<br>Division of the Office of the United States Attorney, Central District of California</p>
+							<p>Awards from two Attorneys Generals of the United States and the Director of the FBI</p> 
+						</div>
+
+						<div class="attorney-box-footer">
+							<a href="" class="attorney-link">View Full Bio</a> 
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+					<div class="attorney-box">
+						<div class="attorney-box-image">
+							<img src="{{ URL::asset('img/attorney-2.png') }}" class="regular-image">
+						</div>
+
+						<div class="attorney-box-info">
+							<h4>Attorney Name</h4>
+							<p class="role">Partner</p>
+							<p>Former Federal Prosecutor</p>
+							<p>Former chief of the Orange County<br>Division of the Office of the United States Attorney, Central District of California</p>
+							<p>Awards from two Attorneys Generals of the United States and the Director of the FBI</p>
+						</div>
+
+						<div class="attorney-box-footer">
+							<a href="" class="attorney-link">View Full Bio</a> 
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+					<div class="attorney-box">
+						<div class="attorney-box-image">
+							<img src="{{ URL::asset('img/attorney-3.png') }}" class="regular-image">
+						</div>
+
+						<div class="attorney-box-info">
+							<h4>Honorable Judge</h4>
+							<p class="role">Retired Judge</p>
+							<p>Recent $50.3 million jury verdict</p>
+							<p>Awarded in The Best Lawyers in America</p>
+							<p>Martindale Hubbell peer review rating of AV Preeminent, 5.0 out of 5.0, 15+ years</p>
+							<p>Board of Directors, Orange County Bar Foundation</p>
+						</div>
+
+						<div class="attorney-box-footer">
+							<a href="" class="attorney-link">View Full Bio</a> 
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+					<div class="attorney-box">
+						<div class="attorney-box-image">
+							<img src="{{ URL::asset('img/attorney-4.png') }}" class="regular-image">
+						</div>
+
+						<div class="attorney-box-info">
+							<h4>Senator Name</h4>
+							<p class="role">Former CA Senator</p>
+							<p>Former Assistant U.S. Attorney, U.S. Department of Justice; Civil Fraud Section, Deputy Chief</p>
+							<p>Decades of experience working with major federal agencies, including Medicare and Medicaid, Dept. of Defense., NASA, National Reconnaissance Office</p>
+							<p>Recovered Over $1 Billion Dollars</p>
+						</div>
+
+						<div class="attorney-box-footer">
+							<a href="" class="attorney-link">View Full Bio</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="padding: 24px; background-image: -moz-linear-gradient( 39deg, rgb(0,31,88) 0%, rgb(73,123,224) 100%); background-image: -webkit-linear-gradient( 39deg, rgb(0,31,88) 0%, rgb(73,123,224) 100%); background-image: -ms-linear-gradient( 39deg, rgb(0,31,88) 0%, rgb(73,123,224) 100%);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-7 col-sm-12 col-12">
+					<h2 id="bottom-cta-title">24/7 Access to Your Lawyer</h2>
+					<h4 id="bottom-cta-subtitle">You can Email, Text, or Call us 24/7</h4>
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12 col-12">
+							<div style="background-color: black; padding: 16px; border-radius: 8px; margin-top: 32px;">
+								<h4 id="bottom-cta-video-title">Hundreds of Satisfied Clients</h4>
+								<div class="videoWrapper">
+								    <!-- Copy & Pasted from YouTube -->
+								    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<img src="{{ URL::asset('img/stars.png') }}" class="regular-image-40" style="margin-top: 16px;">
+								<p id="bottom-cta-testimonial"><i>"Steve Mehr and his team changed my life for the better"</i></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-5 col-sm-12 col-12">
+					<div class="front-page-form" id="bottom-cta-form">
+						<h3 class="text-center">Get Help Now</h3>
+						<h5 class="text-center">Free Consultation</h5>
+						<hr />
+						<form>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_first_name_field">
+									<input type="text" class="form-control" placeholder="First Name" name="first_name" required>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_last_name_field">
+									<input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
+								</div>
+
+								<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_email_field">
+									<input type="email" class="form-control" placeholder="Email" name="email" required>
+								</div>
+
+								<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_phone_field">
+									<input type="tel" class="form-control" placeholder="Phone" name="email" required>
+								</div>
+
+								<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_message_field">
+									<textarea class="form-control" placeholder="Tell us what happened" name="message"></textarea>
+								</div>
+
+								<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
+									<input type="submit" value="Start Now" id="bottom_cta_submit_button">
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

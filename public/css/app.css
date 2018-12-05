@@ -68,6 +68,40 @@ html, body {
 	height:auto;
 }
 
+.attorney-box-info {
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	min-height: 260px;
+}
+
+.attorney-box-info > h4 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.attorney-box-info > .role {
+	font-size: 14px;
+}
+
+.attorney-box-info > p {
+	font-size: 12px;
+}
+
+.attorney-box-footer {
+	padding-left: 16px;
+	padding-bottom: 16px;
+	padding-right: 16px;
+}
+
+.attorney-box-footer > .attorney-link {
+	color: #5773ad;
+	font-size: 14px;
+}
+
+
+
 .attorney-box:hover {
 	margin-bottom: 8px;
 	margin-top: -8px;
@@ -300,6 +334,90 @@ html, body {
 	text-transform: uppercase;
 }
 
+#bottom-cta-title {
+	font-size: 48px;
+	color: white;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#bottom-cta-subtitle {
+	color: white;
+	margin-bottom: 0px;
+}
+
+#bottom-cta-video-title {
+	color: white;
+}
+
+#bottom-cta-testimonial {
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 8px;
+}
+
+#bottom_cta_submit_button {
+	background-color: #f35d3f;
+	color: white;
+	border: 0px;
+	font-size: 24px;
+	width: 100%;
+	padding: 4px;
+	border-radius: 47px;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+#bottom_cta_submit_button:hover {
+	cursor: pointer;
+	background-color: #c42b0c;
+}
+
+#bottom-cta-form {
+	margin-top: 64px;
+}
+
+#page-footer {
+	padding: 24px;
+	border-top: 10px solid #d0d1d2;
+}
+
+#footer-logo {
+	margin-top: 32px;
+}
+
+.footer-header {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.footer-text {
+	font-size: 12px;
+}
+
+.footer-black-bar {
+	background: black;
+	padding: 16px;
+	color: white;
+	border-bottom: 6px solid #376fed;
+}
+
+#copyright-text {
+	font-size: 14px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.footer-link {
+	float: right;
+	font-size: 14px;
+	text-align: right;
+	color: #8d9199;
+}
+
 /* ----------------------- *\
 	Images
 \* ----------------------- */
@@ -378,7 +496,7 @@ html, body {
 	.banner-support-text {
 		color: white;
 		font-size: 18px;
-		margin-top: 8px;	
+		margin-top: 4px;	
 	}
 
 	#awarded_title {
@@ -440,8 +558,48 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+	#page-footer {
+		padding: 0px;
+		border-top: 10px solid #d0d1d2;
+	}
+
 	#main_navbar_logo {
 		max-width: 175px;
+	}
+
+	#bottom-cta-form {
+		margin-top: 32px;
+	}
+
+	#bottom-cta-title {
+		font-size: 24px;
+		line-height: 38px;
+		text-align: center;
+		margin-bottom: 4px;
+	}
+
+	#bottom-cta-subtitle {
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	#bottom-cta-video-title {
+		font-size: 18px;
+	}
+
+	#bottom-cta-testimonial {
+		font-size: 14px;
+	}
+
+	.attorney-box {
+		margin-top: 8px;
+		margin-bottom: 16px;
+	}
+
+	.attorney-box-info {
+		min-height: 240px;
 	}
 
 	.image-row {
