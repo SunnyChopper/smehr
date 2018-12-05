@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{ URL::asset('bootstrap.min.js') }}"></script>
