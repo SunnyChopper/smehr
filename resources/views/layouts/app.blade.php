@@ -6,10 +6,14 @@
 
 		<title>{{ $page_title }}</title>
 
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 		<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/app.css') }}">
 	</head>
 	<body>
-
+		@include('layouts.navbar')
 		@include('layouts.js')
 	</body>
 </html>
