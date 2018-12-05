@@ -17,7 +17,7 @@ html, body {
 }
 
 #main_navbar_logo {
-	max-width: 400px;
+	max-width: 300px;
 }
 
 .nav-link {
@@ -836,5 +836,11 @@ html, body {
 
 	#banner-blue-bar-header {
 		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#main_navbar_logo {
+		max-width: 210px;
 	}
 }

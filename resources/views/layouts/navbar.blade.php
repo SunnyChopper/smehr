@@ -1,4 +1,4 @@
-<section version="desktop-version" class="d-none d-lg-block">
+<section version="desktop-version" class="d-none d-md-block">
 	<div class="top-bar d-none d-md-block">
 		<div class="container">
 			<div class="row">
