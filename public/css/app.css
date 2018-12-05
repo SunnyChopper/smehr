@@ -40,9 +40,154 @@ html, body {
 	Special Divs
 \* ----------------------- */
 
+.main-banner {
+	background-image: url('../img/banner-header.png');
+	background-size: cover;
+}
+
+.image-row {
+	background-image: url('../img/banner-header.png');
+	background-size: cover;
+	padding: 48px;
+}
+
+.theme-row {
+	background-color: #0f1323; 
+	padding: 64px;
+}
+
+.attorney-box {
+	background-color: white;
+	border-radius: 8px;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.attorney-box-image {
+	padding: 0px;
+	height:auto;
+}
+
+.attorney-box:hover {
+	margin-bottom: 8px;
+	margin-top: -8px;
+	-webkit-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+}
+
+.proof-box {
+	background-color: white;
+	border-radius: 8px;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.proof-box:hover {
+	margin-bottom: 8px;
+	margin-top: -8px;
+	-webkit-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+}
+
+.proof-box-text {
+	padding: 8px;
+}
+
+.proof-box-text > h2 {
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.proof-box-text > h4 {
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+}
+
+.proof-box-text > #type {
+	font-size: 12px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #72869e;
+	text-transform: uppercase;
+}
+
+.proof-box-text > #claim {
+	font-size: 12px;
+	margin-top: 0px;
+	color: black;
+	margin-bottom: 0px;
+	line-height: 12px;
+}
+
+#banner-blue-bar {
+	background-color: rgba(55, 111, 237, 0.49);  
+	width: 100%;
+	color: white;
+	padding: 24px;
+}
+
+#banner-blue-bar-header {
+	font-weight: lighter;
+}
+
+#banner-padded-area {
+	padding: 36px;
+}
+
+#banner-bottom-padding {
+	padding-bottom: 32px;
+}
+
+.front-page-form {
+	background-color: white;
+	width: 100%;
+	padding: 16px;
+	border-radius: 4px;
+}
+
 .top-bar {
 	background-color: #0f1323;
 	padding: 4px;
+}
+
+.front-page-form > h3 {
+	font-weight: bolder;
+	font-size: 28px;
+}
+
+.front-page-form > h5 {
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+.front-page-form > hr {
+	color: black;
+	background-color: #E0E0E0;
+}
+
+#front_page_form_first_name_field {
+	padding-right: 4px;
+}
+
+#front_page_form_last_name_field {
+	padding-left: 4px;
+}
+
+#front_page_form_submit_button {
+	background-color: #2467ff;
+	color: white;
+	border: 0px;
+	font-size: 24px;
+	width: 100%;
+	padding: 4px;
+	border-radius: 47px;
+}
+
+#front_page_form_submit_button:hover {
+	cursor: pointer
 }
 
 #top_bar_text {
@@ -51,13 +196,340 @@ html, body {
 	float: right;
 }
 
+#main-banner-top-headline {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#main-banner-title {
+	color: white;
+	font-weight: bolder;
+	font-size: 56px;
+}
+
+.banner-support-text {
+	color: white;
+	font-size: 22px;
+	margin-bottom: 2px;
+}
+
+.banner-support-image {
+	margin-top: 4px;
+}
+
+#front-page-main-cta {
+	display: block;
+	background-color: #f35d3f;
+	color: white;
+	font-size: 24px;
+	padding: 8px;
+	border-radius: 47px;
+	margin-top: 32px;
+	width: 80%;
+	text-align: center;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+#front-page-main-cta:hover {
+	background-color: #c42b0c;
+	text-decoration: none
+}
+
+.active-front-page-tab {
+	padding: 32px; 
+	text-align: center; 
+	color: white; 
+	background-color: #f35d3f;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.active-front-page-tab:hover {
+	cursor: pointer;
+	background-color: #c42b0c;
+}
+
+.active-front-page-tab > h6 {
+	margin-bottom: 0px;
+}
+
+.front-page-tab {
+	padding: 32px; 
+	text-align: center; 
+	color: black; 
+	background-color: white;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.front-page-tab:hover {
+	cursor: pointer;
+	background-color: #eaeaea;
+}
+
+.front-page-tab > h6 {
+	margin-bottom: 0px;
+}
+
+#front-page-quote {
+	color: white;
+	font-size: 48px;
+}
+
+#proof_title {
+	margin-bottom: 16px;
+}
+
+.proof_text {
+	margin-bottom: 0px;
+	color: #505050;
+}
+
+#awarded_title {
+	color: white;
+	display: block;
+	margin-top: 36px;
+	margin-bottom: auto;
+	font-size: 48px;
+}
+
+#awarded_subtitle {
+	color: white; 
+	text-transform: uppercase;
+}
+
+/* ----------------------- *\
+	Images
+\* ----------------------- */
+
+.regular-image {
+	width: 100%;
+	height: auto;
+}
+
+.regular-image-40 {
+	width: 40%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+.regular-image-60 {
+	width: 60%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+.regular-image-80 {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+.blue-bar-image {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+/* ----------------------- *\
+	Videos
+\* ----------------------- */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /* ----------------------- *\
 	Media Queries
 \* ----------------------- */
 
+@media only screen and (max-width: 768px) {
+	#main_navbar_logo {
+		max-width: 200px;
+	}
+
+	#main-banner-title {
+		font-size: 32px;
+	}
+
+	.banner-support-text {
+		color: white;
+		font-size: 18px;
+		margin-top: 8px;	
+	}
+
+	#awarded_title {
+		color: white;
+		font-size: 24px;
+		margin-top: 16px;
+	}
+
+	#awarded_subtitle {
+		color: white; 
+		text-transform: uppercase;
+		font-size: 10px;
+	}
+
+	.proof-box {
+		background-color: white;
+		border-radius: 8px;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.proof-box-text > h2 {
+		font-size: 24px;
+		margin-bottom: 0px;
+	}
+
+	.proof-box-text > h4 {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-bottom: 0px;
+	}
+
+	.proof-box-text > #type {
+		font-size: 8px;
+		line-height: 8px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		color: #72869e;
+		text-transform: uppercase;
+	}
+
+	.proof-box-text > #claim {
+		font-size: 10px;
+		margin-top: 0px;
+		color: black;
+		margin-bottom: 0px;
+		line-height: 12px;
+	}
+
+	.theme-row {
+		background-color: #0f1323; 
+		padding: 32px;
+	}
+
+	#front-page-quote {
+		font-size: 28px;
+		margin-bottom: 0px;
+	}
+}
+
 @media only screen and (max-width: 480px) {
 	#main_navbar_logo {
 		max-width: 175px;
+	}
+
+	.image-row {
+		background-image: url('../img/banner-header.png');
+		background-size: cover;
+		padding: 24px;
+	}
+
+	.proof-box {
+		background-color: white;
+		border-radius: 8px;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	#badge_image {
+		width: 40%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+		margin-bottom: 16px;
+	}
+
+	#awarded_title {
+		color: white;
+		font-size: 28px;
+		margin-top: 16px;
+	}
+
+	#awarded_subtitle {
+		color: white; 
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+
+	#front-page-main-cta {
+		margin-bottom: 20px;
+		margin-top: 0px;
+		width: 100%;
+	}
+
+	#front-page-quote {
+		color: white;
+		font-size: 42px;
+	}
+
+	.front-page-form {
+		background-color: white;
+		width: 100%;
+		padding: 12px;
+		border-radius: 4px;
+	}
+
+	#first-support-text {
+		margin-top: 16px;
+	}
+
+	.banner-support-image {
+		margin-top: 0px;
+	}
+
+	.banner-support-text {
+		color: white;
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+
+	#banner-padded-area {
+		padding: 24px;
+	}
+
+	#front_page_form_first_name_field {
+		padding-right: 15px;
+		margin-bottom: 8px;
+	}
+
+	#front_page_form_last_name_field {
+		padding-left: 15px;
+		margin-bottom: 8px;
+	}
+
+	#front_page_form_email_field {
+		margin-bottom: 8px;
+	}
+
+	#front_page_form_phone_field {
+		margin-bottom: 8px;
 	}
 
 	#main_navbar {
@@ -67,5 +539,17 @@ html, body {
 
 	.navbar-collapse {
 		margin-top: 16px;
+	}
+
+	.main-banner {
+		background-image: url('../img/banner-header.png');
+	}
+
+	#main-banner-top-headline {
+		font-size: 12px;
+	}
+
+	#main-banner-title {
+		font-size: 32px;
 	}
 }

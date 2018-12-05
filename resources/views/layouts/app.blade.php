@@ -14,6 +14,7 @@
 	</head>
 	<body>
 		@include('layouts.navbar')
+		@yield('content')
 		@include('layouts.js')
 	</body>
 </html>
