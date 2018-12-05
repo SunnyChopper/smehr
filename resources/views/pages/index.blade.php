@@ -29,7 +29,7 @@
 		<div class="row" style="padding: 48px;">
 			<div class="col-lg-7 col-md-6 col-sm-12 col-12">
 				<h4><b>Auto Accident Attorneys</b></h4>
-				<p>We understand how seriously a car accident can impact many aspects of your life and can result in whiplash, head and back pain, and other major injuries. The experienced auto accident lawyers at Steve Mehr Injury Attorneys, P.C. know what it takes to recover what you deserve from the insurance companies. We understand how seriously a car accident can impact many aspects of your life and can result in whiplash, head and back pain, and  other major injuries. The experienced auto accident lawyers at Steve Mehr Injury Attorneys, P.C. know what it takes to recover what you deserve from the insurance companies.</p>
+				<p>We understand how seriously a car accident can impact many aspects of your life and can result in whiplash, head and back pain, and other major injuries. The experienced auto accident lawyers at Steve Mehr Injury Attorneys, P.C. know what it takes to recover what you deserve from the insurance companies.</p>
 			</div>
 
 			<div class="col-lg-5 col-md-6 col-sm-12 col-12">
@@ -193,7 +193,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
 							<img src="{{ URL::asset('img/attorney-1.png') }}" class="regular-image">
@@ -213,7 +213,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
 							<img src="{{ URL::asset('img/attorney-2.png') }}" class="regular-image">
@@ -233,7 +233,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
 							<img src="{{ URL::asset('img/attorney-3.png') }}" class="regular-image">
@@ -254,7 +254,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
 							<img src="{{ URL::asset('img/attorney-4.png') }}" class="regular-image">
@@ -284,7 +284,7 @@
 					<h2 id="bottom-cta-title">24/7 Access to Your Lawyer</h2>
 					<h4 id="bottom-cta-subtitle">You can Email, Text, or Call us 24/7</h4>
 					<div class="row">
-						<div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-12 col-12">
+						<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
 							<div style="background-color: black; padding: 16px; border-radius: 8px; margin-top: 32px;">
 								<h4 id="bottom-cta-video-title">Hundreds of Satisfied Clients</h4>
 								<div class="videoWrapper">

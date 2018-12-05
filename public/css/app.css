@@ -489,6 +489,51 @@ html, body {
 		max-width: 200px;
 	}
 
+	.attorney-box {
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+	.attorney-box-info {
+		min-height: 195px;
+	}
+
+	.attorney-box-info > h4 {
+		font-size: 14px;
+	}
+
+	.attorney-box-info > .role {
+		font-size: 12px;
+	}
+
+	.attorney-box-info > p {
+		font-size: 12px;
+	}
+
+	#bottom-cta-title {
+		font-size: 28px;
+	}
+
+	#bottom-cta-subtitle {
+		font-size: 18px;
+	}
+
+	#bottom-cta-form {
+		margin-top: 32px;
+	}
+
+	#footer-logo {
+		margin-top: 48px;
+	}
+
+	.footer-header {
+		font-size: 12px;
+	}
+
+	.footer-text {
+		font-size: 10px;
+	}
+
 	#main-banner-title {
 		font-size: 32px;
 	}
