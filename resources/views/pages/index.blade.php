@@ -115,7 +115,7 @@
 
 				<div class="row mt-4">
 					<div class="col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-6 offset-sm-3 col-6 offset-3">
-						<img src="{{ URL::asset('img/forbes-white.png') }}" class="regular-image-60">
+						<img src="{{ URL::asset('img/forbes-white.webp') }}" class="regular-image-60">
 					</div>
 				</div>
 			</div>
@@ -123,7 +123,7 @@
 	</section>
 
 	<section version="mobile-version" class="d-md-none">
-		<div style="background: url('{{ URL::asset('img/mobile-testimonial.png') }}'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
+		<div style="background: url('{{ URL::asset('img/mobile-testimonial.webp') }}'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -133,7 +133,7 @@
 
 				<div class="row" style="margin-top: 32px;">
 					<div class="col-6 offset-3">
-						<img src="{{ URL::asset('img/forbes-white.png') }}" class="regular-image-60">
+						<img src="{{ URL::asset('img/forbes-white.webp') }}" class="regular-image-60">
 					</div>
 				</div>
 			</div>
@@ -154,7 +154,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
-							<img src="{{ URL::asset('img/proof-image-1.png') }}" class="regular-image">
+							<img src="{{ URL::asset('img/proof-image-1.webp') }}" class="regular-image">
 						</div>
 						<div class="proof-box-text">
 							<h2 class="text-center">$12.8</h2>
@@ -168,7 +168,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
-							<img src="{{ URL::asset('img/proof-image-2.png') }}" class="regular-image">
+							<img src="{{ URL::asset('img/proof-image-2.webp') }}" class="regular-image">
 						</div>
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.5</h2>
@@ -182,7 +182,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
-							<img src="{{ URL::asset('img/proof-image-3.png') }}" class="regular-image">
+							<img src="{{ URL::asset('img/proof-image-3.webp') }}" class="regular-image">
 						</div>
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.4</h2>
@@ -196,7 +196,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
-							<img src="{{ URL::asset('img/proof-image-4.png') }}" class="regular-image">
+							<img src="{{ URL::asset('img/proof-image-4.webp') }}" class="regular-image">
 						</div>
 						<div class="proof-box-text">
 							<h2 class="text-center">$7.5</h2>
@@ -210,7 +210,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
-							<img src="{{ URL::asset('img/proof-image-5.png') }}" class="regular-image">
+							<img src="{{ URL::asset('img/proof-image-5.webp') }}" class="regular-image">
 						</div>
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.4</h2>
@@ -224,7 +224,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
-							<img src="{{ URL::asset('img/proof-image-2.png') }}" class="regular-image">
+							<img src="{{ URL::asset('img/proof-image-2.webp') }}" class="regular-image">
 						</div>
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.5</h2>
@@ -242,7 +242,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-sm-2 col-4">
-					<img src="{{ URL::asset('img/badge.png') }}" id="badge_image" class="regular-image">
+					<img src="{{ URL::asset('img/badge.webp') }}" id="badge_image" class="regular-image">
 				</div>
 				<div class="col-lg-10 col-md-10 col-sm-10 col-8">
 					<h1 class="text-center" id="awarded_title">Awarded "Best Attorneys of America"</h1>
@@ -252,16 +252,16 @@
 
 			<div class="row d-none d-md-block" style="margin-top: 48px;">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<img src="{{ URL::asset('img/mallet-icon.png') }}" class="regular-image">
+					<img src="{{ URL::asset('img/mallet-icon.webp') }}" class="regular-image">
 				</div>
 			</div>
 
 			<div class="row mt-4 d-block d-md-none">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<img src="{{ URL::asset('img/mobile-icon-top.png') }}" class="regular-image">
+					<img src="{{ URL::asset('img/mobile-icon-top.webp') }}" class="regular-image">
 				</div>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<img src="{{ URL::asset('img/mobile-icon-bottom.png') }}" style="margin-top: 32px; margin-bottom: 24px;" class="regular-image">
+					<img src="{{ URL::asset('img/mobile-icon-bottom.webp') }}" style="margin-top: 32px; margin-bottom: 24px;" class="regular-image">
 				</div>
 			</div>
 		</div>
@@ -472,7 +472,7 @@
 								    <!-- Copy & Pasted from YouTube -->
 								    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
 								</div>
-								<img src="{{ URL::asset('img/stars.png') }}" class="regular-image-40" style="margin-top: 16px;">
+								<img src="{{ URL::asset('img/stars.webp') }}" class="regular-image-40" style="margin-top: 16px;">
 								<p id="bottom-cta-testimonial"><i>"Steve Mehr and his team changed my life for the better"</i></p>
 							</div>
 						</div>
