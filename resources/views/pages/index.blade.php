@@ -280,7 +280,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="{{ URL::asset('img/attorney-1.png') }}" class="regular-image">
+								<img src="{{ URL::asset('img/attorney-1.webp') }}" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -300,7 +300,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="{{ URL::asset('img/attorney-2.png') }}" class="regular-image">
+								<img src="{{ URL::asset('img/attorney-2.webp') }}" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -320,7 +320,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="{{ URL::asset('img/attorney-3.png') }}" class="regular-image">
+								<img src="{{ URL::asset('img/attorney-3.webp') }}" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -341,7 +341,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="{{ URL::asset('img/attorney-4.png') }}" class="regular-image">
+								<img src="{{ URL::asset('img/attorney-4.webp') }}" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -374,7 +374,7 @@
 						<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 							<div class="attorney-box">
 								<div class="attorney-box-image">
-									<img src="{{ URL::asset('img/attorney-1.png') }}" class="regular-image">
+									<img src="{{ URL::asset('img/attorney-1.webp') }}" class="regular-image">
 								</div>
 
 								<div class="attorney-box-info">
@@ -394,7 +394,7 @@
 						<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 							<div class="attorney-box">
 								<div class="attorney-box-image">
-									<img src="{{ URL::asset('img/attorney-2.png') }}" class="regular-image">
+									<img src="{{ URL::asset('img/attorney-2.webp') }}" class="regular-image">
 								</div>
 
 								<div class="attorney-box-info">
@@ -414,7 +414,7 @@
 						<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 							<div class="attorney-box">
 								<div class="attorney-box-image">
-									<img src="{{ URL::asset('img/attorney-3.png') }}" class="regular-image">
+									<img src="{{ URL::asset('img/attorney-3.webp') }}" class="regular-image">
 								</div>
 
 								<div class="attorney-box-info">
@@ -435,7 +435,7 @@
 						<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 							<div class="attorney-box">
 								<div class="attorney-box-image">
-									<img src="{{ URL::asset('img/attorney-4.png') }}" class="regular-image">
+									<img src="{{ URL::asset('img/attorney-4.webp') }}" class="regular-image">
 								</div>
 
 								<div class="attorney-box-info">
