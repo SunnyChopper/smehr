@@ -41,12 +41,12 @@ html, body {
 \* ----------------------- */
 
 .main-banner {
-	background-image: url('../img/banner-header.png');
+	background-image: url('../img/banner-header.webp');
 	background-size: cover;
 }
 
 .image-row {
-	background-image: url('../img/banner-header.png');
+	background-image: url('../img/banner-header.webp');
 	background-size: cover;
 	padding: 48px;
 }
