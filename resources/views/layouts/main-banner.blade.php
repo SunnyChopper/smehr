@@ -7,7 +7,7 @@
 				<section version="desktop-version" class="d-none d-md-block">
 					<div class="row mb-0" id="first-support-text">
 						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark.webp') }}" class="regular-image banner-support-image">
+							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
 						</div>
 						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
 							<p class="banner-support-text">Free Confidential Consultation</p>
@@ -16,7 +16,7 @@
 
 					<div class="row">
 						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark.webp') }}" class="regular-image banner-support-image">
+							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
 						</div>
 						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
 							<p class="banner-support-text">No Fees or Costs Unless We Win Your Case</p>
@@ -25,7 +25,7 @@
 
 					<div class="row">
 						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark.webp') }}" class="regular-image banner-support-image">
+							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
 						</div>
 						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
 							<p class="banner-support-text">Awarded "Best Attorneys of America"</p>
@@ -34,7 +34,7 @@
 
 					<div class="row">
 						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark.webp') }}" class="regular-image banner-support-image">
+							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
 						</div>
 						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
 							<p class="banner-support-text">Hire Experience - Former Judges & Prosecutors</p>
@@ -137,27 +137,27 @@
 				<section version="desktop-version" class="d-none d-md-block">
 					<div class="row">
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
-							<img src="{{ URL::asset('img/cnn-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/cnn-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
-							<img src="{{ URL::asset('img/nyt-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/nyt-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
-							<img src="{{ URL::asset('img/cnbc-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/cnbc-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
-							<img src="{{ URL::asset('img/bloomberg-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/bloomberg-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
-							<img src="{{ URL::asset('img/lat-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/lat-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
-							<img src="{{ URL::asset('img/fox-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/fox-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 					</div>
 				</section>
@@ -165,27 +165,27 @@
 				<section version="mobile-version" class="d-md-none">
 					<div class="row">
 						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
-							<img src="{{ URL::asset('img/cnn-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/cnn-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
-							<img src="{{ URL::asset('img/bloomberg-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/bloomberg-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
-							<img src="{{ URL::asset('img/cnbc-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/cnbc-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
-							<img src="{{ URL::asset('img/fox-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/fox-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6" style="margin-top: 16px;">
-							<img src="{{ URL::asset('img/The_New_York_Times_logo.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/The_New_York_Times_logo-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						<div class="col-lg-2 col-md-2 col-sm-6 col-6" style="margin-top: 16px;">
-							<img src="{{ URL::asset('img/los-angeles-times-white.webp') }}" class="regular-image blue-bar-image">
+							<img src="{{ URL::asset('img/los-angeles-times-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
 						

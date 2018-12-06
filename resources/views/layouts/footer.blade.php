@@ -2,7 +2,7 @@
 	<div class="container text-center text-md-left">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 mt-md-0 mt-3 mb-3">
-				<img src="{{ URL::asset('img/logo-black.webp') }}" class="regular-image-80" id="footer-logo">
+				<img src="{{ URL::asset('img/logo-black-min.png') }}" class="regular-image-80" id="footer-logo">
 			</div>
 
 

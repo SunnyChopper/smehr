@@ -41,12 +41,12 @@ html, body {
 \* ----------------------- */
 
 .main-banner {
-	background-image: url('../img/banner-header.webp');
+	background-image: url('../img/banner-header-min.png');
 	background-size: cover;
 }
 
 .image-row {
-	background-image: url('../img/banner-header.webp');
+	background-image: url('../img/banner-header-min.png');
 	background-size: cover;
 	padding: 48px;
 }
@@ -725,7 +725,7 @@ html, body {
 	}
 
 	.image-row {
-		background-image: url('../img/banner-header.webp');
+		background-image: url('../img/banner-header-min.png');
 		background-size: cover;
 		padding: 8px;
 	}
@@ -822,7 +822,7 @@ html, body {
 	}
 
 	.main-banner {
-		background-image: url('../img/banner-header.webp');
+		background-image: url('../img/banner-header-min.png');
 	}
 
 	#main-banner-top-headline {
