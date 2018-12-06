@@ -267,7 +267,7 @@
 		</div>
 	</div>
 
-	<div style="border-top: 8px solid black; background-color: #eef0f1; padding: 24px;">
+	<div style="background-color: #eef0f1; padding: 24px;">
 		<section version="desktop-version" class="d-none d-md-block">
 			<div class="container">
 				<div class="row" style="margin-bottom: 24px;">

@@ -13,7 +13,7 @@ html, body {
 #main_navbar {
 	background-color: #0f1323;
 	padding: 24px;
-	border-bottom: 19px solid #376fed;
+	border-bottom: 8px solid #376fed;
 }
 
 #main_navbar_logo {
@@ -48,7 +48,8 @@ html, body {
 .image-row {
 	background-image: url('../img/banner-header-min.png');
 	background-size: cover;
-	padding: 48px;
+	padding-bottom: 48px;
+	padding-top: 32px;
 }
 
 .theme-row {
@@ -160,7 +161,7 @@ html, body {
 	background-color: rgba(55, 111, 237, 0.49);  
 	width: 100%;
 	color: white;
-	padding: 24px;
+	padding: 16px;
 }
 
 #banner-blue-bar-header {
@@ -382,7 +383,6 @@ html, body {
 
 #page-footer {
 	padding: 24px;
-	border-top: 10px solid #d0d1d2;
 }
 
 #footer-logo {
@@ -402,7 +402,6 @@ html, body {
 	background: black;
 	padding: 16px;
 	color: white;
-	border-bottom: 6px solid #376fed;
 }
 
 #copyright-text {
@@ -499,7 +498,7 @@ html, body {
 }
 
 .blue-bar-image {
-	width: 80%;
+	width: 60%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -665,7 +664,7 @@ html, body {
 	#main_navbar {
 		background-color: rgba(15,19,35, 0.75);
 		padding: 16px;
-		border-bottom: 19px solid #376fed;
+		border-bottom: 8px solid #376fed;
 	}
 
 	#main_navbar_logo {

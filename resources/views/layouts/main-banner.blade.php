@@ -89,7 +89,7 @@
 			</div>
 
 			<!-- Form for tablets up -->
-			<div class="col-lg-5 col-md-6 col-sm-12 col-12 d-none d-md-block">
+			<div class="col-lg-4 offset-lg-1 col-md-6 col-sm-12 col-12 d-none d-md-block">
 				<div class="front-page-form">
 					<h3 class="text-center">Get Help Now</h3>
 					<h5 class="text-center">Free Consultation</h5>
