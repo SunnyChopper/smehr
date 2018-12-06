@@ -527,9 +527,85 @@ html, body {
 	Media Queries
 \* ----------------------- */
 
+@media only screen and (min-width: 1200px) {
+	.front-page-form {
+		display: block;
+	    width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	#bottom-cta-form {
+		margin-top: 64px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#main-banner-title {
+		font-size: 36px;
+	}
+
+	.banner-support-text {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	#front-page-main-cta {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.front-page-form {
+		display: block;
+	    width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	#awarded_title {
+		font-size: 36px;
+	}
+
+	.attorney-box-info {
+		min-height: 330px;
+	}
+
+	#bottom-cta-title {
+		font-size: 32px;
+	}
+
+	#bottom-cta-subtitle {
+		font-size: 20px;
+	}
+
+	#bottom-cta-video-title {
+		font-size: 18px;
+	}
+
+	#bottom-cta-form {
+		margin-top: 32px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 998px) {
+	.nav-item {
+		margin-right: 16px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	#main_navbar_logo {
 		max-width: 200px;
+	}
+
+	#front-page-main-cta {
+		margin-bottom: 20px;
+	    margin-top: 16px;
+	    width: 100%;
+	    font-size: 14px;
 	}
 
 	.attorney-box {
@@ -647,10 +723,211 @@ html, body {
 	}
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	#main-banner-top-headline {
+		font-size: 14px;
+	}
+
+	#main-banner-title {
+		font-size: 32px;
+	}
+
+	.banner-support-text {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	#front-page-main-cta {
+		width: 100%;
+		margin-top: 16px;
+	}
+
+	.proof-box-text > h2 {
+		font-size: 24px;
+	}
+
+	.proof-box-text > h4 {
+		font-size: 14px;
+	}
+
+	.proof-box-text > #type {
+		font-size: 12px;
+	}
+
+	.proof-box {
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	#awarded_title {
+		font-size: 32px;
+		margin-top: 16px;
+	}
+
+	#awarded_subtitle {
+		font-size: 12px;
+	}
+
+	.attorney-box-info {
+		min-height: 210px;
+	}
+
+	.attorney-box {
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	#bottom-cta-title {
+		font-size: 24px;
+	}
+
+	#bottom-cta-subtitle {
+		font-size: 18px;
+	}
+
+	#bottom-cta-video-title {
+		font-size: 16px;
+	}
+
+	#bottom-cta-testimonial {
+		font-size: 14px;
+	}
+
+	#bottom-cta-form {
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+	#main_navbar {
+		background-color: rgba(15,19,35, 0.75);
+		padding: 16px;
+		border-bottom: 8px solid #376fed;
+	}
+
+	#main-banner-title {
+		margin-top: 84px;
+	}
+
+	#banner-padded-area {
+		padding: 24px;
+	}
+
+	.banner-support-text {
+		text-align: center;
+	}
+
+	#front-page-main-cta {
+		font-size: 20px;
+	}
+
+	.proof-box-text > #type {
+		font-size: 12px;
+	}
+
+	.proof-box-text > #claim {
+		font-size: 13px;
+		margin-top: 8px;
+	}
+
+	.image-row {
+		padding-top: 28px;
+		padding-bottom: 12px;
+	}
+
+	.attorney-box-info {
+		min-height: 310px;
+	}
+
+	#bottom-cta-description {
+		color: white;
+		margin-top: 16px;
+	}
+
+	#bottom-cta-form {
+		margin-top: 0px;
+	}
+
+	.navbar-collapse {
+		margin-top: 16px;
+	    background: black;
+	    padding: 16px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+	#main_navbar {
+		background-color: rgba(15,19,35, 0.75);
+		padding: 16px;
+		border-bottom: 8px solid #376fed;
+	}
+
+	#main-banner-title {
+		margin-top: 84px;
+	}
+
+	#banner-padded-area {
+		padding: 24px;
+	}
+
+	.banner-support-text {
+		text-align: center;
+	}
+
+	#front-page-main-cta {
+		font-size: 18px;
+	}
+
+	#badge_image {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#awarded_title {
+		font-size: 30px;
+		margin-top: 0px;
+		text-align: left !important;
+	}
+
+	.image-row {
+		padding-top: 32px;
+		padding-bottom: 8px;
+	}
+
+	#bottom-cta-description {
+		color: white;
+		margin-top: 16px;
+	}
+
+	#bottom-cta-form {
+		margin-top: 0px;
+	}
+
+	.footer-link {
+		float: left;
+	}
+
+	.proof-box-text > #type {
+		font-size: 12px;
+	}
+
+	.proof-box-text > #claim {
+		font-size: 13px;
+		margin-top: 8px;
+	}
+
+	.navbar-collapse {
+		margin-top: 16px;
+	    background: black;
+	    padding: 16px;
+	}
+}
+
 @media only screen and (max-width: 480px) {
 	#page-footer {
 		padding: 0px;
-		border-top: 10px solid #d0d1d2;
 	}
 
 	#proof_title {
@@ -727,6 +1004,7 @@ html, body {
 		background-image: url('../img/banner-header-min.png');
 		background-size: cover;
 		padding: 8px;
+		padding-top: 18px;
 	}
 
 	.proof-box {

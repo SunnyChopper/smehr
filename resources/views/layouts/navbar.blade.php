@@ -38,7 +38,7 @@
 	</nav>
 </section>
 
-<section version="desktop-version" class="d-md-none">
+<section version="mobile-version" class="d-md-none">
 	<nav class="navbar navbar-dark fixed-top navbar-default navbar-expand-lg" id="main_navbar">
 		<div class="container">
 			<a class="navbar-brand" href="#"><img id="main_navbar_logo" src="{{ URL::asset('img/logo-min.png') }}"></a>

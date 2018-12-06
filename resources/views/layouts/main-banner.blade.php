@@ -6,38 +6,26 @@
 				<h1 class="text-center" id="main-banner-title"><b>Over $1 Billion<br>won for our clients</b></h1>
 				<section version="desktop-version" class="d-none d-md-block">
 					<div class="row mb-0" id="first-support-text">
-						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
-						</div>
-						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
-							<p class="banner-support-text">Free Confidential Consultation</p>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<p class="banner-support-text"><span class="mr-2"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Free Confidential Consultation</p>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
-						</div>
-						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
-							<p class="banner-support-text">No Fees or Costs Unless We Win Your Case</p>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<p class="banner-support-text"><span class="mr-2"><i class="fa fa-check" style="color: #00c5ab;"></i></span> No Fees or Costs Unless We Win Your Case</p>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
-						</div>
-						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
-							<p class="banner-support-text">Awarded "Best Attorneys of America"</p>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<p class="banner-support-text"><span class="mr-2"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Awarded "Best Attorneys of America"</p>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-lg-1 col-md-2 col-sm-2 col-2">
-							<img src="{{ URL::asset('img/checkmark-min.png') }}" class="regular-image banner-support-image">
-						</div>
-						<div class="col-lg-11 col-md-10 col-sm-10 col-10">
-							<p class="banner-support-text">Hire Experience - Former Judges & Prosecutors</p>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+							<p class="banner-support-text"><span class="mr-2"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Hire Experience - Former Judges & Prosecutors</p>
 						</div>
 					</div>
 				</section>
@@ -89,7 +77,7 @@
 			</div>
 
 			<!-- Form for tablets up -->
-			<div class="col-lg-4 offset-lg-1 col-md-6 col-sm-12 col-12 d-none d-md-block">
+			<div class="col-lg-5 col-md-6 col-sm-12 col-12 d-none d-md-block">
 				<div class="front-page-form">
 					<h3 class="text-center">Get Help Now</h3>
 					<h5 class="text-center">Free Consultation</h5>
@@ -164,19 +152,19 @@
 
 				<section version="mobile-version" class="d-md-none">
 					<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-3">
 							<img src="{{ URL::asset('img/cnn-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
-						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-3">
 							<img src="{{ URL::asset('img/bloomberg-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
-						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-3">
 							<img src="{{ URL::asset('img/cnbc-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 
-						<div class="col-lg-2 col-md-2 col-sm-6 col-3">
+						<div class="col-lg-2 col-md-2 col-sm-3 col-3">
 							<img src="{{ URL::asset('img/fox-white-min.png') }}" class="regular-image blue-bar-image">
 						</div>
 

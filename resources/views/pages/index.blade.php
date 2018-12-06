@@ -151,7 +151,7 @@
 			</div>
 
 			<div class="row mt-4">
-				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-1-min.png') }}" class="regular-image">
@@ -165,7 +165,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-2-min.png') }}" class="regular-image">
@@ -179,7 +179,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-3-min.png') }}" class="regular-image">
@@ -193,7 +193,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-4-min.png') }}" class="regular-image">
@@ -207,7 +207,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-5-min.png') }}" class="regular-image">
@@ -221,7 +221,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-2 col-sm-3 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-2-min.png') }}" class="regular-image">
@@ -479,7 +479,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-md-5 col-sm-12 col-12">
+				<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">
 					<div class="front-page-form" id="bottom-cta-form">
 						<h3 class="text-center">Get Help Now</h3>
 						<h5 class="text-center">Free Consultation</h5>
