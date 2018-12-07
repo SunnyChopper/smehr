@@ -1,14 +1,14 @@
 <section version="desktop-version" class="d-none d-md-block">
-	<div class="top-bar d-none d-md-block">
+	<div class="top-bar fixed-top d-none d-md-block">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<p class="mb-0" id="top_bar_text">New Client Hotline: (800) 550-0550</p>
+					<p class="mb-0" id="top_bar_text"><span class="mr-1"><i class="fa fa-phone"></i></span> New Client Hotline: <a href="tel:8005500550" style="margin-left: 8px;" class="btn btn-sm btn-primary">(800) 550-0550</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-dark navbar-default navbar-expand-lg" id="main_navbar">
+	<nav class="navbar navbar-dark fixed-top navbar-default navbar-expand-lg" id="main_navbar">
 		<div class="container">
 			<a class="navbar-brand" href="#"><img id="main_navbar_logo" src="{{ URL::asset('img/logo-min.png') }}"></a>
 			<button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
