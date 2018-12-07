@@ -19,6 +19,7 @@
 		@include('layouts.navbar')
 		@yield('content')
 		@include('layouts.footer')
+		@include('layouts.sticky-mobile-footer')
 		@include('layouts.js')
 	</body>
 </html>

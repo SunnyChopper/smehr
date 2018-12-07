@@ -50,6 +50,16 @@ html, body {
 	background-size: cover;
 }
 
+.sticky-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #0f1323;
+	color: white;
+	padding: 8px;
+}
+
 .image-row {
 	background-image: url('../img/banner-header-min.png');
 	background-size: cover;
@@ -407,6 +417,7 @@ html, body {
 	background: black;
 	padding: 16px;
 	color: white;
+	margin-bottom: 46px;
 }
 
 #copyright-text {
@@ -464,6 +475,17 @@ html, body {
 .practice-box-info > p {
 	font-size: 12px;
 	margin-bottom: 0px;
+}
+
+.center-item {
+	display: block;
+	margin-left: auto;
+	margin-right: autol
+}
+
+.full-width-button {
+	width: 100%;
+	text-align: center;
 }
 
 /* ----------------------- *\
