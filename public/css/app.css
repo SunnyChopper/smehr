@@ -623,6 +623,12 @@ html, body {
 	}
 }
 
+@media only screen and (min-width: 768px) {
+	.footer-black-bar {
+		margin-bottom: 0px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	#main_navbar_logo {
 		max-width: 200px;
