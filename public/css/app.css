@@ -557,9 +557,9 @@ html, body {
 @media only screen and (min-width: 1200px) {
 	.front-page-form {
 		display: block;
-	    width: 80%;
-	    margin-left: auto;
-	    margin-right: auto;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#bottom-cta-form {
@@ -586,9 +586,9 @@ html, body {
 
 	.front-page-form {
 		display: block;
-	    width: 80%;
-	    margin-left: auto;
-	    margin-right: auto;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#awarded_title {
@@ -636,9 +636,9 @@ html, body {
 
 	#front-page-main-cta {
 		margin-bottom: 20px;
-	    margin-top: 16px;
-	    width: 100%;
-	    font-size: 14px;
+		margin-top: 16px;
+		width: 100%;
+		font-size: 14px;
 	}
 
 	.attorney-box {
@@ -729,8 +729,8 @@ html, body {
 	}
 
 	.proof-box-text > #type {
-		font-size: 8px;
-		line-height: 8px;
+		font-size: 14px;
+		line-height: 13px;
 		margin-top: 4px;
 		margin-bottom: 4px;
 		color: #72869e;
@@ -738,11 +738,11 @@ html, body {
 	}
 
 	.proof-box-text > #claim {
-		font-size: 10px;
+		font-size: 15px;
 		margin-top: 0px;
 		color: black;
 		margin-bottom: 0px;
-		line-height: 12px;
+		line-height: 16px;
 	}
 
 	.theme-row {
@@ -888,8 +888,8 @@ html, body {
 
 	.navbar-collapse {
 		margin-top: 16px;
-	    background: black;
-	    padding: 16px;
+		background: black;
+		padding: 16px;
 	}
 }
 
@@ -963,8 +963,8 @@ html, body {
 
 	.navbar-collapse {
 		margin-top: 16px;
-	    background: black;
-	    padding: 16px;
+		background: black;
+		padding: 16px;
 	}
 }
 
@@ -974,11 +974,11 @@ html, body {
 	}
 
 	#proof_title {
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	.proof_text {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	#main_navbar {
@@ -1143,7 +1143,7 @@ html, body {
 	.navbar-collapse {
 		margin-top: 16px;
 		background: black;
-    	padding: 16px;
+		padding: 16px;
 	}
 
 	.main-banner {
