@@ -26,14 +26,14 @@
 					</div>
 
 					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-						<p style="color: #1c74ea; text-transform: uppercase;"><b><small>Featured Headline</small></b></p>
+						<p id="featured-headline-small"><b><small>Featured Headline</small></b></p>
 						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+							<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
 								<img src="{{ URL::asset('img/Mag-Cover.png') }}" class="regular-image">
 							</div>
-							<div class="col-lg-8 col-md-6 col-sm-12 col-12">
-								<h3>Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
-								<a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> View Feature</a>
+							<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+								<h3 id="featured-headline">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
+								<p id="featured-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> View Feature</a></p>
 							</div>
 						</div>
 					</div>

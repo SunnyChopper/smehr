@@ -91,6 +91,15 @@ html, body {
 	color: #5773ad;
 }
 
+#featured-headline {
+	font-size: 30px;
+}
+
+#featured-headline-small {
+	color: #1c74ea; 
+	text-transform: uppercase;
+}
+
 /* ----------------------- *\
 	Special Divs
 \* ----------------------- */
@@ -649,6 +658,11 @@ html, body {
 		font-size: 36px;
 	}
 
+	#featured-headline {
+		font-size: 24px;
+	}
+
+
 	.banner-support-text {
 		text-align: center;
 		font-size: 18px;
@@ -710,6 +724,10 @@ html, body {
 		background-image: url('../img/banner-header-min.png');
 		background-size: cover;
 		background-position: center;
+	}
+
+	#bottom-cta-description {
+		text-align: center;
 	}
 
 	#main_navbar_logo {
@@ -841,6 +859,29 @@ html, body {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	#main-banner-top-headline {
 		font-size: 14px;
+	}
+
+	#bottom-cta-number {
+		font-size: 36px;
+	}
+
+	.help-box {
+		min-height: 485px;
+	}
+
+	#featured-headline {
+		font-size: 20px;
+		text-align: center;
+		margin-top: 8px;
+	}
+
+	#featured-link {
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	#featured-headline-small {
+		text-align: center;
 	}
 
 	#main-banner-title {
@@ -1051,6 +1092,8 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+
+
 	#page-footer {
 		padding: 0px;
 	}
@@ -1082,12 +1125,15 @@ html, body {
 		margin-top: 16px;
 	}
 
-	#bottom-cta-title {
+	#bottom-cta-number {
 		font-size: 32px;
-		line-height: 38px;
-		text-align: left;
-		margin-bottom: 4px;
+	}
 
+	#bottom-cta-title {
+		font-size: 20px;
+		line-height: 38px;
+		text-align: center;
+		margin-bottom: 4px;
 	}
 
 	#copyright-text {
@@ -1103,12 +1149,13 @@ html, body {
 		color: white;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
+		text-align: center;
 	}
 
 	#bottom-cta-subtitle {
 		font-size: 18px;
 		line-height: 26px;
-		text-align: left;
+		text-align: center;
 		margin-bottom: 0px;
 		font-family: 'Roboto', sans-serif;
 	}
