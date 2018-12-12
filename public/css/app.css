@@ -1140,6 +1140,12 @@ html, body {
 		margin-bottom: 16px;
 	}
 
+	.play-button-overlay {
+		top: 20%;
+		left: 35%;
+		width: 25%;
+	}
+
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
@@ -1221,6 +1227,17 @@ html, body {
 		margin-top: 16px;
 		margin-bottom: 16px;
 	}	
+
+	.play-button-overlay {
+		top: 17.5%;
+		left: 35%;
+		width: 25%;
+	}
+
+	.video-box > .video-info > .name {
+		font-size: 12px;
+	}
+
 
 	.page-banner {
 		padding: 108px 32px 32px 32px;
@@ -1305,8 +1322,14 @@ html, body {
 		margin-bottom: 16px;
 	}
 
+	.play-button-overlay {
+		top: 17.5%;
+		left: 35%;
+		width: 25%;
+	}
+
 	.video-box > .video-info > .name {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.video-box > .video-info > .quote {
