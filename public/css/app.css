@@ -1004,6 +1004,20 @@ html, body {
 		font-size: 14px;
 	}
 
+	.play-button-overlay {
+		top: 15%;
+		left: 35%;
+		width: 25%;
+	}
+
+	.video-box > .video-info > .name {
+		font-size: 12px;
+	}
+
+	.video-box > .video-info > .quote {
+		font-size: 12px;
+	}
+
 	#bottom-cta-number {
 		font-size: 36px;
 	}
@@ -1121,6 +1135,11 @@ html, body {
 		top: 0px;
 	}
 
+	.video-box {
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
@@ -1198,6 +1217,11 @@ html, body {
 		top: 0px;
 	}
 
+	.video-box {
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}	
+
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
@@ -1274,6 +1298,19 @@ html, body {
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
+	}
+
+	.video-box {
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.video-box > .video-info > .name {
+		font-size: 12px;
+	}
+
+	.video-box > .video-info > .quote {
+		font-size: 13px;
 	}
 
 	#page-footer {
