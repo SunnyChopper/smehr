@@ -17,6 +17,13 @@ html, body {
 	top: 22px;
 }
 
+.page-banner {
+	background: url('../img/page-banner.png');
+	background-size: cover;
+	padding: 32px;
+	margin-top: 100px;
+}
+
 .main-banner {
 	margin-top: 100px;
 }
@@ -100,6 +107,32 @@ html, body {
 	text-transform: uppercase;
 }
 
+#banner-text {
+	text-align: center;
+	margin-bottom: 0px;
+	color: white;
+}
+
+.sidebar-number {
+	font-size: 32px;
+	margin-bottom: 0px;
+}
+
+.sidebar-million {
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+
+.sidebar-type {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.sidebar-claim {
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
 /* ----------------------- *\
 	Special Divs
 \* ----------------------- */
@@ -108,6 +141,40 @@ html, body {
 	background-image: url('../img/Banner-Image.png');
 	background-size: cover;
 	background-position: center;
+}
+
+.main-blog-post-box {
+	background: #17181b;
+	padding: 16px;
+	color: white;
+	z-index: 9999999;
+}
+
+.main-blog-post-box > h4 {
+	margin-bottom: 0px;
+}
+
+.blog-box {
+	background-color: white;
+	text-decoration: none;
+	margin-bottom: 24px;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.blog-box-info {
+	padding: 16px;
+}
+
+.blog-box:hover {
+	background: #f0f0f0;
+}
+
+.blog-box-info > h5 {
+	font-size: 13px;
+	margin-bottom: 0px;
+	color: black;
+	text-decoration: none;
 }
 
 .help-row {
@@ -662,6 +729,17 @@ html, body {
 		font-size: 24px;
 	}
 
+	.sidebar-number {
+		font-size: 24px;
+	}
+
+	.sidebar-million {
+		font-size: 14px;
+	}
+
+	.sidebar-type {
+		font-size: 11px;
+	}
 
 	.banner-support-text {
 		text-align: center;
@@ -865,6 +943,22 @@ html, body {
 		font-size: 36px;
 	}
 
+	.tablet-down-no-padding {
+		padding: 0px;
+	}
+
+	.sidebar-number {
+		font-size: 18px;
+	}
+
+	.sidebar-million {
+		font-size: 14px;
+	}
+
+	.sidebar-type {
+		font-size: 10px;
+	}
+
 	.help-box {
 		min-height: 485px;
 	}
@@ -962,6 +1056,21 @@ html, body {
 		top: 0px;
 	}
 
+	.page-banner {
+		padding: 108px 32px 32px 32px;
+		margin-top: 0px;
+	}
+
+	.sidebar-number {
+		font-size: 56px;
+		margin-bottom: 0px;
+	}
+
+	.sidebar-million {
+		margin-top: 0px;
+		font-size: 36px;
+	}
+
 	.main-banner {
 		margin-top: 0px;
 	}
@@ -1022,6 +1131,11 @@ html, body {
 		padding: 16px;
 		border-bottom: 8px solid #376fed;
 		top: 0px;
+	}
+
+	.page-banner {
+		padding: 108px 32px 32px 32px;
+		margin-top: 0px;
 	}
 
 	.main-banner {
@@ -1092,7 +1206,10 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
-
+	.page-banner {
+		padding: 108px 32px 32px 32px;
+		margin-top: 0px;
+	}
 
 	#page-footer {
 		padding: 0px;
