@@ -12,17 +12,35 @@ html, body {
 
 #main_navbar {
 	background-color: #0f1323;
-	padding: 24px;
+	padding: 0px 24px 12px 24px;
 	border-bottom: 8px solid #376fed;
-	top: 38px;
+	top: 22px;
 }
 
 .main-banner {
-	margin-top: 140px;
+	margin-top: 100px;
+}
+
+.active {
+	color: dodgerblue !important;
+	border-bottom: 2px solid dodgerblue !important;
 }
 
 #main_navbar_logo {
 	max-width: 300px;
+}
+
+#main-banner-tagline {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 128px;
+	font-size: 48px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#main-banner-tagline-logo {
+	margin-bottom: 128px;
 }
 
 .nav-link {
@@ -38,7 +56,39 @@ html, body {
 }
 
 .nav-item {
+	color: white;
 	margin-right: 24px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+/* ----------------------- *\
+	Special Text
+\* ----------------------- */
+
+.regular-p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.help-box-logo {
+	font-size: 56px;
+}
+
+.help-box-text {
+	color: #1c1d1f;
+	font-size: 16px;
+	margin-bottom: 0px;
+	font-family: 'Roboto', 'Rubik', sans-serif;
+}
+
+.help-box-link {
+	margin-top: 16px;
+	margin-bottom: 0px;
+	color: #5773ad;
 }
 
 /* ----------------------- *\
@@ -46,8 +96,23 @@ html, body {
 \* ----------------------- */
 
 .main-banner {
-	background-image: url('../img/banner-header-min.png');
+	background-image: url('../img/Banner-Image.png');
 	background-size: cover;
+}
+
+.help-row {
+	background-image: url('../img/How-We-Can-Help-You-Background.png');
+	background-size: cover;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	color: white;
+}
+
+.help-box {
+	background: white;
+	padding: 32px;
+	color: black;
+	border-radius: 8px;
 }
 
 .sticky-footer {
@@ -188,7 +253,7 @@ html, body {
 }
 
 #banner-bottom-padding {
-	padding-bottom: 32px;
+	padding-bottom: 0px;
 }
 
 .front-page-form {
@@ -200,7 +265,7 @@ html, body {
 
 .top-bar {
 	background-color: #0f1323;
-	padding: 4px;
+	padding: 2px;
 }
 
 .front-page-form > h3 {
@@ -355,11 +420,21 @@ html, body {
 	color: white;
 	margin-bottom: 0px;
 	font-weight: bold;
+	text-align: center;
+}
+
+#bottom-cta-number {
+	font-size: 48px;
+	color: white;
+	margin-bottom: 0px;
+	font-weight: bold;
+	text-align: center;
 }
 
 #bottom-cta-subtitle {
 	color: white;
 	margin-bottom: 0px;
+	text-align: center;
 }
 
 #bottom-cta-video-title {
@@ -563,7 +638,7 @@ html, body {
 	}
 
 	#bottom-cta-form {
-		margin-top: 64px;
+		margin-top: 24px;
 		width: 100%;
 	}
 }

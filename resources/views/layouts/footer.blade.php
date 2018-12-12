@@ -1,27 +1,27 @@
 <footer id="page-footer">
 	<div class="container text-center text-md-left">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 mt-md-0 mt-3 mb-3">
-				<img src="{{ URL::asset('img/logo-black-min.png') }}" class="regular-image-80" id="footer-logo">
+			<div class="col-lg-4 col-md-4 mt-md-0 mt-3">
+				<img src="{{ URL::asset('img/New-Logo-Black.png') }}" class="regular-image-80" id="footer-logo">
 			</div>
 
 
-			<div class="col-md-2 col-6 mb-3">
+			<div class="col-md-2 col-6">
 				<h5 class="footer-header">Orange County</h5>
 				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
 			</div>
 
-			<div class="col-md-2 col-6 mb-3">
+			<div class="col-md-2 col-6">
 				<h5 class="footer-header">Los Angeles</h5>
 				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
 			</div>
 
-			<div class="col-md-2 col-6 mb-3">
+			<div class="col-md-2 col-6">
 				<h5 class="footer-header">San Francisco</h5>
 				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
 			</div>
 
-			<div class="col-md-2 col-6 mb-3">
+			<div class="col-md-2 col-6">
 				<h5 class="footer-header">Seattle</h5>
 				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
 			</div>

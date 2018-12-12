@@ -10,6 +10,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/app.css') }}">
