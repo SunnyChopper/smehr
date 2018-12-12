@@ -137,6 +137,71 @@ html, body {
 	Special Divs
 \* ----------------------- */
 
+.video-box {
+	background: white;
+	border-radius: 11px;
+	-webkit-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.video-box:hover {
+	-webkit-box-shadow: 0px 5px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 3px -1px rgba(0,0,0,0.75);
+}
+
+.play-button-overlay {
+	height: 50%;
+	width: 50%;
+	opacity: 100;
+	top: 10%;
+	left: 25%;
+	position: absolute;
+	padding: 0;
+	transition: 0.25s all;
+	-webkit-transition: 0.25s all;
+}
+
+.play-button-overlay:hover {
+	margin-top: -4px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+.video-box > .video-image {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.video-box > .video-image > img {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.video-box > .video-info {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	padding: 16px;
+}
+
+.video-box > .video-info > .name {
+	margin-bottom: 0px;
+}
+
+.video-box > .video-info > .title {
+	color: #A0A0A0;
+	font-size: 12px;
+}
+
+.video-box > .video-info > .quote {
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
 .main-banner {
 	background-image: url('../img/Banner-Image.png');
 	background-size: cover;
