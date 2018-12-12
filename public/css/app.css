@@ -98,6 +98,7 @@ html, body {
 .main-banner {
 	background-image: url('../img/Banner-Image.png');
 	background-size: cover;
+	background-position: center;
 }
 
 .help-row {
@@ -705,6 +706,12 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
+	.main-banner {
+		background-image: url('../img/banner-header-min.png');
+		background-size: cover;
+		background-position: center;
+	}
+
 	#main_navbar_logo {
 		max-width: 200px;
 	}
