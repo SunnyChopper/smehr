@@ -149,5 +149,6 @@
 		</div>
 	</div>
 
+	@include('layouts.client-stories')
 	@include('layouts.bottom-cta')
 @endsection

@@ -171,11 +171,11 @@ html, body {
 }
 
 .play-button-overlay {
-	height: 50%;
-	width: 50%;
+	height: 35%;
+	width: 35%;
 	opacity: 100;
-	top: 10%;
-	left: 25%;
+	top: 15%;
+	left: 30%;
 	position: absolute;
 	padding: 0;
 	transition: 0.25s all;

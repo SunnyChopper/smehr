@@ -1,4 +1,4 @@
-<div style="background: url('{{ URL::asset('img/Bottom-CTA-Background.png') }}'); background-size: cover; padding: 32px;">
+<div style="background: url('{{ URL::asset('img/Bottom-CTA-Background.png') }}'); background-size: cover; padding: 32px; background-position: center;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-7 col-sm-12 col-12">
