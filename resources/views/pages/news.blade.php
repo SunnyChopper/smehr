@@ -10,9 +10,13 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 							<a href="">
-								<img src="{{ URL::asset('img/main-news-image.png') }}" class="regular-image">
-								<div class="main-blog-post-box">
-									<h4>Attorney Steven Mehr creates nation’s first law firm with former Judges and Senators on staff counsel</h4>
+								<div class="main-story-box">
+									<div class="main-story-image">
+										<img src="{{ URL::asset('img/main-news-image.png') }}" class="regular-image">
+									</div>
+									<div class="main-story-info">
+										<h4>Attorney Steven Mehr creates nation’s first law firm with former Judges and Senators on staff counsel</h4>
+									</div>
 								</div>
 							</a>
 						</div>
