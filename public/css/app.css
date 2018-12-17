@@ -75,6 +75,10 @@ html, body {
 	Special Text
 \* ----------------------- */
 
+#client-headline {
+	text-align: left;
+}
+
 .regular-p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
@@ -1256,6 +1260,10 @@ html, body {
 		top: 0px;
 	}
 
+	#client-headline {
+		text-align: left;
+	}
+
 	.video-box {
 		margin-top: 16px;
 		margin-bottom: 16px;
@@ -1348,6 +1356,10 @@ html, body {
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
+	}
+
+	#client-headline {
+		text-align: left;
 	}
 
 	.main-story-info {
