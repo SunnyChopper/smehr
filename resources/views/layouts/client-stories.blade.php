@@ -1,4 +1,4 @@
-<div style="background: #f4f5f5; padding: 32px; border-top: 8px solid black;">
+<div id="clients-row">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -7,7 +7,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
@@ -72,7 +72,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">

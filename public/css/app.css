@@ -726,6 +726,15 @@ html, body {
 	text-align: center;
 }
 
+#clients-row {
+	background: #f4f5f5; padding: 36px; border-top: 8px solid black;
+}
+
+#results-row {
+	padding: 32px;
+	background-color: #eef0f1;
+}
+
 /* ----------------------- *\
 	Images
 \* ----------------------- */
@@ -1229,7 +1238,7 @@ html, body {
 
 	.image-row {
 		padding-top: 28px;
-		padding-bottom: 12px;
+		padding-bottom: 28px;
 	}
 
 	.attorney-box-info {
@@ -1258,6 +1267,14 @@ html, body {
 		padding: 16px;
 		border-bottom: 8px solid #376fed;
 		top: 0px;
+	}
+
+	#clients-row {
+		padding: 18px;
+	}
+
+	#results-row {
+		padding: 18px;
 	}
 
 	#client-headline {
@@ -1320,7 +1337,7 @@ html, body {
 
 	.image-row {
 		padding-top: 32px;
-		padding-bottom: 8px;
+		padding-bottom: 32px;
 	}
 
 	#bottom-cta-description {
@@ -1356,6 +1373,14 @@ html, body {
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
+	}
+
+	#clients-row {
+		padding: 18px;
+	}
+
+	#results-row {
+		padding: 18px;
 	}
 
 	#client-headline {
@@ -1476,7 +1501,7 @@ html, body {
 	.image-row {
 		background-image: url('../img/banner-header-min.png');
 		background-size: cover;
-		padding: 8px;
+		padding-bottom: 24px;
 		padding-top: 18px;
 	}
 
@@ -1484,7 +1509,7 @@ html, body {
 		background-color: white;
 		border-radius: 8px;
 		margin-top: 16px;
-		margin-bottom: 16px;
+		margin-bottom: 0px;
 	}
 
 	#badge_image {
@@ -1585,7 +1610,7 @@ html, body {
 	}
 
 	#banner-blue-bar-header {
-		font-size: 12px;
+		font-size: 14px;
 	}
 }
 

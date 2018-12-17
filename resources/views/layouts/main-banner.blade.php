@@ -106,31 +106,9 @@
 
 				<section version="mobile-version" class="d-md-none">
 					<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-3 col-3" style="padding-left: 0px; padding-right: 0px;">
-							<img src="{{ URL::asset('img/cnn-white-min.png') }}" class="regular-image blue-bar-image">
+						<div class='col-12'>
+							<img src="{{ URL::asset('img/mobile-bar.png') }}" class="regular-image">
 						</div>
-
-						<div class="col-lg-2 col-md-2 col-sm-3 col-3" style="padding-left: 0px; padding-right: 0px;">
-							<img src="{{ URL::asset('img/bloomberg-white-min.png') }}" class="regular-image blue-bar-image">
-						</div>
-
-						<div class="col-lg-2 col-md-2 col-sm-3 col-3" style="padding-left: 0px; padding-right: 0px;">
-							<img src="{{ URL::asset('img/cnbc-white-min.png') }}" class="regular-image blue-bar-image">
-						</div>
-
-						<div class="col-lg-2 col-md-2 col-sm-3 col-3" style="padding-left: 0px; padding-right: 0px;">
-							<img src="{{ URL::asset('img/fox-white-min.png') }}" class="regular-image blue-bar-image">
-						</div>
-
-						<div class="col-lg-2 col-md-2 col-sm-6 col-6" style="margin-top: 16px; padding-left: 0px; padding-right: 0px;">
-							<img src="{{ URL::asset('img/The_New_York_Times_logo-min.png') }}" class="regular-image blue-bar-image">
-						</div>
-
-						<div class="col-lg-2 col-md-2 col-sm-6 col-6" style="margin-top: 16px; padding-left: 0px; padding-right: 0px;">
-							<img src="{{ URL::asset('img/los-angeles-times-white-min.png') }}" class="regular-image blue-bar-image">
-						</div>
-
-						
 					</div>
 				</section>
 			</div>

@@ -193,7 +193,7 @@
 		</div>
 	</section>
 
-	<div style="padding: 32px; background-color: #eef0f1;">
+	<div id="results-row">
 		<div class="container">
 			<div clas="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -204,7 +204,7 @@
 			</div>
 
 			<div class="row mt-4">
-				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-1-min.png') }}" class="regular-image">
@@ -218,7 +218,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-2-min.png') }}" class="regular-image">
@@ -232,7 +232,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-3-min.png') }}" class="regular-image">
@@ -246,7 +246,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-4-min.png') }}" class="regular-image">
@@ -260,7 +260,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-5-min.png') }}" class="regular-image">
@@ -274,7 +274,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 					<div class="proof-box">
 						<div class="proof-image-box">
 							<img src="{{ URL::asset('img/proof-image-2-min.png') }}" class="regular-image">
@@ -311,10 +311,7 @@
 
 			<div class="row mt-4 d-block d-md-none">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<img src="{{ URL::asset('img/mobile-icon-top-min.png') }}" class="regular-image">
-				</div>
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<img src="{{ URL::asset('img/mobile-icon-bottom-min.png') }}" style="margin-top: 32px; margin-bottom: 24px;" class="regular-image">
+					<img src="{{ URL::asset('img/mobile-awards.png') }}" class="regular-image">
 				</div>
 			</div>
 		</div>
