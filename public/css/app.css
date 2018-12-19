@@ -1573,6 +1573,7 @@ html, body {
 		color: white;
 		font-size: 16px;
 		margin-bottom: 2px;
+		margin-right: 16px;
 	}
 
 	#banner-padded-area {
@@ -1612,7 +1613,7 @@ html, body {
 	}
 
 	#main-banner-title {
-		margin-top: 96px;
+		margin-top: 72px;
 		font-size: 32px;
 	}
 
