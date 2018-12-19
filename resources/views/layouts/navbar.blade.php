@@ -49,7 +49,7 @@
 			<div class="collapse navbar-collapse" id="mobile-navbar">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="/">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">What We Do</a>
@@ -58,7 +58,7 @@
 						<a class="nav-link" href="#">Who We Are</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">News & Results</a>
+						<a class="nav-link" href="/news">News & Results</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Contact Us</a>
