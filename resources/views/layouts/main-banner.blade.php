@@ -32,25 +32,25 @@
 				<section version="mobile-version" class="d-md-none">
 					<div class="row mb-0" id="first-support-text">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-							<p class="banner-support-text"><span style="float: left;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Retired Judges of Counsel</p>
+							<p class="banner-support-text"><span style="float: left; margin-left: 16px;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Retired Judges of Counsel</p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-							<p class="banner-support-text"><span style="float: left;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Retired Senators of Counsel</p>
+							<p class="banner-support-text"><span style="float: left; margin-left: 16px;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> Retired Senators of Counsel</p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-							<p class="banner-support-text"><span style="float: left;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> No fees unless we win</p>
+							<p class="banner-support-text"><span style="float: left; margin-left: 16px;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> No fees unless we win</p>
 						</div>
 					</div>
 
 					<div class="row mb-4">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-							<p class="banner-support-text"><span style="float: left;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> 98.7% Win Rate</p>
+							<p class="banner-support-text"><span style="float: left; margin-left: 16px;"><i class="fa fa-check" style="color: #00c5ab;"></i></span> 98.7% Win Rate</p>
 						</div>
 					</div>
 				</section>
