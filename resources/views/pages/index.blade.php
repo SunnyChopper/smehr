@@ -413,7 +413,7 @@
 
 		<section version="mobile-version" class="d-md-none">
 			<div class="container">
-				<div class="row" style="margin-bottom: 24px;">
+				<div class="row" style="margin-bottom: 8px;">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 						<h4 class="text-center"><b>Featured Attorneys</b></h4>
 					</div>

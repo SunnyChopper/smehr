@@ -16,7 +16,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">
+				<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-12">
 					<div class="front-page-form" id="bottom-cta-form">
 						<h3 class="text-center">Get Help Now</h3>
 						<h5 class="text-center">Free Consultation</h5>

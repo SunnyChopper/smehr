@@ -1,7 +1,7 @@
 <footer id="page-footer">
 	<div class="container text-center text-md-left">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 mt-md-0 mt-3">
+			<div class="col-lg-4 col-md-4 mt-md-0 mb-sm-3">
 				<img src="{{ URL::asset('img/New-Logo-Black.png') }}" class="regular-image-80" id="footer-logo">
 			</div>
 

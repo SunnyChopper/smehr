@@ -214,7 +214,8 @@ html, body {
 
 .video-box > .video-info > .title {
 	color: #A0A0A0;
-	font-size: 12px;
+	font-size: 16px;
+    margin-bottom: 6px;
 }
 
 .video-box > .video-info > .quote {
@@ -933,16 +934,18 @@ html, body {
 	}
 
 	.attorney-box-info > h4 {
-		font-size: 14px;
+		font-size: 22px;
 	}
 
 	.attorney-box-info > .role {
-		font-size: 12px;
+		font-size: 16px;
+    	margin-bottom: 8px;
 	}
 
 	.attorney-box-info > p {
-		font-size: 12px;
-		white-space: initial;
+		font-size: 14px;
+	    white-space: initial;
+	    margin-bottom: 8px;
 	}
 
 	#bottom-cta-title {
@@ -963,7 +966,8 @@ html, body {
 	}
 
 	.footer-header {
-		font-size: 12px;
+		font-size: 16px;
+		margin-bottom: 2px;
 	}
 
 	.footer-text {
@@ -1243,7 +1247,7 @@ html, body {
 	}
 
 	.attorney-box-info {
-		min-height: 310px;
+		min-height: 260px;
 	}
 
 	#bottom-cta-description {
@@ -1409,7 +1413,9 @@ html, body {
 	}
 
 	.video-box > .video-info > .name {
-		font-size: 11px;
+		font-size: 18px;
+	    line-height: 19px;
+	    margin-bottom: 4px;
 	}
 
 	.video-box > .video-info > .quote {
@@ -1417,7 +1423,7 @@ html, body {
 	}
 
 	#page-footer {
-		padding: 0px;
+		padding: 8px;
 	}
 
 	#proof_title {
@@ -1496,7 +1502,7 @@ html, body {
 	}
 
 	.attorney-box-info {
-		min-height: 240px;
+		min-height: 280px;
 	}
 
 	.image-row {
