@@ -88,6 +88,10 @@ html, body {
 	Special Text
 \* ----------------------- */
 
+.main-story-info > h4 {
+	font-size: 30px;
+}
+
 .help-box-link {
 	font-family: 'Rubik', sans-serif;
 	text-transform: uppercase;
@@ -146,6 +150,7 @@ html, body {
 	text-align: center;
 	margin-bottom: 0px;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 .sidebar-number {
@@ -182,11 +187,12 @@ html, body {
 
 .main-story-info {
 	padding: 24px;
-    background-color: black;
+    background-color: #17181b;
     color: white;
-    margin-top: -68px;
+    margin-top: -120px;
     position: relative;
     z-index: 4;
+    font-family: 'Roboto', sans-serif;
 }
 
 .video-box {
@@ -289,10 +295,12 @@ html, body {
 }
 
 .blog-box-info > h5 {
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	margin-bottom: 0px;
 	color: black;
 	text-decoration: none;
+	font-weight: 400;
 }
 
 .help-row {
@@ -1590,7 +1598,7 @@ html, body {
 	}
 
 	#front-page-main-cta {
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 		margin-top: 16px;
 		width: 100%;
 		font-size: 14px;
