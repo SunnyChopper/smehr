@@ -212,7 +212,7 @@
 							<h2 class="text-center">$12.8</h2>
 							<h4 class="text-center">MILLION</h4>
 							<p class="text-center" id="type">PERSONAL INJURY</p>
-							<p class="text-center" id="claim">Car Accident:<br>Brain Injury</p>
+							<p class="text-center" id="claim">Car Accident:<br><span>Brain Injury</span></p>
 						</div>
 					</div>
 				</div>
@@ -226,7 +226,7 @@
 							<h2 class="text-center">$10.5</h2>
 							<h4 class="text-center">MILLION</h4>
 							<p class="text-center" id="type">PERSONAL INJURY</p>
-							<p class="text-center" id="claim">Truck Accident:<br>Death Claim</p>
+							<p class="text-center" id="claim">Truck Accident:<br><span>Death Claim</span></p>
 						</div>
 					</div>
 				</div>
@@ -240,7 +240,7 @@
 							<h2 class="text-center">$10.4</h2>
 							<h4 class="text-center">MILLION</h4>
 							<p class="text-center" id="type">PERSONAL INJURY</p>
-							<p class="text-center" id="claim">Car Accident:<br>Policy Verdict</p>
+							<p class="text-center" id="claim">Car Accident:<br><span>Policy Verdict</span></p>
 						</div>
 					</div>
 				</div>
@@ -254,7 +254,7 @@
 							<h2 class="text-center">$7.5</h2>
 							<h4 class="text-center">MILLION</h4>
 							<p class="text-center" id="type">PERSONAL INJURY</p>
-							<p class="text-center" id="claim">Car Accident:<br>Policy Verdict</p>
+							<p class="text-center" id="claim">Car Accident:<br><span>Policy Verdict</span></p>
 						</div>
 					</div>
 				</div>
@@ -268,7 +268,7 @@
 							<h2 class="text-center">$10.4</h2>
 							<h4 class="text-center">MILLION</h4>
 							<p class="text-center" id="type">PERSONAL INJURY</p>
-							<p class="text-center" id="claim">Car Accident:<br>Policy Verdict</p>
+							<p class="text-center" id="claim">Car Accident:<br><span>Policy Verdict</span></p>
 						</div>
 					</div>
 				</div>
@@ -282,7 +282,7 @@
 							<h2 class="text-center">$10.5</h2>
 							<h4 class="text-center">MILLION</h4>
 							<p class="text-center" id="type">PERSONAL INJURY</p>
-							<p class="text-center" id="claim">Truck Accident:<br>Death Claim</p>
+							<p class="text-center" id="claim">Truck Accident:<br><span>Death Claim</span></p>
 						</div>
 					</div>
 				</div>

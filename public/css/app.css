@@ -426,7 +426,7 @@ html, body {
 }
 
 .proof-box-text > h2 {
-	font-family: 'Montserrat', 'Roboto', 'Rubik', sans-serif;
+	font-family: 'Roboto', 'Rubik', sans-serif;
 	font-weight: 600;
 	font-size: 36px;
 	margin-bottom: 0px;
@@ -437,23 +437,32 @@ html, body {
 	font-size: 18px;
 	letter-spacing: 2px;
 	margin-bottom: 0px;
+	font-weight: 700;
 }
 
 .proof-box-text > #type {
-	font-size: 12px;
+	font-weight: 500;
+    letter-spacing: 1px;
+	font-size: 10px;
 	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-bottom: 1px;
 	color: #72869e;
 	text-transform: uppercase;
 }
 
 .proof-box-text > #claim {
-	font-family: 'Montserrat', 'Roboto', 'Rubik', sans-serif;
-	font-size: 12px;
+	font-family: 'Roboto', 'Rubik', sans-serif;
+	font-size: 14px;
 	margin-top: 0px;
 	color: black;
 	margin-bottom: 0px;
-	line-height: 12px;
+	line-height: 18px;
+	font-weight: 500;
+}
+
+.proof-box-text > #claim > span {
+	font-size: 11px;
+	font-weight: 400;
 }
 
 #banner-blue-bar {
