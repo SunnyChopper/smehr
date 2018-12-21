@@ -47,7 +47,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-						<h4 class="text-center text-uppercase" style="margin-bottom: 32px;">How We Can Help You</h4>
+						<h4 class="text-center text-uppercase" id="help-headline">How We Can Help You</h4>
 					</div>
 
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
@@ -199,7 +199,6 @@
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 					<h2 class="text-center" id="proof_title"><b>Over $1 Billion Dollars in Verdicts & Settlements.</b></h2>
 					<p class="text-center proof_text">Don't buy into lawyer advertising hype - let the results speak for themselves.</p>
-					<p class="text-center proof_text">Steve and his team have resolved hundreds of cases for six, seven and eight figures.</p>
 				</div>
 			</div>
 
@@ -212,7 +211,7 @@
 						<div class="proof-box-text">
 							<h2 class="text-center">$12.8</h2>
 							<h4 class="text-center">MILLION</h4>
-							<p class="text-center" id="type"><small>PERSONAL INJURY RECOVERY</small></p>
+							<p class="text-center" id="type">PERSONAL INJURY</p>
 							<p class="text-center" id="claim">Car Accident:<br>Brain Injury</p>
 						</div>
 					</div>
@@ -226,7 +225,7 @@
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.5</h2>
 							<h4 class="text-center">MILLION</h4>
-							<p class="text-center" id="type"><small>PERSONAL INJURY RECOVERY</small></p>
+							<p class="text-center" id="type">PERSONAL INJURY</p>
 							<p class="text-center" id="claim">Truck Accident:<br>Death Claim</p>
 						</div>
 					</div>
@@ -240,7 +239,7 @@
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.4</h2>
 							<h4 class="text-center">MILLION</h4>
-							<p class="text-center" id="type"><small>PERSONAL INJURY RECOVERY</small></p>
+							<p class="text-center" id="type">PERSONAL INJURY</p>
 							<p class="text-center" id="claim">Car Accident:<br>Policy Verdict</p>
 						</div>
 					</div>
@@ -254,7 +253,7 @@
 						<div class="proof-box-text">
 							<h2 class="text-center">$7.5</h2>
 							<h4 class="text-center">MILLION</h4>
-							<p class="text-center" id="type"><small>PERSONAL INJURY RECOVERY</small></p>
+							<p class="text-center" id="type">PERSONAL INJURY</p>
 							<p class="text-center" id="claim">Car Accident:<br>Policy Verdict</p>
 						</div>
 					</div>
@@ -268,7 +267,7 @@
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.4</h2>
 							<h4 class="text-center">MILLION</h4>
-							<p class="text-center" id="type"><small>PERSONAL INJURY RECOVERY</small></p>
+							<p class="text-center" id="type">PERSONAL INJURY</p>
 							<p class="text-center" id="claim">Car Accident:<br>Policy Verdict</p>
 						</div>
 					</div>
@@ -282,7 +281,7 @@
 						<div class="proof-box-text">
 							<h2 class="text-center">$10.5</h2>
 							<h4 class="text-center">MILLION</h4>
-							<p class="text-center" id="type"><small>PERSONAL INJURY RECOVERY</small></p>
+							<p class="text-center" id="type">PERSONAL INJURY</p>
 							<p class="text-center" id="claim">Truck Accident:<br>Death Claim</p>
 						</div>
 					</div>
@@ -290,6 +289,8 @@
 			</div>
 		</div>
 	</div>
+
+	@include('layouts.client-stories')
 
 	<div class="image-row">
 		<div class="container">
@@ -299,7 +300,7 @@
 				</div>
 				<div class="col-lg-10 col-md-10 col-sm-10 col-8">
 					<h1 class="text-center" id="awarded_title">Awarded "Best Attorneys of America"</h1>
-					<p class="text-center d-none d-md-block" id="awarded_subtitle" style="">We Get Hired Because We Win • Over 40 Years Experience • 100% Free Phone Consultations</p>
+					<p class="text-center d-none d-md-block" id="awarded_subtitle" style="">We Get Hired Because We Win • 100% Free Phone Consultations</p>
 				</div>
 			</div>
 
@@ -507,6 +508,6 @@
 		</section>
 	</div>
 
-	@include('layouts.client-stories')
+	
 	@include('layouts.bottom-cta')
 @endsection

@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<p class="mb-0" id="top_bar_text"><span class="mr-1"><i class="fa fa-phone"></i></span> New Client Hotline: <a href="tel:8005500550" style="margin-left: 4px; color: #a9b6c1;">(800) 550-0550</a></p>
+					<p class="mb-0" id="top_bar_text"><span class="mr-1"><i class="fa fa-phone"></i></span> New Client Hotline: <a href="tel:8002191919" style="margin-left: 4px; color: #a9b6c1;">1-800-219-1919</a></p>
 				</div>
 			</div>
 		</div>

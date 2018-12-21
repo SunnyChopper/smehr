@@ -1,7 +1,7 @@
 <div class="main-banner">
 	<div class="container" id="banner-padded-area">
 		<div class="row">
-			<div class="col-lg-7 col-md-6 col-sm-12 col-12">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 				<h1 class="text-center d-md-none" id="main-banner-title"><b>Over $1 Billion<br>won for our clients</b></h1>
 				{{-- <section version="desktop-version" class="d-none d-md-block">
 					<div class="row mb-0" id="first-support-text">
@@ -76,8 +76,8 @@
 			</div>
 
 			<!-- Form for tablets up -->
-			<div class="col-lg-5 col-md-6 col-sm-12 col-12 d-none d-md-block">
-				<h3 id="main-banner-tagline">"The most powerful legal team in the country"</h3>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 d-none d-md-block">
+				<h3 id="main-banner-tagline">The most powerful legal team in the country</h3>
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 col-12">
 						<img src="{{ URL::asset('img/forbes-white-min.png') }}" id="main-banner-tagline-logo" class="regular-image-60">
