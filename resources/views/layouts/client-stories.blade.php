@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h4 style="margin-bottom: 24px;" id="client-headline">Client Success Stories</h4>
+				<h4 style="margin-bottom: 24px; font-weight: 700; font-family: 'Roboto', sans-serif;" id="client-headline">Client Success Stories</h4>
 			</div>
 		</div>
 

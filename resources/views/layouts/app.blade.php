@@ -8,8 +8,8 @@
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Rubik:200,400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik:200,400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,900" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css') }}">

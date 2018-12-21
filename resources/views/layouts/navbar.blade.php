@@ -18,19 +18,19 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link <?php if(Request::is('/')) { echo 'active'; } ?>" href="{{ url('/') }}">Home</a>
+						<a class="nav-link <?php if(Request::is('/')) { echo 'active'; } ?>" href="{{ url('/') }}" style="padding-left: 0px; padding-right: 0px;">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">What We Do</a>
+						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">What We Do</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Who We Are</a>
+						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">Who We Are</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link <?php if(Request::is('news')) { echo 'active'; } ?>" href="{{ url('/news') }}">News & Results</a>
+						<a class="nav-link <?php if(Request::is('news')) { echo 'active'; } ?>" href="{{ url('/news') }}" style="padding-left: 0px; padding-right: 0px;">News & Results</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Us</a>
+						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">Contact Us</a>
 					</li>
 				</ul>
 			</div>

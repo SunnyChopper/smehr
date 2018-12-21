@@ -76,7 +76,7 @@
 			</div>
 
 			<!-- Form for tablets up -->
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12 d-none d-md-block">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 d-none d-md-block" style="margin-right: -36px;">
 				<h3 id="main-banner-tagline">The most powerful legal team in the country</h3>
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 col-12">

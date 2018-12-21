@@ -26,14 +26,14 @@
 					</div>
 
 					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-						<p id="featured-headline-small"><b><small>Featured Headline</small></b></p>
+						<p id="featured-headline-small"><b><small style="font-weight: 600;">Featured Headline</small></b></p>
 						<div class="row">
 							<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
 								<img src="{{ URL::asset('img/Mag-Cover.png') }}" class="regular-image">
 							</div>
 							<div class="col-lg-8 col-md-12 col-sm-12 col-12">
 								<h3 id="featured-headline">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
-								<p id="featured-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> View Feature</a></p>
+								<p id="featured-link" style="font-size: 14px;"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> VIEW FEATURE</a></p>
 							</div>
 						</div>
 					</div>
@@ -53,8 +53,8 @@
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 						<div class="help-box">
 							<p class="help-box-logo text-center"><i class="fa fa-car" aria-hidden="true"></i></p>
-							<h4>Auto Accidents</h4>
-							<hr />
+							<h4 style="font-weight: 700;">Auto Accidents</h4>
+							<hr style="border-top: 1px solid rgba(0,0,0,.25);" />
 							<p class="help-box-text">Auto Accidents</p>
 							<p class="help-box-text">Motorcycle Accidents</p>
 							<p class="help-box-text">Truck Accidents</p>
@@ -67,8 +67,8 @@
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 						<div class="help-box">
 							<p class="help-box-logo text-center"><i class="fa fa-medkit" aria-hidden="true"></i></p>
-							<h4>Personal Injury</h4>
-							<hr />
+							<h4 style="font-weight: 700;">Personal Injury</h4>
+							<hr style="border-top: 1px solid rgba(0,0,0,.25);" />
 							<p class="help-box-text">Business Litigation</p>
 							<p class="help-box-text">Business Consulting</p>
 							<p class="help-box-text">Celebrity & High Profile Cases</p>
@@ -81,8 +81,8 @@
 					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 						<div class="help-box">
 							<p class="help-box-logo text-center"><i class="fa fa-balance-scale" aria-hidden="true"></i></p>
-							<h4>Other Practices</h4>
-							<hr />
+							<h4 style="font-weight: 700;">Other Practices</h4>
+							<hr style="border-top: 1px solid rgba(0,0,0,.25);" />
 							<p class="help-box-text">Whistleblower & Fraud Claims</p>
 							<p class="help-box-text">Bad Faith Insurance</p>
 							<p class="help-box-text">Nursing Home Abuse</p>
@@ -323,7 +323,7 @@
 			<div class="container">
 				<div class="row" style="margin-bottom: 24px;">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-						<h3><b>Featured Attorneys</b></h3>
+						<h3 style="font-family: 'Roboto', sans-serif;"><b>Featured Attorneys</b></h3>
 					</div>
 				</div>
 
