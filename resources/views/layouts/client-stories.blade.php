@@ -11,8 +11,12 @@
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
-						<div class="play-button-overlay">
-							<img src="https://www.gobiond.com/wp-content/uploads/2018/05/http___pluspng.com_img-png_play-button-png-filename-play-button-png-237.png" class="regular-image">
+						<div class="video-bar">
+							<div class="row">
+								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
+									<img src="{{ URL::asset('img/play-video.png') }}" class="regular-image" style="margin-left: 0.5em;">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="video-info">
@@ -33,8 +37,12 @@
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
-						<div class="play-button-overlay">
-							<img src="https://www.gobiond.com/wp-content/uploads/2018/05/http___pluspng.com_img-png_play-button-png-filename-play-button-png-237.png" class="regular-image">
+						<div class="video-bar">
+							<div class="row">
+								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
+									<img src="{{ URL::asset('img/play-video.png') }}" class="regular-image" style="margin-left: 0.5em;">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="video-info">
@@ -54,8 +62,12 @@
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
-						<div class="play-button-overlay">
-							<img src="https://www.gobiond.com/wp-content/uploads/2018/05/http___pluspng.com_img-png_play-button-png-filename-play-button-png-237.png" class="regular-image">
+						<div class="video-bar">
+							<div class="row">
+								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
+									<img src="{{ URL::asset('img/play-video.png') }}" class="regular-image" style="margin-left: 0.5em;">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="video-info">
@@ -76,8 +88,12 @@
 				<div class="video-box">
 					<div class="video-image">
 						<img src="{{ URL::asset('img/client-1.png') }}" class="regular-image">
-						<div class="play-button-overlay">
-							<img src="https://www.gobiond.com/wp-content/uploads/2018/05/http___pluspng.com_img-png_play-button-png-filename-play-button-png-237.png" class="regular-image">
+						<div class="video-bar">
+							<div class="row">
+								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
+									<img src="{{ URL::asset('img/play-video.png') }}" class="regular-image" style="margin-left: 0.5em;">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="video-info">

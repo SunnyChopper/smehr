@@ -234,6 +234,20 @@ html, body {
 .video-box > .video-image {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
+	position: relative;
+}
+
+.video-box > .video-image:hover {
+	cursor: pointer; 
+}
+
+.video-box > .video-image > .video-bar {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	padding: 0.5em;
+	background-color: rgba(0, 0, 0, 0.75);
 }
 
 .video-box > .video-image > img {
@@ -1128,6 +1142,10 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+	.video-box > .video-image > .video-bar {
+		padding: 0.25em;
+	}
+
 	#main-banner-top-headline {
 		font-size: 14px;
 	}
@@ -1332,7 +1350,7 @@ html, body {
 	}
 
 	.attorney-box-info {
-		min-height: 260px;
+		min-height: 390px;
 	}
 
 	#bottom-cta-description {
@@ -1460,6 +1478,10 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+	.video-box > .video-image > .video-bar {
+		padding: 0.25em;
+	}
+
 	.page-banner {
 		padding: 108px 32px 32px 32px;
 		margin-top: 0px;
