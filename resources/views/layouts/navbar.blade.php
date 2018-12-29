@@ -27,10 +27,10 @@
 						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">Who We Are</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link <?php if(Request::is('news')) { echo 'active'; } ?>" href="{{ url('/news') }}" style="padding-left: 0px; padding-right: 0px;">News & Results</a>
+						<a class="nav-link <?php if(Request::is('/news')) { echo 'active'; } ?>" href="{{ url('/news') }}" style="padding-left: 0px; padding-right: 0px;">News & Results</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">Contact Us</a>
+						<a class="nav-link <?php if(Request::is('/contact')) { echo 'active'; } ?>" href="/contact" style="padding-left: 0px; padding-right: 0px;">Contact & FAQ</a>
 					</li>
 				</ul>
 			</div>
