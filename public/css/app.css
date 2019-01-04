@@ -1002,7 +1002,7 @@ html, body {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	.main-banner {
 		background-image: url('../img/banner-header-min.png');
 		background-size: cover;
@@ -1282,7 +1282,7 @@ html, body {
 	}
 }
 
-@media only screen and (min-width: 575px) and (max-width: 768px) {
+@media only screen and (min-width: 575px) and (max-width: 767px) {
 	#main_navbar {
 		background-color: rgba(15,19,35, 0.75);
 		padding: 16px;

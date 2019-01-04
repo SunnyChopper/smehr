@@ -24,7 +24,7 @@
 						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">What We Do</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" style="padding-left: 0px; padding-right: 0px;">Who We Are</a>
+						<a class="nav-link <?php if(Request::is('who-we-are')) { echo 'active'; } ?>" href="/who-we-are" style="padding-left: 0px; padding-right: 0px;">Who We Are</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link <?php if(Request::is('news')) { echo 'active'; } ?>" href="{{ url('/news') }}" style="padding-left: 0px; padding-right: 0px;">News & Results</a>

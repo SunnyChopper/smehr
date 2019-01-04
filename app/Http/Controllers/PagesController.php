@@ -30,4 +30,12 @@ class PagesController extends Controller
         // Return view
         return view('pages.contact')->with('page_title', $page_title);
     }
+
+    public function who_we_are() {
+        // Dynamic page features
+        $page_title = "Who We Are - Steve Mehr";
+
+        // Return view
+        return view('pages.who-we-are')->with('page_title', $page_title);
+    }
 }

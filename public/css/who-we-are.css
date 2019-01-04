@@ -1,0 +1,26 @@
+/* ---------------------------------- *\
+	Banner Section
+\* ---------------------------------- */
+
+.who-we-are-banner {
+	background: url('/img/banner-header-min.png'); 
+	background-size: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+	.who-we-are-banner {
+		padding-top: 96px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.who-we-are-banner {
+		padding-top: 96px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.who-we-are-banner {
+		padding-top: 96px;
+	}
+}
