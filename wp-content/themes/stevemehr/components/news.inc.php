@@ -8,20 +8,21 @@
 	</div>
 </div>
 
-<?php
-	$args = array(
-        'posts_per_page' => 4,
-        'meta_key' => 'meta-checkbox',
-        'meta_value' => 'yes'
-    );
-	$featured = new WP_Query($args);
-	$iterator_index = 0;
-	if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
-?>
+
 
 <div style="background-color: #eef0f1; padding: 24px;">
 	<div class="container">
 		<div class="row">
+			<?php
+				$args = array(
+			        'posts_per_page' => 4,
+			        'meta_key' => 'meta-checkbox',
+			        'meta_value' => 'yes'
+			    );
+				$featured = new WP_Query($args);
+				$iterator_index = 0;
+				if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
+			?>
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 				<?php if ($iterator_index == 0): ?>
 					<div class="row">
@@ -72,8 +73,6 @@
 					endif;
 				?>
 			</div>
-
-			
 
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div style="padding: 24px; background-color: white; border-radius: 8px;">
