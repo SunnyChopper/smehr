@@ -22,7 +22,6 @@
 				    );
 					$featured = new WP_Query($args);
 					$iterator_index = 0;
-					var_dump(count($featured));
 					if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
 				?>
 
