@@ -2,6 +2,7 @@
 
 define('FS_METHOD', 'direct');
 add_theme_support( 'post-thumbnails' );
+show_admin_bar( false );
 
 function dynamic_menu() {
 	register_nav_menus(
