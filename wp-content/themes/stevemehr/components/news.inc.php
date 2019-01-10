@@ -15,8 +15,6 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 				<?php
-					global $post;
-					wp_reset_query();
 					$args = array(
 				        'category' => 'featured',
 				        'posts_per_page' => 4
