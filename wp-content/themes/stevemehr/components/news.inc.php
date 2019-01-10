@@ -68,5 +68,4 @@
 				$iterator_index += 1;
 				endwhile; else:
 				endif;
-			?>
-		</div>		
+			?>	
