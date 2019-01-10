@@ -421,7 +421,7 @@
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
 						<h3 class="roboto bold-font white awarded-title">98.7% Win Rate</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
+						<p class="roboto  white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
 					</div>
 				</div>
 
@@ -431,7 +431,7 @@
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
 						<h3 class="roboto bold-font white awarded-title">100% Free Consultation</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Get a free no-obligation consultation to find out how we can help you if you have a case.</p>
+						<p class="roboto  white light-letter-spacing awarded-description">Get a free no-obligation consultation to find out how we can help you if you have a case.</p>
 					</div>
 				</div>
 
@@ -441,7 +441,7 @@
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
 						<h3 class="roboto bold-font white awarded-title">Award Winning Attorneys</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Our team consists of some of the nation's top attorneys, retired judges and former prosecutors.</p>
+						<p class="roboto  white light-letter-spacing awarded-description">Our team consists of some of the nation's top attorneys, retired judges and former prosecutors.</p>
 					</div>
 				</div>
 			</div>
@@ -453,7 +453,7 @@
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
 						<h3 class="roboto bold-font white awarded-title">No Fees Unless We Win</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">We work on a contingency basis, which means we don't charge a penny unless we win your case.</p>
+						<p class="roboto  white light-letter-spacing awarded-description">We work on a contingency basis, which means we don't charge a penny unless we win your case.</p>
 					</div>
 				</div>
 
@@ -463,7 +463,7 @@
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
 						<h3 class="roboto bold-font white awarded-title">Immediate Response 24/7</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Our staff is always available for you when you need to get in touch with us.</p>
+						<p class="roboto  white light-letter-spacing awarded-description">Our staff is always available for you when you need to get in touch with us.</p>
 					</div>
 				</div>
 
@@ -473,7 +473,7 @@
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
 						<h3 class="roboto bold-font white awarded-title">Over $1 Billion+ Recovered</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
+						<p class="roboto  white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
 					</div>
 				</div>
 			</div>
