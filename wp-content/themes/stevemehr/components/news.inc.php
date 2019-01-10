@@ -20,7 +20,7 @@
 				        'posts_per_page' => 4
 				    );
 					$featured = new WP_Query($args);
-					var_dump(count($featured));
+					var_dump($featured->post_count);
 					var_dump($featured);
 					$iterator_index = 0;
 					if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
