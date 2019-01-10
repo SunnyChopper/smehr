@@ -35,7 +35,7 @@
 									
 								</div>
 								<div class="main-story-info">
-									<p class="roboto light-letter-spacing mb-0"><small><b>FORBES</b> MAGAZINE</small></p>
+									<p class="rubik medium-letter-spacing mb-2"><small><b>FORBES</b> MAGAZINE</small></p>
 									<h4><?php the_title(); ?></h4>
 								</div>
 							</div>

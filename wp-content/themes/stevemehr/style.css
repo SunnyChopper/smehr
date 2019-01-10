@@ -254,7 +254,7 @@ html, body {
 .main-story-image {
 	overflow-y: auto;
 	width: 100%;
-	height: 450px;
+	height: 292px;
 	background-size: cover;
 }
 
@@ -1036,6 +1036,10 @@ html, body {
 		margin-right: auto;
 	}
 
+	.blog-box-info {
+		height: 92px;
+	}
+
 	#bottom-cta-form {
 		margin-top: 0px;
 		width: 100%;
@@ -1044,7 +1048,7 @@ html, body {
 	.main-story-image {
 		overflow-y: auto;
 		width: 100%;
-		height: 327px;
+		height: 292px;
 		background-size: cover;
 	}
 }
@@ -1053,8 +1057,12 @@ html, body {
 	.main-story-image {
 		overflow-y: auto;
 		width: 100%;
-		height: 302px;
+		height: 244px;
 		background-size: cover;
+	}
+
+	.blog-box-info {
+		height: 107px;
 	}
 
 	.navbar-dark .navbar-nav .nav-link {
@@ -1290,10 +1298,14 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+	.blog-box-info {
+		height: 137px;
+	}
+
 	.main-story-image {
 		overflow-y: auto;
 		width: 100%;
-		height: 319px;
+		height: 225px;
 		background-size: cover;
 	}
 
@@ -1640,7 +1652,7 @@ html, body {
 	.main-story-image {
 		height: 150px;
 	}
-	
+
 	.video-box > .video-image > .video-bar {
 		padding: 0.25em;
 	}
