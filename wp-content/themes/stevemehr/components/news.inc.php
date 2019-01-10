@@ -20,8 +20,6 @@
 				        'posts_per_page' => 4
 				    );
 					$featured = new WP_Query($args);
-					var_dump($featured->post_count);
-					var_dump($featured);
 					$iterator_index = 0;
 					if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
 				?>
@@ -46,7 +44,7 @@
 				<?php endif; ?>
 
 				<!-- If more than one post, then create secondary row -->
-				<?php if (count($featured) > 1): ?>
+				<?php if ($featured->post_count > 1): ?>
 					<!-- If first post, then create the row -->
 					<?php if ($iterator_index == 1): ?>
 					<div class="row mt-4">
@@ -71,8 +69,8 @@
 				<?php endif; ?>
 
 				<!-- Close out row when it's the last secondary post -->
-				<?php if (count($featured) > 1): ?>
-					<?php if($iterator_index == (count($featured) - 1)): ?>
+				<?php if ($featured->post_count > 1): ?>
+					<?php if($iterator_index == ($featured->post_count - 1)): ?>
 						</div>
 					<?php endif; ?>
 				<?php endif; ?>
