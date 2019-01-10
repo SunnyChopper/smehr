@@ -35,6 +35,7 @@
 									
 								</div>
 								<div class="main-story-info">
+									<p><b>FORBES</b> MAGAZINE</p>
 									<h4><?php the_title(); ?></h4>
 								</div>
 							</div>
