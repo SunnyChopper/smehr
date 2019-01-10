@@ -491,8 +491,8 @@ html, body {
 }
 
 .proof-image-box > img {
-	border-top-right-radius: 8px;
-	border-top-left-radius: 8px;
+	border-top-right-radius: 8px !important;
+	border-top-left-radius: 8px !important;
 }
 
 .proof-box-text {
