@@ -1637,6 +1637,10 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+	.main-story-image {
+		height: 150px;
+	}
+	
 	.video-box > .video-image > .video-bar {
 		padding: 0.25em;
 	}
