@@ -375,6 +375,11 @@ html, body {
 
 .blog-box-info {
 	padding: 16px;
+	display: flex;
+}
+
+.blog-box-info > h4 {
+	margin: auto;
 }
 
 .blog-box:hover {
