@@ -72,7 +72,6 @@
 					endwhile; else:
 					endif;
 				?>
-			</div>
 
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div style="padding: 24px; background-color: white; border-radius: 8px;">
