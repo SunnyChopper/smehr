@@ -24,7 +24,7 @@
 					<p id="featured-headline-small"><b><small style="font-weight: 600;">Featured Headline</small></b></p>
 					<div class="row">
 						<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/Mag-Cover.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Mag-Cover.png" class="regular-image">
 						</div>
 						<div class="col-lg-8 col-md-12 col-sm-12 col-12">
 							<h3 id="featured-headline">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
@@ -47,9 +47,9 @@
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 					<div class="help-box">
-						<p class="help-box-logo text-center"><i class="fa fa-car" aria-hidden="true"></i></p>
-						<h4 style="font-weight: 700;">Auto Accidents</h4>
-						<hr style="border-top: 1px solid rgba(0,0,0,.25);" />
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/personal-injury.png" id="personal-injury-image">
+						<h4 class="roboto heavy-font help-box-title">Personal Injury</h4>
+						<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
 						<p class="help-box-text">Auto Accidents</p>
 						<p class="help-box-text">Motorcycle Accidents</p>
 						<p class="help-box-text">Truck Accidents</p>
@@ -61,9 +61,9 @@
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 					<div class="help-box">
-						<p class="help-box-logo text-center"><i class="fa fa-medkit" aria-hidden="true"></i></p>
-						<h4 style="font-weight: 700;">Personal Injury</h4>
-						<hr style="border-top: 1px solid rgba(0,0,0,.25);" />
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/business.png" id="business-image">
+						<h4 class="roboto heavy-font help-box-title">Business</h4>
+						<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
 						<p class="help-box-text">Business Litigation</p>
 						<p class="help-box-text">Business Consulting</p>
 						<p class="help-box-text">Celebrity & High Profile Cases</p>
@@ -75,9 +75,9 @@
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 					<div class="help-box">
-						<p class="help-box-logo text-center"><i class="fa fa-balance-scale" aria-hidden="true"></i></p>
-						<h4 style="font-weight: 700;">Other Practices</h4>
-						<hr style="border-top: 1px solid rgba(0,0,0,.25);" />
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/other-practices.png" id="other-practices-image">
+						<h4 class="roboto heavy-font help-box-title">Other Practices</h4>
+						<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
 						<p class="help-box-text">Whistleblower & Fraud Claims</p>
 						<p class="help-box-text">Bad Faith Insurance</p>
 						<p class="help-box-text">Nursing Home Abuse</p>
@@ -171,7 +171,7 @@
 </section>
 
 <section version="mobile-version" class="d-md-none">
-	<div style="background: url('http://localhost/wp-content/themes/stevemehr/images/mobile-testimonial-min.png'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
+	<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/mobile-testimonial-min.png'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -181,7 +181,7 @@
 
 			<div class="row" style="margin-top: 32px;">
 				<div class="col-6 offset-3">
-					<img src="http://localhost/wp-content/themes/stevemehr/images/forbes-white-min.png" class="regular-image-60">
+					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/forbes-white-min.png" class="regular-image-60">
 				</div>
 			</div>
 		</div>
@@ -201,7 +201,7 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
 						<h2 class="text-center">$12.8</h2>
@@ -215,7 +215,7 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-2-min.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
 						<h2 class="text-center">$10.5</h2>
@@ -229,13 +229,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-3-min.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-2.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
 						<h2 class="text-center">$10.4</h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Policy Verdict</span></p>
+						<p class="text-center" id="claim">Car Accident:<br><span>Jury Verdict</span></p>
 					</div>
 				</div>
 			</div>
@@ -243,13 +243,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-4-min.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-3.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
 						<h2 class="text-center">$7.5</h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Policy Verdict</span></p>
+						<p class="text-center" id="claim">Car Accident:<br><span>Brain Injury</span></p>
 					</div>
 				</div>
 			</div>
@@ -257,13 +257,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-5-min.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/pedestrian-accident.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$10.4</h2>
+						<h2 class="text-center">$6.1</h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Policy Verdict</span></p>
+						<p class="text-center" id="claim">Pedestrain Accident:<br><span>Brain Injury</span></p>
 					</div>
 				</div>
 			</div>
@@ -271,13 +271,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-2-min.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-4.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$10.5</h2>
+						<h2 class="text-center">$3.2</h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Truck Accident:<br><span>Death Claim</span></p>
+						<p class="text-center" id="claim">Car Accident:<br><span>Back Injury</span></p>
 					</div>
 				</div>
 			</div>
@@ -297,11 +297,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -309,7 +309,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -323,11 +323,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -335,7 +335,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -349,11 +349,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -361,7 +361,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -375,11 +375,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -387,7 +387,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -405,23 +405,77 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-4">
-				<img src="http://localhost/wp-content/themes/stevemehr/images/badge-min.png" id="badge_image" class="regular-image">
+				<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/badge-min.png" id="badge_image" class="regular-image">
 			</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-8">
+			<div class="col-lg-10 col-md-10 col-sm-10 col-8" style="margin: auto;">
 				<h1 class="text-center" id="awarded_title">Awarded "Best Attorneys of America"</h1>
 				<p class="text-center d-none d-md-block" id="awarded_subtitle" style="">We Get Hired Because We Win • 100% Free Phone Consultations</p>
 			</div>
 		</div>
 
-		<div class="row d-none d-md-block" style="margin-top: 48px;">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<img src="http://localhost/wp-content/themes/stevemehr/images/mallet-icon-min.png" class="regular-image">
-			</div>
-		</div>
+		<div class="row" style="margin-top: 24px;">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-1.png" class="regular-image-80 regular-image-100-mobile">
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
+						<h3 class="roboto bold-font white awarded-title">98.7% Win Rate</h3>
+						<p class="roboto light-font white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
+					</div>
+				</div>
 
-		<div class="row mt-4 d-block d-md-none">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<img src="http://localhost/wp-content/themes/stevemehr/images/mobile-awards.png" class="regular-image">
+				<div class="row mt-16 mt-8-mobile">
+					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-2.png" class="regular-image-80 regular-image-100-mobile">
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
+						<h3 class="roboto bold-font white awarded-title">100% Free Consultation</h3>
+						<p class="roboto light-font white light-letter-spacing awarded-description">Get a free no-obligation consultation to find out how we can help you if you have a case.</p>
+					</div>
+				</div>
+
+				<div class="row mt-16 mt-8-mobile">
+					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-3.png" class="regular-image-80 regular-image-100-mobile">
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
+						<h3 class="roboto bold-font white awarded-title">Award Winning Attorneys</h3>
+						<p class="roboto light-font white light-letter-spacing awarded-description">Our team consists of some of the nation's top attorneys, retired judges and former prosecutors.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-8-mobile">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-4.png" class="regular-image-80 regular-image-100-mobile">
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
+						<h3 class="roboto bold-font white awarded-title">No Fees Unless We Win</h3>
+						<p class="roboto light-font white light-letter-spacing awarded-description">We work on a contingency basis, which means we don't charge a penny unless we win your case.</p>
+					</div>
+				</div>
+
+				<div class="row mt-16 mt-8-mobile">
+					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-5.png" class="regular-image-80 regular-image-100-mobile">
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
+						<h3 class="roboto bold-font white awarded-title">Immediate Response 24/7</h3>
+						<p class="roboto light-font white light-letter-spacing awarded-description">Our staff is always available for you when you need to get in touch with us.</p>
+					</div>
+				</div>
+
+				<div class="row mt-16 mt-8-mobile">
+					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-6.png" class="regular-image-80 regular-image-100-mobile">
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
+						<h3 class="roboto bold-font white awarded-title">Over $1 Billion+ Recovered</h3>
+						<p class="roboto light-font white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -440,7 +494,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-1-min.png" class="regular-image">
 						</div>
 
 						<div class="attorney-box-info">
@@ -460,7 +514,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-2-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-2-min.png" class="regular-image">
 						</div>
 
 						<div class="attorney-box-info">
@@ -480,7 +534,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-3-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-3-min.png" class="regular-image">
 						</div>
 
 						<div class="attorney-box-info">
@@ -501,7 +555,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="attorney-box">
 						<div class="attorney-box-image">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-4-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-4-min.png" class="regular-image">
 						</div>
 
 						<div class="attorney-box-info">
@@ -534,7 +588,7 @@
 					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-1-min.png}" class="regular-image">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-1-min.png}" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -554,7 +608,7 @@
 					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-2-min.png" class="regular-image">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-2-min.png" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -574,7 +628,7 @@
 					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-3-min.png" class="regular-image">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-3-min.png" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -595,7 +649,7 @@
 					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
 						<div class="attorney-box">
 							<div class="attorney-box-image">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/attorney-4-min.png') }}" class="regular-image">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-4-min.png') }}" class="regular-image">
 							</div>
 
 							<div class="attorney-box-info">
@@ -618,7 +672,7 @@
 </div>
 
 
-<div style="background: url('http://localhost/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
+<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-12 col-12">
