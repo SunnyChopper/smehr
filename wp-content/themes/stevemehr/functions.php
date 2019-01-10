@@ -1,6 +1,7 @@
 <?php
 
 define('FS_METHOD', 'direct');
+add_theme_support( 'post-thumbnails' );
 
 function dynamic_menu() {
 	register_nav_menus(
