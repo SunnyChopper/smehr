@@ -88,7 +88,7 @@ function sm_meta_save( $post_id ) {
     $is_valid_nonce = ( isset( $_POST[ 'sm_nonce' ] ) && wp_verify_nonce( $_POST[ 'sm_nonce' ], basename( __FILE__ ) ) ) ? 'true' : 'false';
  
     // Exits script depending on save status
-    if ( $is_autosave || $is_revision || !$is_valid_nonce ) {
+    if ( $is_autosave || !$is_valid_nonce ) {
         return;
     }
  
