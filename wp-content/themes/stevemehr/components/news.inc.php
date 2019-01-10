@@ -55,9 +55,8 @@
 					<div class="col-lg-4 col-md-4 col-sm-4 col-12">
 						<div class="blog-box">
 							<a href="<?php the_permalink(); ?>">
-								<div class="blog-box-image">
-									<?php $thumb_id = get_post_thumbnail_id(); $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true); $thumb_url = $thumb_url_array[0]; ?>
-									<img src="<?php echo $thumb_url; ?>" class="regular-image">
+								<?php $thumb_id = get_post_thumbnail_id(); $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true); $thumb_url = $thumb_url_array[0]; ?>
+								<div class="blog-box-image" data-setbg="<?php echo $thumb_url; ?>">
 								</div>
 								<div class="blog-box-info">
 									<h5><?php the_title(); ?></h5>

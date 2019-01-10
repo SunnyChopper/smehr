@@ -262,7 +262,6 @@ html, body {
 	padding: 24px;
     background-color: #17181b;
     color: white;
-    margin-top: -120px;
     position: relative;
     z-index: 4;
     font-family: 'Roboto', sans-serif;
@@ -974,6 +973,13 @@ html, body {
 	margin-bottom: 32px;
 }
 
+.blog-box-image {
+	background-size: cover;
+	background-position: center;
+	height: 149px;
+	width: 100%;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	.help-box > #personal-injury-image {
 		width: 50%;
@@ -1034,9 +1040,23 @@ html, body {
 		margin-top: 0px;
 		width: 100%;
 	}
+
+	.main-story-image {
+		overflow-y: auto;
+		width: 100%;
+		height: 327px;
+		background-size: cover;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.main-story-image {
+		overflow-y: auto;
+		width: 100%;
+		height: 302px;
+		background-size: cover;
+	}
+
 	.navbar-dark .navbar-nav .nav-link {
 		font-size: 10px;
 	}
@@ -1270,6 +1290,13 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+	.main-story-image {
+		overflow-y: auto;
+		width: 100%;
+		height: 319px;
+		background-size: cover;
+	}
+
 	.video-box > .video-image > .video-bar {
 		padding: 0.25em;
 	}
