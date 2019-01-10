@@ -4,6 +4,7 @@
 	
 	if (is_front_page()) {
 		require_once('components/main-banner.inc.php'); 
+		the_content();
 	} elseif (is_home()) {
 		require_once('components/news.inc.php');
 	} else {
