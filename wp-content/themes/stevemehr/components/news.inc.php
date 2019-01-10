@@ -16,10 +16,8 @@
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 				<?php
 					$args = array(
-				        'posts_per_page' => 4,
 				        'meta_key' => 'meta-checkbox',
-				        'meta_value' => 'yes',
-				        'nopaging' => true
+				        'meta_value' => 'yes'
 				    );
 					$featured = new WP_Query($args);
 					$iterator_index = 0;
