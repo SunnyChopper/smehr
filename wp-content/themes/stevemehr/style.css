@@ -335,7 +335,7 @@ html, body {
 .main-banner {
 	background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Banner-Image.jpg');
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 }
 
 .main-blog-post-box {
@@ -965,6 +965,10 @@ html, body {
 	#bottom-cta-form {
 		margin-top: 0px;
 		width: 100%;
+	}
+
+	.main-banner {
+		background-position: center;
 	}
 }
 
