@@ -13,18 +13,18 @@
 <div style="background-color: #eef0f1; padding: 24px;">
 	<div class="container">
 		<div class="row">
-			<?php
-				$args = array(
-			        'posts_per_page' => 4,
-			        'meta_key' => 'meta-checkbox',
-			        'meta_value' => 'yes'
-			    );
-				$featured = new WP_Query($args);
-				$iterator_index = 0;
-				if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
-			?>
-			<?php if ($iterator_index == 0): ?>
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
+				<?php
+					$args = array(
+				        'posts_per_page' => 4,
+				        'meta_key' => 'meta-checkbox',
+				        'meta_value' => 'yes'
+				    );
+					$featured = new WP_Query($args);
+					$iterator_index = 0;
+					if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
+				?>
+				<?php if ($iterator_index == 0): ?>
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 						<a href="<?php the_permalink(); ?>">
@@ -40,38 +40,38 @@
 						</a>
 					</div>
 				</div>
-			<?php endif; ?>
-
-			<?php if (count($featured) > 0): ?>
-				<?php if ($iterator_index == 1): ?>
-				<div class="row mt-4">
 				<?php endif; ?>
-					<?php if ($iterator_index > 0): ?>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-12">
-						<div class="blog-box">
-							<a href="<?php the_permalink(); ?>">
-								<div class="blog-box-image">
-									<?php $thumb_id = get_post_thumbnail_id(); $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true); $thumb_url = $thumb_url_array[0]; ?>
-									<img src="<?php echo $thumb_url; ?>" class="regular-image">
-								</div>
-								<div class="blog-box-info">
-									<h5><?php the_title(); ?></h5>
-								</div>
-							</a>
-						</div>
-					</div>
+
+				<?php if (count($featured) > 0): ?>
+					<?php if ($iterator_index == 1): ?>
+					<div class="row mt-4">
 					<?php endif; ?>
-			<?php endif; ?>
+						<?php if ($iterator_index > 0): ?>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+							<div class="blog-box">
+								<a href="<?php the_permalink(); ?>">
+									<div class="blog-box-image">
+										<?php $thumb_id = get_post_thumbnail_id(); $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true); $thumb_url = $thumb_url_array[0]; ?>
+										<img src="<?php echo $thumb_url; ?>" class="regular-image">
+									</div>
+									<div class="blog-box-info">
+										<h5><?php the_title(); ?></h5>
+									</div>
+								</a>
+							</div>
+						</div>
+						<?php endif; ?>
+				<?php endif; ?>
 
 				<?php if($iterator_index == (count($featured) - 1)): ?>
 					</div>
 				<?php endif; ?>
 
-			<?php
-				$iterator_index += 1;
-				endwhile; else:
-				endif;
-			?>
+				<?php
+					$iterator_index += 1;
+					endwhile; else:
+					endif;
+				?>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 					<div style="padding: 24px; background-color: white; border-radius: 8px;">
