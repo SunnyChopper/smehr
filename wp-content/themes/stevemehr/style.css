@@ -1525,6 +1525,10 @@ html, body {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 575px) {
+	.main-story-image {
+		height: 150px;
+	}
+
 	#main_navbar {
 		background-color: rgba(15,19,35, 0.75);
 		padding: 16px;
