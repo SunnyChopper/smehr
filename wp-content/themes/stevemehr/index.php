@@ -6,6 +6,10 @@
 		require_once('components/main-banner.inc.php'); 
 	}
 
+	if (is_home()) {
+		require_once('components/new.inc.php');
+	}
+
 ?>
 <?php 
 	if (have_posts()):

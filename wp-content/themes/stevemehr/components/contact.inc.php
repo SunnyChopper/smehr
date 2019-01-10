@@ -166,7 +166,6 @@
 	.feature-card > .feature-info {
 		font-family: 'Roboto';
 		font-size: 13px;
-		font-weight: lighter;
 	}
 
 	.feature-card > .available {
@@ -222,7 +221,6 @@
 		.feature-card > .feature-info {
 			font-family: 'Roboto';
 			font-size: 13px;
-			font-weight: lighter;
 		}
 
 		.feature-card > #email {
