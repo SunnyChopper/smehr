@@ -8,6 +8,7 @@
 
 	if (is_home()) {
 		require_once('components/news.inc.php');
+		require_once('components/news-extra.inc.php');
 	}
 
 ?>
