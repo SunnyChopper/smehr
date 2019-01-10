@@ -3,7 +3,7 @@
 					<p style="text-transform: uppercase; text-align: center;">Noteworthy Settlements</p>
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -16,7 +16,7 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -29,7 +29,7 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -42,7 +42,7 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -55,7 +55,7 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -68,7 +68,7 @@
 
 					<div class="row">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://localhost/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -96,11 +96,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -108,7 +108,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -122,11 +122,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -134,7 +134,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -148,11 +148,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -160,7 +160,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -174,11 +174,11 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
 				<div class="video-box">
 					<div class="video-image">
-						<img src="http://localhost/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row">
 								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
 								</div>
 							</div>
 						</div>
@@ -186,7 +186,7 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://localhost/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
 							</div>
 						</div>
 
@@ -201,7 +201,7 @@
 </div>
 
 
-<div style="background: url('http://localhost/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
+<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-12 col-12">

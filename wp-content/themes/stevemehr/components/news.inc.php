@@ -29,7 +29,7 @@
 						<a href="<?php the_permalink(); ?>">
 							<div class="main-story-box">
 								<div class="main-story-image">
-									<img src="<?php the_post_thumbnail(); ?>" class="regular-image">
+									<img src="<?php get_the_post_thumbnail_url(); ?>" class="regular-image">
 								</div>
 								<div class="main-story-info">
 									<h4><?php the_title(); ?></h4>
@@ -45,7 +45,7 @@
 						<div class="blog-box">
 							<a href="">
 								<div class="blog-box-image">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/blog-image-1.png" class="regular-image">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/blog-image-1.png" class="regular-image">
 								</div>
 								<div class="blog-box-info">
 									<h5>Attorney Steven Mehr creates nation’s first law firm with former Judges and Senators on staff counsel</h5>
@@ -59,7 +59,7 @@
 						<div class="blog-box">
 							<a href="">
 								<div class="blog-box-image">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/blog-image-1.png" class="regular-image">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/blog-image-1.png" class="regular-image">
 								</div>
 								<div class="blog-box-info">
 									<h5>Attorney Steven Mehr creates nation’s first law firm with former Judges and Senators on staff counsel</h5>
@@ -72,7 +72,7 @@
 						<div class="blog-box">
 							<a href="">
 								<div class="blog-box-image">
-									<img src="http://localhost/wp-content/themes/stevemehr/images/blog-image-1.png" class="regular-image">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/blog-image-1.png" class="regular-image">
 								</div>
 								<div class="blog-box-info">
 									<h5>Attorney Steven Mehr creates nation’s first law firm with former Judges and Senators on staff counsel</h5>
