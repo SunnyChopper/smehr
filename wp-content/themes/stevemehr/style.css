@@ -102,6 +102,10 @@ html, body {
 	color: #5773ad;
 }
 
+.help-box-title {
+	font-size: 24px;
+}
+
 #help-headline {
 	margin-bottom: 32px;
     font-weight: 600;
@@ -203,6 +207,16 @@ html, body {
 	.awarded-description {
 		font-size: 14px;
 		line-height: 1.5em;
+	}
+
+	.help-box-title {
+		font-size: 19px;
+	}
+
+	.help-box-text {
+		font-size: 14px;
+		margin-bottom: 8px;
+		line-height: 1.25em;
 	}
 }
 
@@ -335,7 +349,7 @@ html, body {
 .main-banner {
 	background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Banner-Image.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 }
 
 .main-blog-post-box {
@@ -376,7 +390,8 @@ html, body {
 
 .help-row {
 	background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/How-We-Can-Help-You-Background.png');
-	background-size: cover;
+	background-size: cover;'
+	background-position: center;
 	padding-top: 32px;
 	padding-bottom: 32px;
 	color: white;
@@ -491,8 +506,8 @@ html, body {
 }
 
 .proof-image-box > img {
-	border-top-right-radius: 8px !important;
-	border-top-left-radius: 8px !important;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
 }
 
 .proof-box-text {
@@ -932,6 +947,56 @@ html, body {
 	height: auto;
 }
 
+.help-box > #personal-injury-image {
+	width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
+}
+
+.help-box > #business-image {
+	width: 34%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
+}
+
+.help-box > #other-practices-image {
+	width: 37%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.help-box > #personal-injury-image {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 32px;
+	}
+
+	.help-box > #business-image {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 32px;
+	}
+
+	.help-box > #other-practices-image {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 32px;
+	}
+}
+
 /* ----------------------- *\
 	Videos
 \* ----------------------- */
@@ -965,10 +1030,6 @@ html, body {
 	#bottom-cta-form {
 		margin-top: 0px;
 		width: 100%;
-	}
-
-	.main-banner {
-		background-position: center;
 	}
 }
 
@@ -1257,7 +1318,7 @@ html, body {
 	}
 
 	.help-box {
-		min-height: 485px;
+		min-height: 375px;
 	}
 
 	#featured-headline {
