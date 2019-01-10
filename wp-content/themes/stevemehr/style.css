@@ -1,26 +1,3 @@
-/*
-Theme Name: Steve Mehr
-Theme URI: https://www.redwolfent.com
-Description: Custom theme design for Steve Mehr
-Version: 1.0
-Author: SunnyChopper
-Author URI: https://www.sunnychopper.com
-*/
-
-div.navbar-nav > li > a {
-	font-family: 'Montserrat', 'Rubik', sans-serif;
-	font-weight: 700;
-	letter-spacing: 2px;
-	color: white;
-	font-size: 12px;
-	padding: 0px;
-}
-
-div.navbar-nav li {
-    color: white;
-	margin-right: 36px;
-}
-
 /* ----------------------- *\
 	General Font Rules
 \* ----------------------- */
@@ -107,7 +84,6 @@ html, body {
 	letter-spacing: 2px;
 	color: white;
 	font-size: 12px;
-	padding: 4px 0px;
 }
 
 /* ----------------------- *\
@@ -197,6 +173,60 @@ html, body {
 .sidebar-claim {
 	font-size: 10px;
 	margin-bottom: 0px;
+}
+
+.awarded-title {
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.awarded-description {
+	font-size: 16px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.awarded-title {
+		font-size: 24px;
+	}
+
+	.awarded-description {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.awarded-title {
+		font-size: 19px;
+	}
+
+	.awarded-description {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+	.awarded-title {
+		font-size: 19px;
+	}
+
+	.awarded-description {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.awarded-title {
+		font-size: 21px;
+		margin-bottom: 0px;
+	}
+
+	.awarded-description {
+		font-size: 14px;
+		line-height: 1.25em;
+	}
 }
 
 /* ----------------------- *\
@@ -303,9 +333,9 @@ html, body {
 }
 
 .main-banner {
-	background-image: url('../stevemehr/images/Banner-Image.png');
+	background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Banner-Image.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 }
 
 .main-blog-post-box {
@@ -345,7 +375,7 @@ html, body {
 }
 
 .help-row {
-	background-image: url('../stevemehr/images/How-We-Can-Help-You-Background.png');
+	background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/How-We-Can-Help-You-Background.png');
 	background-size: cover;
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -370,7 +400,7 @@ html, body {
 }
 
 .image-row {
-	background-image: url('../stevemehr/images/banner-header-min.png');
+	background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/banner-header-min.png');
 	background-size: cover;
 	padding-bottom: 48px;
 	padding-top: 32px;
@@ -458,6 +488,11 @@ html, body {
 	-webkit-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
 	box-shadow: 0px 10px 25px -5px rgba(0,0,0,0.75);
+}
+
+.proof-image-box > img {
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
 }
 
 .proof-box-text {
@@ -1028,7 +1063,7 @@ html, body {
 
 @media only screen and (max-width: 767px) {
 	.main-banner {
-		background-image: url('../stevemehr/images/banner-header-min.png');
+		background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/banner-header-min.png');
 		background-size: cover;
 		background-position: center;
 	}
@@ -1269,7 +1304,7 @@ html, body {
 
 	#awarded_title {
 		font-size: 32px;
-		margin-top: 16px;
+		margin-top: 0px;
 	}
 
 	#awarded_subtitle {
@@ -1307,14 +1342,6 @@ html, body {
 }
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
-	.main-story-info {
-		margin-top: 0px;
-	}
-
-	.active {
-		border-bottom: none !important;
-	}
-	
 	#main_navbar {
 		background-color: rgba(15,19,35, 0.75);
 		padding: 16px;
@@ -1403,14 +1430,6 @@ html, body {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 575px) {
-	.main-story-info {
-		margin-top: 0px;
-	}
-
-	.active {
-		border-bottom: none !important;
-	}
-
 	#main_navbar {
 		background-color: rgba(15,19,35, 0.75);
 		padding: 16px;
@@ -1519,14 +1538,6 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
-	.main-story-info {
-		margin-top: 0px;
-	}
-
-	.active {
-		border-bottom: none !important;
-	}
-
 	.video-box > .video-image > .video-bar {
 		padding: 0.25em;
 	}
@@ -1662,7 +1673,7 @@ html, body {
 	}
 
 	.image-row {
-		background-image: url('../stevemehr/images/banner-header-min.png');
+		background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/banner-header-min.png');
 		background-size: cover;
 		padding-bottom: 24px;
 		padding-top: 18px;
@@ -1687,7 +1698,7 @@ html, body {
 	#awarded_title {
 		color: white;
 		font-size: 24px;
-		margin-top: 16px;
+		margin-top: 0px;
 		text-align: left !important;
 	}
 
@@ -1761,7 +1772,7 @@ html, body {
 	}
 
 	.main-banner {
-		background-image: url('../stevemehr/images/banner-header-min.png');
+		background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/banner-header-min.png');
 	}
 
 	#main-banner-top-headline {
