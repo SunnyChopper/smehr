@@ -23,8 +23,8 @@
 				$iterator_index = 0;
 				if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post();
 			?>
-			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
-				<?php if ($iterator_index == 0): ?>
+			<?php if ($iterator_index == 0): ?>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 							<a href="<?php the_permalink(); ?>">
@@ -40,7 +40,7 @@
 							</a>
 						</div>
 					</div>
-				<?php endif; ?>
+			<?php endif; ?>
 
 				<?php if (count($featured) > 0): ?>
 					<?php if ($iterator_index == 1): ?>
