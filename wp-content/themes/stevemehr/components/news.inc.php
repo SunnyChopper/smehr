@@ -67,7 +67,6 @@
 				<?php endif; ?>
 
 				<?php
-					echo "Iterator index: " . $iterator_index . "\n";
 					$iterator_index += 1;
 					endwhile; else:
 					endif;
