@@ -29,7 +29,8 @@
 						<a href="<?php the_permalink(); ?>">
 							<div class="main-story-box">
 								<div class="main-story-image">
-									<img src="<?php get_the_post_thumbnail_url(); ?>" class="regular-image">
+									<?php $thumb_id = get_post_thumbnail_id(); $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true); $thumb_url = $thumb_url_array[0]; ?>
+									<img src="<?php echo $thumb_url; ?>" class="regular-image">
 								</div>
 								<div class="main-story-info">
 									<h4><?php the_title(); ?></h4>
