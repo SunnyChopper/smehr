@@ -18,7 +18,8 @@
 					$args = array(
 				        'posts_per_page' => 4,
 				        'meta_key' => 'meta-checkbox',
-				        'meta_value' => 'yes'
+				        'meta_value' => 'yes',
+				        'nopaging' => true
 				    );
 					$featured = new WP_Query($args);
 					$iterator_index = 0;
