@@ -23,12 +23,16 @@
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 				<p id="featured-headline-small"><b><small style="font-weight: 600;">Featured Headline</small></b></p>
 				<div class="row">
-					<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-6 col-6">
+					<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-6 col-6" style="display: flex;">
+						<div style="margin: auto;">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Mag-Cover.png" class="regular-image">
 					</div>
-					<div class="col-lg-8 col-md-12 col-sm-6 col-6">
+					</div>
+					<div class="col-lg-8 col-md-12 col-sm-6 col-6" style="display: flex;">
+						<div style="margin: auto;">
 						<h3 id="featured-headline" class="mt-16-mobile">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
 						<p id="featured-link" style="font-size: 14px;"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> VIEW FEATURE</a></p>
+					</div>
 					</div>
 				</div>
 			</div>
@@ -88,24 +92,6 @@
 		</div>
 	</div>
 </div>
-
-<section version="desktop-version" class="d-none d-md-block">
-	<div class="theme-row">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h3 class="text-center" id="front-page-quote">The most powerful legal team in the country.</h3>
-				</div>
-			</div>
-
-			<div class="row mt-4">
-				<div class="col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-6 offset-sm-3 col-6 offset-3">
-					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/forbes-white-min.png" class="regular-image-60">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <section version="mobile-version" class="d-md-none">
 	<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/mobile-testimonial-min.png'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
