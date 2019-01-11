@@ -267,7 +267,7 @@ html, body {
     position: relative;
     z-index: 4;
     font-family: 'Roboto', sans-serif;
-    height: 196px;
+    height: 180px;
     display: flex;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -1078,7 +1078,7 @@ html, body {
 	}
 
 	.main-story-info {
-	    height: 128px;
+	    height: 140px;
 	}
 
 	.blog-box-info {

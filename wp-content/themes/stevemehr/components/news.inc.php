@@ -102,7 +102,7 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident-1.jpg" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident.jpg" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
