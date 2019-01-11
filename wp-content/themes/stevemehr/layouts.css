@@ -786,6 +786,203 @@
 	}
 }
 
+.low-padding-left {
+	padding-left: 0.5em;
+}
+
+.normal-padding-left {
+	padding-left: 1em;
+}
+
+.heavy-padding-left {
+	padding-left: 1.5em;
+}
+
+.low-padding-top {
+	padding-top: 0.5em;
+}
+
+.normal-padding-top {
+	padding-top: 1em;
+}
+
+.heavy-padding-top {
+	padding-top: 1.5em;
+}
+
+.low-padding-right {
+	padding-right: 0.5em;
+}
+
+.normal-padding-right {
+	padding-right: 1em;
+}
+
+.heavy-padding-right {
+	padding-right: 1.5em;
+}
+
+.low-padding-bottom {
+	padding-bottom: 0.5em;
+}
+
+.normal-padding-bottom {
+	padding-bottom: 1em;
+}
+
+.heavy-padding-bottom {
+	padding-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 575px) {
+	.low-padding-left-mobile {
+		padding-left: 0.5em;
+	}
+
+	.normal-padding-left-mobile {
+		padding-left: 1em;
+	}
+
+	.heavy-padding-left-mobile {
+		padding-left: 1.5em;
+	}
+
+	.low-padding-top-mobile {
+		padding-top: 0.5em;
+	}
+
+	.normal-padding-top-mobile {
+		padding-top: 1em;
+	}
+
+	.heavy-padding-top-mobile {
+		padding-top: 1.5em;
+	}
+
+	.low-padding-right-mobile {
+		padding-right: 0.5em;
+	}
+
+	.normal-padding-right-mobile {
+		padding-right: 1em;
+	}
+
+	.heavy-padding-right-mobile {
+		padding-right: 1.5em;
+	}
+
+	.low-padding-bottom-mobile {
+		padding-bottom: 0.5em;
+	}
+
+	.normal-padding-bottom-mobile {
+		padding-bottom: 1em;
+	}
+
+	.heavy-padding-bottom-mobile {
+		padding-bottom: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 575px) and (max-width: 992px) {
+	.low-padding-left-tablet {
+		padding-left: 0.5em;
+	}
+
+	.normal-padding-left-tablet {
+		padding-left: 1em;
+	}
+
+	.heavy-padding-left-tablet {
+		padding-left: 1.5em;
+	}
+
+	.low-padding-top-tablet {
+		padding-top: 0.5em;
+	}
+
+	.normal-padding-top-tablet {
+		padding-top: 1em;
+	}
+
+	.heavy-padding-top-tablet {
+		padding-top: 1.5em;
+	}
+
+	.low-padding-right-tablet {
+		padding-right: 0.5em;
+	}
+
+	.normal-padding-right-tablet {
+		padding-right: 1em;
+	}
+
+	.heavy-padding-right-tablet {
+		padding-right: 1.5em;
+	}
+
+	.low-padding-bottom-tablet {
+		padding-bottom: 0.5em;
+	}
+
+	.normal-padding-bottom-tablet {
+		padding-bottom: 1em;
+	}
+
+	.heavy-padding-bottom-tablet {
+		padding-bottom: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.low-padding-left-desktop {
+		padding-left: 0.5em;
+	}
+
+	.normal-padding-left-desktop {
+		padding-left: 1em;
+	}
+
+	.heavy-padding-left-desktop {
+		padding-left: 1.5em;
+	}
+
+	.low-padding-top-desktop {
+		padding-top: 0.5em;
+	}
+
+	.normal-padding-top-desktop {
+		padding-top: 1em;
+	}
+
+	.heavy-padding-top-desktop {
+		padding-top: 1.5em;
+	}
+
+	.low-padding-right-desktop {
+		padding-right: 0.5em;
+	}
+
+	.normal-padding-right-desktop {
+		padding-right: 1em;
+	}
+
+	.heavy-padding-right-desktop {
+		padding-right: 1.5em;
+	}
+
+	.low-padding-bottom-desktop {
+		padding-bottom: 0.5em;
+	}
+
+	.normal-padding-bottom-desktop {
+		padding-bottom: 1em;
+	}
+
+	.heavy-padding-bottom-desktop {
+		padding-bottom: 1.5em;
+	}
+}
 
 /* ------------------------ *\
 	Colors
