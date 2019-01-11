@@ -196,7 +196,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px) and (min-width: 575px) {
+@media only screen and (max-width: 992px) and (min-width: 575px) {
 	.m-0-tablet {
 		margin: 0px;
 	}
@@ -294,7 +294,7 @@
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 	.m-0-desktop {
 		margin: 0px;
 	}
@@ -590,7 +590,7 @@
 	}
 }
 
-@media only screen and (min-width: 575px) and (max-width: 768px) {
+@media only screen and (min-width: 575px) and (max-width: 992px) {
 	.p-0-tablet {
 		padding: 0px;
 	}
@@ -688,7 +688,7 @@
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 	.p-0-desktop {
 		padding: 0px;
 	}

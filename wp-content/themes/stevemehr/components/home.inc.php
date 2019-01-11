@@ -1,6 +1,6 @@
 
 <div class="container">
-	<div class="top-section" style="padding: 24px;">
+	<div class="top-section">
 		<div class="row">
 			<div class="col-lg-6 order-lg-1 col-md-12 mt-32-tablet order-md-2 col-sm-12 order-sm-2 col-12 order-2">
 	 			<h4 class="mt-16-mobile"><b>Top Accident Attorneys</b></h4>
@@ -23,10 +23,10 @@
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 				<p id="featured-headline-small"><b><small style="font-weight: 600;">Featured Headline</small></b></p>
 				<div class="row">
-					<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
+					<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-6 col-6">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Mag-Cover.png" class="regular-image">
 					</div>
-					<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+					<div class="col-lg-8 col-md-12 col-sm-6 col-6">
 						<h3 id="featured-headline" class="mt-16-mobile">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
 						<p id="featured-link" style="font-size: 14px;"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> VIEW FEATURE</a></p>
 					</div>
