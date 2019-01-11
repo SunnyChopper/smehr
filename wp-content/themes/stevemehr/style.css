@@ -384,6 +384,7 @@ html, body {
 	background-color: white;
 	text-decoration: none;
 	margin-bottom: 24px;
+	border-radius: 8px;
 	transition: 0.25s all;
 	-webkit-transition: 0.25s all;
 }
@@ -998,6 +999,8 @@ html, body {
 	background-position: center;
 	height: 149px;
 	width: 100%;
+	border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {

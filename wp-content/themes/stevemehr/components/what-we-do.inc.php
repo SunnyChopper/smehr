@@ -148,6 +148,10 @@
 	}
 
 	@media only screen and (min-width: 575px) and (max-width: 768px) {
+		#banner-padded-area {
+			padding: 16px;
+		}
+
 		#main-banner-top-headline {
 			margin-top: 72px;
 			font-size: 12px;
@@ -163,7 +167,7 @@
 		}
 
 		.video-box-overlay > h4 {
-			font-size: 24px;
+			font-size: 14px;
 		}
 
 		#main-banner-title {
@@ -443,121 +447,58 @@
 	</div>
 </div>
 
-<section version="desktop-version" class="d-none d-md-block">
-	<div class="container mt-32 mb-32">
-		<div class="row">
-			<div class="col-lg-8 col-md-7 col-sm-12 col-12">
-				<div class="card-box">
-					<h2>Call our Car Accident Lawyers for a Free Consultation</h2>
-					<p>Our attorneys have years of experience representing innocent victims who have been injured in car accidents. We will do everything in our power to get you the compensation you deserve. We believe that if you were injured, the responsible person should be held accountable for his or her actions. At Steve Mehr Injury Lawyers, our attorneys work hard to get you the attention you deserve and the compensation you deserve.</p>
-					<p>Filing a claim would help you pay for certain damages that will need your attention in the aftermath of a car accident. You could earn money for:</p>
-					<ul>
-						<li>Medical bills and hospital expenses</li>
-						<li>Funeral costs</li>
-						<li>Loss of wages</li>
-						<li>Property damage</li>
-						<li>Pain and suffering</li>
-					</ul>
-					<p class="mb-0">Contact our accident lawyers today for a free consultation to find out how we can help you.</p>
-				</div>
+<div class="container mt-32 mb-32">
+	<div class="row">
+		<div class="col-lg-8 col-md-7 col-sm-12 col-12">
+			<div class="card-box">
+				<h2>Call our Car Accident Lawyers for a Free Consultation</h2>
+				<p>Our attorneys have years of experience representing innocent victims who have been injured in car accidents. We will do everything in our power to get you the compensation you deserve. We believe that if you were injured, the responsible person should be held accountable for his or her actions. At Steve Mehr Injury Lawyers, our attorneys work hard to get you the attention you deserve and the compensation you deserve.</p>
+				<p>Filing a claim would help you pay for certain damages that will need your attention in the aftermath of a car accident. You could earn money for:</p>
+				<ul>
+					<li>Medical bills and hospital expenses</li>
+					<li>Funeral costs</li>
+					<li>Loss of wages</li>
+					<li>Property damage</li>
+					<li>Pain and suffering</li>
+				</ul>
+				<p class="mb-0">Contact our accident lawyers today for a free consultation to find out how we can help you.</p>
 			</div>
-			<div class="col-lg-4 col-md-5 col-sm-12 col-12 mt-32-mobile">
-				<div class="front-page-form" id="bottom-cta-form">
-					<h3 class="text-center">Get Help Now</h3>
-					<h5 class="text-center">Free Consultation</h5>
-					<hr />
-					<form>
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_first_name_field">
-								<input type="text" class="form-control" placeholder="First Name" name="first_name" required>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_last_name_field">
-								<input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_email_field">
-								<input type="email" class="form-control" placeholder="Email" name="email" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_phone_field">
-								<input type="tel" class="form-control" placeholder="Phone" name="email" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_message_field">
-								<textarea class="form-control" placeholder="Tell us what happened" name="message"></textarea>
-							</div>
-
-							<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
-								<input type="submit" value="Submit Form" id="bottom_cta_submit_button">
-							</div>
+		</div>
+		<div class="col-lg-4 col-md-5 col-sm-12 col-12 mt-32-mobile">
+			<div class="front-page-form" id="bottom-cta-form">
+				<h3 class="text-center">Get Help Now</h3>
+				<h5 class="text-center">Free Consultation</h5>
+				<hr />
+				<form>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_first_name_field">
+							<input type="text" class="form-control" placeholder="First Name" name="first_name" required>
 						</div>
-					</form>
-				</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_last_name_field">
+							<input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
+						</div>
+
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_email_field">
+							<input type="email" class="form-control" placeholder="Email" name="email" required>
+						</div>
+
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_phone_field">
+							<input type="tel" class="form-control" placeholder="Phone" name="email" required>
+						</div>
+
+						<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_message_field">
+							<textarea class="form-control" placeholder="Tell us what happened" name="message"></textarea>
+						</div>
+
+						<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
+							<input type="submit" value="Submit Form" id="bottom_cta_submit_button">
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
-</section>
-
-<section version="mobile-version" class="d-md-none">
-	<div style="background-color: #eef0f1; padding: 16px;">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h4 class="text-center"><b>How can we help you?</b></h4>
-				<p class="text-center" style="font-size: 13px;">Select a practice area below.</p>
-			</div>
-
-			<div class="scrolling-wrapper">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-7 scroll-card">
-					<div class="practice-box">
-						<div class="practice-box-image">
-							<img src="https://cdn.motor1.com/images/mgl/ZRKxZ/s3/2019-chevrolet-corvette-zr1-for-sale.jpg" class="regular-image">
-						</div>
-						<div class="practice-box-info">
-							<h6>Auto Accidents</h6>
-							<p>Auto Accidents</p>
-							<p>Motorcycle Accidents</p>
-							<p>Truck Accidents</p>
-							<p>Wrongful Death</p>
-							<p>Brain & Spine Injuries</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-5 col-md-5 col-sm-5 col-7 scroll-card">
-					<div class="practice-box">
-						<div class="practice-box-image">
-							<img src="https://cdn.motor1.com/images/mgl/ZRKxZ/s3/2019-chevrolet-corvette-zr1-for-sale.jpg" class="regular-image">
-						</div>
-						<div class="practice-box-info">
-							<h6>Auto Accidents</h6>
-							<p>Auto Accidents</p>
-							<p>Motorcycle Accidents</p>
-							<p>Truck Accidents</p>
-							<p>Wrongful Death</p>
-							<p>Brain & Spine Injuries</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-5 col-md-5 col-sm-5 col-7 scroll-card">
-					<div class="practice-box">
-						<div class="practice-box-image">
-							<img src="https://cdn.motor1.com/images/mgl/ZRKxZ/s3/2019-chevrolet-corvette-zr1-for-sale.jpg" class="regular-image">
-						</div>
-						<div class="practice-box-info">
-							<h6>Auto Accidents</h6>
-							<p>Auto Accidents</p>
-							<p>Motorcycle Accidents</p>
-							<p>Truck Accidents</p>
-							<p>Wrongful Death</p>
-							<p>Brain & Spine Injuries</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+</div>
 
 <section version="desktop-version" class="d-none d-md-block">
 	<div class="theme-row">
@@ -701,7 +642,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
@@ -727,7 +668,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
@@ -753,7 +694,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
@@ -779,7 +720,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-mobile-padding">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
