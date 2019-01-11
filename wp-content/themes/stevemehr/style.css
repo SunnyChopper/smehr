@@ -1582,6 +1582,12 @@ html, body {
     	margin-bottom: 16px;
 	}
 
+	#help-headline {
+		margin-bottom: 16px;
+	    font-size: 24px;
+		letter-spacing: 2px;
+	}
+
 	#featured-headline {
 		font-size: 30px;
 	}
@@ -1702,6 +1708,12 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+	#help-headline {
+		margin-bottom: 16px;
+	    font-size: 24px;
+		letter-spacing: 2px;
+	}
+
 	.help-box {
 		margin-top: 16px;
     	margin-bottom: 16px;
