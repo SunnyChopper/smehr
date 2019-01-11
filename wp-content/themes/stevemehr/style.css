@@ -256,6 +256,8 @@ html, body {
 	width: 100%;
 	height: 292px;
 	background-size: cover;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 }
 
 .main-story-info {
@@ -265,6 +267,15 @@ html, body {
     position: relative;
     z-index: 4;
     font-family: 'Roboto', sans-serif;
+    height: 196px;
+    display: flex;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.main-story-content {
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .video-box {
@@ -1066,6 +1077,10 @@ html, body {
 		background-size: cover;
 	}
 
+	.main-story-info {
+	    height: 128px;
+	}
+
 	.blog-box-info {
 		height: 107px;
 	}
@@ -1312,6 +1327,10 @@ html, body {
 		width: 100%;
 		height: 225px;
 		background-size: cover;
+	}
+
+	.main-story-info {
+	    height: 164px;
 	}
 
 	.video-box > .video-image > .video-bar {

@@ -35,8 +35,10 @@
 									
 								</div>
 								<div class="main-story-info">
-									<p class="rubik medium-letter-spacing mb-2"><small><b>FORBES</b> MAGAZINE</small></p>
-									<h4><?php the_title(); ?></h4>
+									<div class="main-story-content">
+										<p class="rubik medium-letter-spacing mb-2"><small><b>FORBES</b> MAGAZINE</small></p>
+										<h4><?php the_title(); ?></h4>
+									</div>
 								</div>
 							</div>
 						</a>
@@ -87,7 +89,7 @@
 					<p style="text-transform: uppercase; text-align: center;">Noteworthy Settlements</p>
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
@@ -100,11 +102,37 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident-1.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$12.8</h2>
+							<h2 class="sidebar-number">$10.5</h2>
+							<h4 class="sidebar-million">MILLION</h4>
+							<h6 class="sidebar-type">Truck Accident:</h6>
+							<p class="sidebar-claim">Death Claim</p>
+						</div>
+					</div>
+
+					<div class="row mb-4">
+						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-2.png" class="regular-image">
+						</div>
+
+						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
+							<h2 class="sidebar-number">$10.4</h2>
+							<h4 class="sidebar-million">MILLION</h4>
+							<h6 class="sidebar-type">Car Accident:</h6>
+							<p class="sidebar-claim">Jury Verdict</p>
+						</div>
+					</div>
+
+					<div class="row mb-4">
+						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-3.png" class="regular-image">
+						</div>
+
+						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
+							<h2 class="sidebar-number">$7.5</h2>
 							<h4 class="sidebar-million">MILLION</h4>
 							<h6 class="sidebar-type">Car Accident:</h6>
 							<p class="sidebar-claim">Brain Injury</p>
@@ -113,53 +141,27 @@
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/pedestrian-accident.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$12.8</h2>
+							<h2 class="sidebar-number">$6.1</h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Brain Injury</p>
-						</div>
-					</div>
-
-					<div class="row mb-4">
-						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
-						</div>
-
-						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$12.8</h2>
-							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Brain Injury</p>
-						</div>
-					</div>
-
-					<div class="row mb-4">
-						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
-						</div>
-
-						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$12.8</h2>
-							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
+							<h6 class="sidebar-type">Pedestrian Accident:</h6>
 							<p class="sidebar-claim">Brain Injury</p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/proof-image-1-min.png" class="regular-image">
+							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-4.png" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$12.8</h2>
+							<h2 class="sidebar-number">$3.2</h2>
 							<h4 class="sidebar-million">MILLION</h4>
 							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Brain Injury</p>
+							<p class="sidebar-claim">Back Injury</p>
 						</div>
 					</div>
 				</div>
