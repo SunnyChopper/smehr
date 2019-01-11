@@ -247,6 +247,10 @@ html, body {
 	Special Divs
 \* ----------------------- */
 
+.top-section {
+	padding: 32px;
+}
+
 .main-story-box {
 	width: 100%;
 }
@@ -1077,6 +1081,10 @@ html, body {
 		background-size: cover;
 	}
 
+	.top-section {
+		padding: 32px;
+	}
+
 	.main-story-info {
 	    height: 140px;
 	}
@@ -1318,6 +1326,10 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+	.top-section {
+		padding: 24px;
+	}
+
 	.blog-box-info {
 		height: 137px;
 	}
@@ -1473,6 +1485,10 @@ html, body {
 }
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+	.top-section {
+		padding: 24px;
+	}
+
 	#main_navbar {
 		background-color: rgba(15,19,35, 0.75);
 		padding: 16px;
@@ -1561,6 +1577,19 @@ html, body {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 575px) {
+	.help-box {
+		margin-top: 16px;
+    	margin-bottom: 16px;
+	}
+
+	#featured-headline {
+		font-size: 30px;
+	}
+
+	.top-section {
+		padding: 24px;
+	}
+
 	.main-story-image {
 		height: 150px;
 	}
@@ -1673,6 +1702,19 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+	.help-box {
+		margin-top: 16px;
+    	margin-bottom: 16px;
+	}
+
+	.top-section {
+		padding: 24px;
+	}
+
+	#featured-headline {
+		font-size: 26px;
+	}
+
 	.main-story-image {
 		height: 150px;
 	}

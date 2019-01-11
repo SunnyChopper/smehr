@@ -1,158 +1,95 @@
-<section version="desktop-version" class="d-none d-md-block">
+
+<div class="container">
+	<div class="top-section" style="padding: 24px;">
+		<div class="row">
+			<div class="col-lg-6 order-lg-1 col-md-12 mt-32-tablet order-md-2 col-sm-12 order-sm-2 col-12 order-2">
+	 			<h4 class="mt-16-mobile"><b>Top Accident Attorneys</b></h4>
+				<p class="regular-p">We understand how seriously a car accident can impact many aspects of your life. Car accidents happen far too often and can result in whiplash, head and back pain, and other major injuries. Recovering from a serious accident is already difficult — what happens if the insurance companies refuse to pay? Your physical injuries, medical bills, lost wages, and other expenses begin to stack up. The experienced car accident lawyers at Steve Mehr Injury Attorneys, P.C. know what it takes to recover what you deserve from the insurance companies.</p>
+			</div>
+
+			<div class="col-lg-6 order-lg-2 col-md-12 order-md-1 col-sm-12 order-sm-1 col-12 order-1">
+				<div class="videoWrapper">
+				    <!-- Copy & Pasted from YouTube -->
+				    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 16px;">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+				<h4><b>Experienced Car Accident Lawyers</b></h4>
+				<p class="regular-p">People often think that they can’t afford a good accident lawyer; but we believe everyone should have access to exceptional legal service. We provide free consultations for everyone who calls our offices. There are no upfront fees or hidden costs; you only pay attorney fees if we recover money for you. Car accidents can result in a wide range of bodily trauma including head, back, and neck injuries. If you or a loved one has been seriously injured in an accident, call the car accident lawyers at Steve Mehr Injury Attorneys, P.C. for a free, confidential accident consultation.
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+				<p id="featured-headline-small"><b><small style="font-weight: 600;">Featured Headline</small></b></p>
+				<div class="row">
+					<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
+						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Mag-Cover.png" class="regular-image">
+					</div>
+					<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+						<h3 id="featured-headline" class="mt-16-mobile">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
+						<p id="featured-link" style="font-size: 14px;"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> VIEW FEATURE</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="help-row">
 	<div class="container">
-		<div style="padding: 48px;">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-		 			<h4><b>Top Accident Attorneys</b></h4>
-					<p class="regular-p">We understand how seriously a car accident can impact many aspects of your life. Car accidents happen far too often and can result in whiplash, head and back pain, and other major injuries. Recovering from a serious accident is already difficult — what happens if the insurance companies refuse to pay? Your physical injuries, medical bills, lost wages, and other expenses begin to stack up. The experienced car accident lawyers at Steve Mehr Injury Attorneys, P.C. know what it takes to recover what you deserve from the insurance companies.</p>
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<div class="videoWrapper">
-					    <!-- Copy & Pasted from YouTube -->
-					    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="row" style="margin-top: 16px;">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<h4><b>Experienced Car Accident Lawyers</b></h4>
-					<p class="regular-p">People often think that they can’t afford a good accident lawyer; but we believe everyone should have access to exceptional legal service. We provide free consultations for everyone who calls our offices. There are no upfront fees or hidden costs; you only pay attorney fees if we recover money for you. Car accidents can result in a wide range of bodily trauma including head, back, and neck injuries. If you or a loved one has been seriously injured in an accident, call the car accident lawyers at Steve Mehr Injury Attorneys, P.C. for a free, confidential accident consultation.
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-					<p id="featured-headline-small"><b><small style="font-weight: 600;">Featured Headline</small></b></p>
-					<div class="row">
-						<div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Mag-Cover.png" class="regular-image">
-						</div>
-						<div class="col-lg-8 col-md-12 col-sm-12 col-12">
-							<h3 id="featured-headline">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
-							<p id="featured-link" style="font-size: 14px;"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> VIEW FEATURE</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section version="desktop-version" class="d-none d-md-block">
-	<div class="help-row">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h4 class="text-center text-uppercase" id="help-headline">How We Can Help You</h4>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
-					<div class="help-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/personal-injury.png" id="personal-injury-image">
-						<h4 class="roboto heavy-font help-box-title">Personal Injury</h4>
-						<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
-						<p class="help-box-text">Auto Accidents</p>
-						<p class="help-box-text">Motorcycle Accidents</p>
-						<p class="help-box-text">Truck Accidents</p>
-						<p class="help-box-text">Wrongful Death Claims</p>
-						<p class="help-box-text">Brain & Spinal Cord Injuries</p>
-						<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
-					<div class="help-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/business.png" id="business-image">
-						<h4 class="roboto heavy-font help-box-title">Business</h4>
-						<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
-						<p class="help-box-text">Business Litigation</p>
-						<p class="help-box-text">Business Consulting</p>
-						<p class="help-box-text">Celebrity & High Profile Cases</p>
-						<p class="help-box-text">Asset Protection</p>
-						<p class="help-box-text">Class Action Litigation</p>
-						<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
-					<div class="help-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/other-practices.png" id="other-practices-image">
-						<h4 class="roboto heavy-font help-box-title">Other Practices</h4>
-						<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
-						<p class="help-box-text">Whistleblower & Fraud Claims</p>
-						<p class="help-box-text">Bad Faith Insurance</p>
-						<p class="help-box-text">Nursing Home Abuse</p>
-						<p class="help-box-text">Professional Malpractice</p>
-						<p class="help-box-text">IP & Trade Disputes</p>
-						<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section version="mobile-version" class="d-md-none">
-	<div style="background-color: #eef0f1; padding: 16px;">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h4 class="text-center"><b>How can we help you?</b></h4>
-				<p class="text-center" style="font-size: 13px;">Select a practice area below.</p>
+				<h4 class="text-center text-uppercase" id="help-headline">How We Can Help You</h4>
 			</div>
 
-			<div class="scrolling-wrapper">
-				<div class="col-lg-5 col-md-5 col-sm-5 col-7 scroll-card">
-					<div class="practice-box">
-						<div class="practice-box-image">
-							<img src="https://cdn.motor1.com/images/mgl/ZRKxZ/s3/2019-chevrolet-corvette-zr1-for-sale.jpg" class="regular-image">
-						</div>
-						<div class="practice-box-info">
-							<h6>Auto Accidents</h6>
-							<p>Auto Accidents</p>
-							<p>Motorcycle Accidents</p>
-							<p>Truck Accidents</p>
-							<p>Wrongful Death</p>
-							<p>Brain & Spine Injuries</p>
-						</div>
-					</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+				<div class="help-box">
+					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/personal-injury.png" id="personal-injury-image">
+					<h4 class="roboto heavy-font help-box-title">Personal Injury</h4>
+					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
+					<p class="help-box-text">Auto Accidents</p>
+					<p class="help-box-text">Motorcycle Accidents</p>
+					<p class="help-box-text">Truck Accidents</p>
+					<p class="help-box-text">Wrongful Death Claims</p>
+					<p class="help-box-text">Brain & Spinal Cord Injuries</p>
+					<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
 				</div>
+			</div>
 
-				<div class="col-lg-5 col-md-5 col-sm-5 col-7 scroll-card">
-					<div class="practice-box">
-						<div class="practice-box-image">
-							<img src="https://cdn.motor1.com/images/mgl/ZRKxZ/s3/2019-chevrolet-corvette-zr1-for-sale.jpg" class="regular-image">
-						</div>
-						<div class="practice-box-info">
-							<h6>Auto Accidents</h6>
-							<p>Auto Accidents</p>
-							<p>Motorcycle Accidents</p>
-							<p>Truck Accidents</p>
-							<p>Wrongful Death</p>
-							<p>Brain & Spine Injuries</p>
-						</div>
-					</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+				<div class="help-box">
+					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/business.png" id="business-image">
+					<h4 class="roboto heavy-font help-box-title">Business</h4>
+					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
+					<p class="help-box-text">Business Litigation</p>
+					<p class="help-box-text">Business Consulting</p>
+					<p class="help-box-text">Celebrity & High Profile Cases</p>
+					<p class="help-box-text">Asset Protection</p>
+					<p class="help-box-text">Class Action Litigation</p>
+					<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
 				</div>
+			</div>
 
-				<div class="col-lg-5 col-md-5 col-sm-5 col-7 scroll-card">
-					<div class="practice-box">
-						<div class="practice-box-image">
-							<img src="https://cdn.motor1.com/images/mgl/ZRKxZ/s3/2019-chevrolet-corvette-zr1-for-sale.jpg" class="regular-image">
-						</div>
-						<div class="practice-box-info">
-							<h6>Auto Accidents</h6>
-							<p>Auto Accidents</p>
-							<p>Motorcycle Accidents</p>
-							<p>Truck Accidents</p>
-							<p>Wrongful Death</p>
-							<p>Brain & Spine Injuries</p>
-						</div>
-					</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+				<div class="help-box">
+					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/other-practices.png" id="other-practices-image">
+					<h4 class="roboto heavy-font help-box-title">Other Practices</h4>
+					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
+					<p class="help-box-text">Whistleblower & Fraud Claims</p>
+					<p class="help-box-text">Bad Faith Insurance</p>
+					<p class="help-box-text">Nursing Home Abuse</p>
+					<p class="help-box-text">Professional Malpractice</p>
+					<p class="help-box-text">IP & Trade Disputes</p>
+					<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
-<section version="desktop-version" class="d-none d-md-black">
+<section version="desktop-version" class="d-none d-md-block">
 	<div class="theme-row">
 		<div class="container">
 			<div class="row">
@@ -163,7 +100,7 @@
 
 			<div class="row mt-4">
 				<div class="col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-6 offset-sm-3 col-6 offset-3">
-					<img src="forbes-white-min.png" class="regular-image-60">
+					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/forbes-white-min.png" class="regular-image-60">
 				</div>
 			</div>
 		</div>
