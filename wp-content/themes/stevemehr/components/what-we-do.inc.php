@@ -153,7 +153,7 @@
 		}
 
 		#main-banner-top-headline {
-			margin-top: 72px;
+			margin-top: 0px;
 			font-size: 12px;
 		}
 
@@ -168,10 +168,6 @@
 
 		.video-box-overlay > h4 {
 			font-size: 14px;
-		}
-
-		#main-banner-title {
-			margin-top: 24px;
 		}
 	}
 
