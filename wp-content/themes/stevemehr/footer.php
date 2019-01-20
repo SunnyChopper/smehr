@@ -2,7 +2,7 @@
 	<div class="container text-center text-md-left">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 mt-md-0 mb-sm-3">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/New-Logo-Black.png" class="regular-image-80" id="footer-logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/logo-black.png" class="regular-image-80" id="footer-logo">
 			</div>
 
 

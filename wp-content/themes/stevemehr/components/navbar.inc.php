@@ -11,7 +11,7 @@
 	<nav class="navbar navbar-dark fixed-top navbar-default navbar-expand-lg" id="main_navbar">
 		<div class="container">
 			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr(get_bloginfo('name','display')); ?>">
-				<img id="main_navbar_logo" src="<?php echo get_template_directory_uri(); ?>/images/new-logo.png" alt="Logo">
+				<img id="main_navbar_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo">
 			</a>
 			<button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
 <section version="mobile-version" class="d-md-none">
 	<nav class="navbar navbar-dark fixed-top navbar-default navbar-expand-lg" id="main_navbar">
 		<div class="container">
-			<a class="navbar-brand" href="#"><img id="main_navbar_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-min.png"></a>
+			<a class="navbar-brand" href="#"><img id="main_navbar_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
 			<button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
