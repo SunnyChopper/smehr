@@ -50,7 +50,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<p class="text-white mb-0"><small>100% Free Consultation. We Come to You.</small></p>
+				<p class="text-white text-center mb-2"><small>100% Free Consultation. We Come to You.</small></p>
 			</div>
 		</div>
 
