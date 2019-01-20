@@ -210,9 +210,9 @@
 		</div>
 
 		<div class="row mt-4">
-			<div class="col-12" style="background-color: #376fed; padding: 32px;">
-				<h4 class="text-center text-white">100s of settlements over $100,000.</h4>
-				<h6 class="text-center text-white mb-0">Free Consultation. Pay Nothing Unless We Win Your Case.</h6>
+			<div class="col-12" style="padding: 16px">
+				<h4 class="text-center">100s of settlements over $100,000.</h4>
+				<h6 class="text-center mb-0">Free Consultation. Pay Nothing Unless We Win Your Case.</h6>
 			</div>
 		</div>
 	</div>

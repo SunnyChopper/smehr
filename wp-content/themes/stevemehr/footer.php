@@ -8,22 +8,22 @@
 
 			<div class="col-md-2 col-6">
 				<h5 class="footer-header">Orange County</h5>
-				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
+				<p class="footer-text">4590 MacArthur Blvd.<br>Suite 650<br>Newport Beach, CA 92660<br>Main (213) 888-8888</p>
 			</div>
 
 			<div class="col-md-2 col-6">
 				<h5 class="footer-header">Los Angeles</h5>
-				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
+				<p class="footer-text">on South Figueroa<br>Los Angeles, CA 90017<br>Main (213) 334-7000<br>Toll Free (800) 888-8888</p>
 			</div>
 
 			<div class="col-md-2 col-6">
-				<h5 class="footer-header">San Francisco</h5>
-				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
+				<h5 class="footer-header">Inland Empire</h5>
+				<p class="footer-text">on Main Street<br>Los Angeles, CA 90017<br>Main (213) 334-7000<br>Toll Free (800) 888-8888</p>
 			</div>
 
 			<div class="col-md-2 col-6">
-				<h5 class="footer-header">Seattle</h5>
-				<p class="footer-text">601 S. Figueroa Street<br>30th Floor<br>Los Angeles, CA 90017<br>Main (213) 334-7000</p>
+				<h5 class="footer-header">Other Locations:</h5>
+				<p class="footer-text">Sacramento<br>San Francisco<br>Seattle<br>Las Vegas (Coming Soon)</p>
 			</div>
 		</div>
 	</div>
@@ -35,9 +35,9 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 				<p id="copyright-text">&copy; 2018 Steve Mehr | All Rights Reserved.</p>
 				<div style="display: block; margin-left: auto; margin-right: auto; width: fit-content; font-size: 12px; color: #8d9199;">
-					<a href="" class="footer-link">Lawyer Advertising Disclaimer</a> |
-					<a href="" class="footer-link">Terms of Use</a> |
-					<a href="" class="footer-link">Privacy Policy</a> |
+					<a href="" class="footer-link">Lawyer Advertising Disclaimer | </a>
+					<a href="" class="footer-link">Terms of Use | </a>
+					<a href="" class="footer-link">Privacy Policy | </a>
 					<a href="" class="footer-link">Accident News</a>
 				</div>
 			</div>
