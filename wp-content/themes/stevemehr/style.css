@@ -1638,6 +1638,15 @@ html, body {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 575px) {
+	#main-banner-tagline {
+		margin-top: 9vh;
+    	font-size: 26px;
+	}
+
+	#tagline-ref {
+		margin-bottom: 1vh;
+	}
+
 	.help-box {
 		margin-top: 16px;
     	margin-bottom: 16px;
