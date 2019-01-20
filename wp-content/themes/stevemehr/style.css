@@ -41,7 +41,7 @@ html, body {
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 128px;
+	margin-top: 15vh;
 	font-size: 48px;
 	font-weight: 700;
 	font-family: 'Oswald', sans-serif;
@@ -99,7 +99,7 @@ html, body {
 
 #tagline-ref {
     font-family: 'Roboto';
-    margin-bottom: 64px;
+    margin-bottom: 15vh;
 }
 
 .help-box-link {
@@ -1093,7 +1093,8 @@ html, body {
 	}
 
 	#main-banner-tagline {
-		font-size: 36px;
+	    font-size: 32px;
+	    margin-top: 6vh;
 	}
 
 	#tagline-person {
@@ -1103,6 +1104,7 @@ html, body {
 
 	#tagline-ref {
 	    font-family: 'Roboto';
+	    margin-bottom: 6vh;
 	}
 
 	.top-section {
@@ -1211,7 +1213,7 @@ html, body {
 
 @media only screen and (max-width: 767px) {
 	.main-banner {
-		background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/banner-header-min.png');
+		background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Banner-Image.jpg');
 		background-size: cover;
 		background-position: center;
 	}
@@ -1352,16 +1354,18 @@ html, body {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
 	#tagline-ref {
-	    margin-bottom: 32px;
+	    margin-bottom: 9px;
+    	font-size: 14px;
 	}
 
 	#main-banner-tagline {
-		margin-top: 32px;
-    	font-size: 32px;
+		margin-top: 8px;
+    	font-size: 26px;
 	}
 
 	#tagline-person {
 		margin-bottom: 2px;
+		font-size: 16px;
 	}
 
 	.top-section {
@@ -1523,6 +1527,24 @@ html, body {
 }
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+	#tagline-ref {
+	    margin-bottom: 3vh;
+	}
+
+	#main-banner-tagline {
+	    font-size: 36px;
+		margin-top: 10vh;
+	}
+
+	#tagline-person {
+		margin-bottom: 0px;
+	}
+
+	#tagline-ref {
+		font-family: 'Roboto';
+    	margin-bottom: 3vh;
+	}
+
 	.top-section {
 		padding: 24px;
 	}
