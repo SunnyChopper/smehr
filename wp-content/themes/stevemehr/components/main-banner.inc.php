@@ -48,7 +48,7 @@
 
 			<!-- Form for tablets up -->
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12 d-none d-md-block" style="margin-right: -36px;">
-				<h3 id="main-banner-tagline">The most powerful legal team in the country</h3>
+				<h3 id="main-banner-tagline">Steve is the best consumer advocate in the country.</h3>
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 col-12">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/forbes-white-min.png" id="main-banner-tagline-logo" class="regular-image-60">
