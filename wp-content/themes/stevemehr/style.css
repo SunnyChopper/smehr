@@ -1718,6 +1718,7 @@ html, body {
 
 	.main-banner {
 		margin-top: 0px;
+		background-position-x: 40%;
 	}
 
 	#main-banner-title {
@@ -1787,14 +1788,17 @@ html, body {
 	#main-banner-tagline {
 		margin-top: 8vh;
     	font-size: 26px;
+    	text-shadow: 0px 1px 8px black;
 	}
 
 	#tagline-person {
 		margin-bottom: 2px;
+		text-shadow: 0px 1px 8px black;
 	}
 
 	#tagline-ref {
 		margin-bottom: 1vh;
+		text-shadow: 0px 1px 8px black;
 	}
 
 	#help-headline {
@@ -2055,6 +2059,7 @@ html, body {
 
 	.main-banner {
 		background-image: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Banner-Image.jpg');
+		background-position-x: 40%;
 	}
 
 	#main-banner-top-headline {
