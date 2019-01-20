@@ -869,6 +869,7 @@ html, body {
 	font-size: 12px;
 	text-align: center;
 	color: #8d9199;
+	display: inline-block;
 }
 
 .custom-toggler .navbar-toggler-icon {

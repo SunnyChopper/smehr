@@ -36,6 +36,7 @@
 				<p id="copyright-text">&copy; 2019 Steve Mehr | All Rights Reserved.</p>
 				<div style="display: block; margin-left: auto; margin-right: auto; width: fit-content; font-size: 12px; color: #8d9199;">
 					<p class="footer-link mb-0">Lawyer Advertising Disclaimer | </p>
+					<a href="" class="footer-link">Disclaimer | </a>
 					<a href="" class="footer-link">Terms of Use | </a>
 					<a href="" class="footer-link">Privacy Policy | </a>
 					<a href="" class="footer-link">Accident News</a>
@@ -47,6 +48,12 @@
 
 <div class="sticky-footer d-md-none">
 	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<p class="text-white mb-0"><small>100% Free Consultation. We Come to You.</small></p>
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6 col-6">
 				<a href="" class="btn btn-sm btn-primary full-width-button"><span class="mr-2"><i class="fa fa-phone"></i></span> Call</a>
