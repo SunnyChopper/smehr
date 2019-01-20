@@ -51,6 +51,7 @@
 				<h3 id="main-banner-tagline">Steve is the best consumer advocate in the country.</h3>
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 col-12">
+						<h5 class="text-center text-white">- Wayne Gross</h5>
 						<img src="<?php echo get_template_directory_uri(); ?>/images/forbes-white-min.png" id="main-banner-tagline-logo" class="regular-image-60">
 					</div>
 				</div>
