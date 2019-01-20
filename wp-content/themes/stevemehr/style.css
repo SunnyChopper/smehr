@@ -1818,6 +1818,10 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
+	.footer-black-bar {
+		margin-bottom: 78px;
+	}
+
 	#main-banner-tagline {
 		margin-top: 14vh;
     	font-size: 26px;
