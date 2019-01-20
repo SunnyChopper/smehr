@@ -93,6 +93,15 @@ html, body {
 	font-size: 30px;
 }
 
+#tagline-person {
+	font-family: 'Roboto';
+}
+
+#tagline-ref {
+    font-family: 'Roboto';
+    margin-bottom: 32px;
+}
+
 .help-box-link {
 	font-family: 'Rubik', sans-serif;
 	text-transform: uppercase;
@@ -1083,6 +1092,19 @@ html, body {
 		background-size: cover;
 	}
 
+	#main-banner-tagline {
+		font-size: 36px;
+	}
+
+	#tagline-person {
+		font-family: 'Roboto';
+		font-size: 22px;
+	}
+
+	#tagline-ref {
+	    font-family: 'Roboto';
+	}
+
 	.top-section {
 		padding: 32px;
 	}
@@ -1328,6 +1350,20 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+	#tagline-ref {
+	    margin-bottom: 32px;
+	}
+
+	#main-banner-tagline {
+		margin-top: 32px;
+    	font-size: 32px;
+	}
+
+	#tagline-person {
+		margin-bottom: 2px;
+	}
+
 	.top-section {
 		padding: 24px;
 	}

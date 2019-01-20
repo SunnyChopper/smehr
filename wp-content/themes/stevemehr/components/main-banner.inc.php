@@ -2,7 +2,7 @@
 	<div class="container" id="banner-padded-area">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-				<h1 class="text-center d-md-none" id="main-banner-title"><b>Over $1 Billion<br>won for our clients</b></h1>
+<!-- 				<h1 class="text-center d-md-none" id="main-banner-title"><b>Over $1 Billion<br>won for our clients</b></h1>
 
 				<section version="mobile-version" class="d-md-none">
 					<div class="row mb-0" id="first-support-text">
@@ -29,30 +29,14 @@
 						</div>
 					</div>
 				</section>
+			</div> -->
 
-				<!-- Video for mobile version -->
-				<div class="d-md-none">
-					<div class="videoWrapper">
-					    <!-- Copy & Pasted from YouTube -->
-					    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-
-
-				<!-- Button for phones -->
-				<div class="d-md-none">
-					<a href="" id="front-page-main-cta" class="d-md-block"><span class="mr-2"><i class="fa fa-phone"></i></span> Call for your 100% free consultation</a>
-				</div>
-
-			</div>
-
-			<!-- Form for tablets up -->
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12 d-none d-md-block" style="margin-right: -36px;">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 				<h3 id="main-banner-tagline">Steve is the best consumer advocate in the country.</h3>
 				<div class="row">
-					<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 col-12">
-						<h5 class="text-center text-white">- Wayne Gross</h5>
-						<p class="text-center text-white mb-128"><small><i>Retired Chief of the U.S, Attorneys Office</i></small></p>
+					<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
+						<h5 id="tagline-person" class="text-center text-white">- Wayne Gross</h5>
+						<p id="tagline-ref" class="text-center text-white"><small><i>Retired Chief of the U.S, Attorneys Office</i></small></p>
 					</div>
 				</div>
 			</div>
