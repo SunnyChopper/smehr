@@ -218,13 +218,13 @@ html, body {
 	}
 
 	.help-box-title {
-		font-size: 19px;
+		font-size: 14px;
 	}
 
 	.help-box-text {
-		font-size: 14px;
+		font-size: 12px;
 		margin-bottom: 8px;
-		line-height: 1.25em;
+		line-height: 1.15em;
 	}
 }
 
@@ -1107,6 +1107,14 @@ html, body {
 	    margin-bottom: 6vh;
 	}
 
+	.help-box-title {
+		font-size: 22px;
+	}
+
+	.help-box-text {
+		font-size: 18px;
+	}
+
 	.top-section {
 		padding: 32px;
 	}
@@ -1438,7 +1446,7 @@ html, body {
 	}
 
 	.help-box {
-		min-height: 375px;
+		min-height: 350px;
 	}
 
 	#featured-headline {
@@ -1527,6 +1535,11 @@ html, body {
 }
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+	.help-box {
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
 	#tagline-ref {
 	    margin-bottom: 3vh;
 	}
@@ -1709,7 +1722,6 @@ html, body {
 	.video-box > .video-info > .name {
 		font-size: 12px;
 	}
-
 
 	.page-banner {
 		padding: 108px 32px 32px 32px;
