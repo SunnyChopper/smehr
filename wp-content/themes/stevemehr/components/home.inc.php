@@ -51,13 +51,14 @@
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div class="help-box">
 					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/personal-injury.png" id="personal-injury-image">
-					<h4 class="roboto heavy-font help-box-title">Personal Injury</h4>
+					<h4 class="roboto heavy-font help-box-title">Auto Accidents</h4>
 					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
-					<p class="help-box-text">Auto Accidents</p>
+					<p class="help-box-text">Car Accidents</p>
+					<p class="help-box-text">Bicycle Accidents</p>
 					<p class="help-box-text">Motorcycle Accidents</p>
 					<p class="help-box-text">Truck Accidents</p>
-					<p class="help-box-text">Wrongful Death Claims</p>
-					<p class="help-box-text">Brain & Spinal Cord Injuries</p>
+					<p class="help-box-text">Lyft & Uber Accidents</p>
+					<p class="help-box-text">Drunk Driving Accidents</p>
 					<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
 				</div>
 			</div>
@@ -65,13 +66,14 @@
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div class="help-box">
 					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/business.png" id="business-image">
-					<h4 class="roboto heavy-font help-box-title">Business</h4>
+					<h4 class="roboto heavy-font help-box-title">Personal Injury</h4>
 					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
-					<p class="help-box-text">Business Litigation</p>
-					<p class="help-box-text">Business Consulting</p>
-					<p class="help-box-text">Celebrity & High Profile Cases</p>
-					<p class="help-box-text">Asset Protection</p>
-					<p class="help-box-text">Class Action Litigation</p>
+					<p class="help-box-text">Wrongful Death Claims</p>
+					<p class="help-box-text">Pedestrian Accidents</p>
+					<p class="help-box-text">Slip, Trip & Fall Cases</p>
+					<p class="help-box-text">Construction Accidents</p>
+					<p class="help-box-text">Pool Drowning</p>
+					<p class="help-box-text">Elder Abuse & Care</p>
 					<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
 				</div>
 			</div>
@@ -79,13 +81,14 @@
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div class="help-box">
 					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/other-practices.png" id="other-practices-image">
-					<h4 class="roboto heavy-font help-box-title">Other Practices</h4>
+					<h4 class="roboto heavy-font help-box-title">High Stakes Litigation</h4>
 					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
-					<p class="help-box-text">Whistleblower & Fraud Claims</p>
+					<p class="help-box-text">Celebrity & High Profile</p>
+					<p class="help-box-text">Whistleblower & Fraud</p>
 					<p class="help-box-text">Bad Faith Insurance</p>
-					<p class="help-box-text">Nursing Home Abuse</p>
-					<p class="help-box-text">Professional Malpractice</p>
-					<p class="help-box-text">IP & Trade Disputes</p>
+					<p class="help-box-text">Brain Injury</p>
+					<p class="help-box-text">Employment Litigation</p>
+					<p class="help-box-text">Class Action Litigation</p>
 					<p class="help-box-link"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Find Out More</a></p>
 				</div>
 			</div>
@@ -127,10 +130,10 @@
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$12.8</h2>
+						<h2 class="text-center">$50.2</h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Brain Injury</span></p>
+						<p class="text-center" id="type">HIGH STAKES DISPUTE</p>
+						<p class="text-center" id="claim">Fraud Litigation:<br><span>Jury Verdict</span></p>
 					</div>
 				</div>
 			</div>
@@ -141,7 +144,7 @@
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$10.5</h2>
+						<h2 class="text-center">$12.8</h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">PERSONAL INJURY</p>
 						<p class="text-center" id="claim">Truck Accident:<br><span>Death Claim</span></p>
@@ -155,7 +158,7 @@
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-2.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$10.4</h2>
+						<h2 class="text-center">$10.5</h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">PERSONAL INJURY</p>
 						<p class="text-center" id="claim">Car Accident:<br><span>Jury Verdict</span></p>
@@ -203,6 +206,13 @@
 						<p class="text-center" id="claim">Car Accident:<br><span>Back Injury</span></p>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="row mt-4">
+			<div class="col-12" style="background-color: #376fed; padding: 32px;">
+				<h4 class="text-center text-white">100s of settlements over $100,000.</h4>
+				<h6 class="text-center text-white mb-0">Free Consultation. Pay Nothing Unless We Win Your Case.</h6>
 			</div>
 		</div>
 	</div>
@@ -601,7 +611,7 @@
 			<div class="col-lg-8 col-md-7 col-sm-12 col-12">
 				<h1 id="bottom-cta-number">1-800-219-1919</h1>
 				<h2 id="bottom-cta-title">24/7 Access to Your Lawyer</h2>
-				<h4 id="bottom-cta-subtitle">You can email, text, or call us 24/7</h4>
+				<h4 id="bottom-cta-subtitle">Always Local. Can't make it to us? We can come to you.</h4>
 				<p id="bottom-cta-description" class="d-md-none">Our firm prides itself on being available to our clients when they need us, regardless if it’s after hours or the weekend.</p>
 				<div class="row d-none d-md-block mt-4">
 					<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
