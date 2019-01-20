@@ -1532,8 +1532,9 @@ html, body {
 	}
 
 	#main-banner-tagline {
-	    font-size: 36px;
-		margin-top: 10vh;
+	    font-size: 32px;
+		margin-top: 12vh;
+		text-shadow: 0px 2px 12px black;
 	}
 
 	#tagline-person {
@@ -1542,7 +1543,7 @@ html, body {
 
 	#tagline-ref {
 		font-family: 'Roboto';
-    	margin-bottom: 3vh;
+    	margin-bottom: 4vh;
 	}
 
 	.top-section {
