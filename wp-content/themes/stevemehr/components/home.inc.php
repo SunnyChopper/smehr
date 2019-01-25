@@ -4,10 +4,10 @@
 		<div class="row">
 			<div class="col-lg-6 order-lg-1 col-md-12 mt-32-tablet order-md-2 col-sm-12 order-sm-2 col-12 order-2">
 	 			<h4 class="mt-16-mobile"><b>Top Accident Attorneys</b></h4>
-				<p class="regular-p">We understand how seriously a car accident can impact many aspects of your life. Car accidents happen far too often and can result in whiplash, head and back pain, and other major injuries. Recovering from a serious accident is already difficult — what happens if the insurance companies refuse to pay? Your physical injuries, medical bills, lost wages, and other expenses begin to stack up. The experienced car accident lawyers at Steve Mehr Injury Attorneys, P.C. know what it takes to recover what you deserve from the insurance companies.</p>
+				<p class="regular-p">Injured? We are here for you. We are a modern law firm that will treat you like family. You can email, text or call our team of experienced personal injury lawyers 24/7. Our award-winning injury lawyers, includes former prosecutors and retired judges, have dedicated their lives fighting for everyday people like you. We are relentless in our pursuit of justice and our goal is to get you to a better place – physically, mentally, and financially – giving you closure for what has happened to you or a loved one.</p>
 			</div>
 
-			<div class="col-lg-6 order-lg-2 col-md-12 order-md-1 col-sm-12 order-sm-1 col-12 order-1">
+			<div class="col-lg-6 order-lg-2 col-md-12 order-md-1 d-md-block d-none col-sm-12 order-sm-1 col-12 order-1">
 				<div class="videoWrapper">
 				    <!-- Copy & Pasted from YouTube -->
 				    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
@@ -16,8 +16,8 @@
 		</div>
 		<div class="row" style="margin-top: 16px;">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-				<h4><b>Experienced Car Accident Lawyers</b></h4>
-				<p class="regular-p">People often think that they can’t afford a good accident lawyer; but we believe everyone should have access to exceptional legal service. We provide free consultations for everyone who calls our offices. There are no upfront fees or hidden costs; you only pay attorney fees if we recover money for you. Car accidents can result in a wide range of bodily trauma including head, back, and neck injuries. If you or a loved one has been seriously injured in an accident, call the car accident lawyers at Steve Mehr Injury Attorneys, P.C. for a free, confidential accident consultation.
+				<h4><b>Can I Afford A Top Accident Lawyer?</b></h4>
+				<p class="regular-p">We only charge legal fees if we recover money for your claims. We work on a contingency basis, which means we don’t charge you a penny until we win your case. You have questions? We have the answers – if you or someone you know needs help, it will cost you nothing to discuss your case with one of our accident attorneys. Call us now for a 100% Free Confidential Consultation.<p/>
 			</div>
 
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -30,10 +30,24 @@
 					</div>
 					<div class="col-lg-8 col-md-12 col-sm-6 col-6" style="display: flex;">
 						<div style="margin: auto;">
-						<h3 id="featured-headline" class="mt-16-mobile">Jacoby & Meyers names Steven Mehr as its youngest managing partner in its 45 year history</h3>
+						<h3 id="featured-headline" class="mt-16-mobile">Injury Lawyer Steve Mehr awarded "Best Attorneys of America" by Rues Rating Service</h3>
 						<p id="featured-link" style="font-size: 14px;"><a href=""><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> VIEW FEATURE</a></p>
 					</div>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+				<h4><b>We Handle Most Personal Injuries</b></h4>
+				<p class="regular-p">Our personal injury attorneys handle most form of injuries. From Car, Truck and Motorcycle Accidents to Pedestrian Accidents and Wrongful Death claims – if you or a loved one have been injured by another party– call our experienced lawyers for a Free Confidential Consultation. We will answer your questions and give you a no bullshit assessment if our lawyers can help you with your claim.</p>
+			</div>
+
+			<div class="col-lg-6 order-lg-2 col-md-12 order-md-1 d-md-none d-block col-sm-12 order-sm-1 col-12 mt-16-mobile">
+				<div class="videoWrapper">
+				    <!-- Copy & Pasted from YouTube -->
+				    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -50,7 +64,6 @@
 
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div class="help-box">
-					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/personal-injury.png" id="personal-injury-image">
 					<h4 class="roboto heavy-font help-box-title">Auto Accidents</h4>
 					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
 					<p class="help-box-text">Car Accidents</p>
@@ -65,7 +78,6 @@
 
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div class="help-box">
-					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/business.png" id="business-image">
 					<h4 class="roboto heavy-font help-box-title">Personal Injury</h4>
 					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
 					<p class="help-box-text">Wrongful Death Claims</p>
@@ -80,7 +92,6 @@
 
 			<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 				<div class="help-box">
-					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/other-practices.png" id="other-practices-image">
 					<h4 class="roboto heavy-font help-box-title">High Stakes Litigation</h4>
 					<hr style="border-top: 1px solid rgba(0,0,0,.25); margin-top: 8px !important; margin-bottom: 8px !important;" />
 					<p class="help-box-text">Celebrity & High Profile</p>
@@ -118,8 +129,8 @@
 	<div class="container">
 		<div clas="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h2 class="text-center" id="proof_title"><b>Over $1 Billion Dollars in Verdicts & Settlements.</b></h2>
-				<p class="text-center proof_text">Don't buy into lawyer advertising hype - let the results speak for themselves.</p>
+				<h2 class="text-center" id="proof_title"><b>$200+ Million in Verdicts & Settlements</b></h2>
+				<p class="text-center proof_text">Results matter. Our top priority is to get you the compensation you deserve.</p>
 			</div>
 		</div>
 
@@ -211,8 +222,7 @@
 
 		<div class="row mt-4">
 			<div class="col-12" style="padding: 16px">
-				<h4 class="text-center">100s of settlements over $100,000.</h4>
-				<h6 class="text-center mb-0">Free Consultation. Pay Nothing Unless We Win Your Case.</h6>
+				<h4 class="text-center">100's of Settlements Over $100,000. Pay Nothing Unless We Win Your Case.</h4>
 			</div>
 		</div>
 	</div>
@@ -405,7 +415,7 @@
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-6.png" class="regular-image-80 regular-image-100-mobile">
 					</div>
 					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">Over $1 Billion+ Recovered</h3>
+						<h3 class="roboto bold-font white awarded-title">$200+ Million in Settlements</h3>
 						<p class="roboto  white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
 					</div>
 				</div>
@@ -419,7 +429,7 @@
 		<div class="container">
 			<div class="row" style="margin-bottom: 24px;">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h3 style="font-family: 'Roboto', sans-serif;"><b>Why Choose Steve Mehr Lawyers</b></h3>
+					<h3 style="font-family: 'Roboto', sans-serif;"><b>A Little Bit About Steve Mehr Injury Lawyers</b></h3>
 				</div>
 			</div>
 
@@ -554,8 +564,10 @@
 			<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-12" style="display: flex; margin: auto;">
 				<div class="front-page-form" id="bottom-cta-form">
 					<h3 class="text-center">Get Help Now</h3>
-					<h5 class="text-center">Free Consultation</h5>
-					<hr />
+					<h7 class="text-left"> &#10004; 100% Free Consultation</h7><br/>
+					<h7 class="text-left"> &#10004; No Fee Unless We Win</h7><br/>
+					<h7 class="text-left"> &#10004; Fast Personal Attention</h7><br/><br/>
+
 					<form>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_first_name_field">
