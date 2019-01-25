@@ -6,29 +6,31 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/images/logo-black.png" class="regular-image-80" id="footer-logo">
 			</div>
 
-			<div class="row">
-				<div class="col-12">
-					<h5 class="text-center mb-2">Nationwide Help | No Fees Until We Win | 24/7 Attorney Access | 100% Free Consultations</h5>
-				</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
+				<div class="row">
+					<div class="col-12">
+						<h5 class="text-center mb-2">Nationwide Help | No Fees Until We Win | 24/7 Attorney Access | 100% Free Consultations</h5>
+					</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-					<h5 class="footer-header">Orange County</h5>
-					<p class="footer-text">4590 MacArthur Blvd.<br>Suite 650<br>Newport Beach, CA 92660<br>Main (213) 888-8888</p>
-				</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+						<h5 class="footer-header">Orange County</h5>
+						<p class="footer-text">4590 MacArthur Blvd.<br>Suite 650<br>Newport Beach, CA 92660<br>Main (213) 888-8888</p>
+					</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-					<h5 class="footer-header">Los Angeles</h5>
-					<p class="footer-text">on South Figueroa<br>Los Angeles, CA 90017<br>Main (213) 334-7000<br>Toll Free (800) 888-8888</p>
-				</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+						<h5 class="footer-header">Los Angeles</h5>
+						<p class="footer-text">on South Figueroa<br>Los Angeles, CA 90017<br>Main (213) 334-7000<br>Toll Free (800) 888-8888</p>
+					</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-					<h5 class="footer-header">Inland Empire</h5>
-					<p class="footer-text">on Main Street<br>Los Angeles, CA 90017<br>Main (213) 334-7000<br>Toll Free (800) 888-8888</p>
-				</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+						<h5 class="footer-header">Inland Empire</h5>
+						<p class="footer-text">on Main Street<br>Los Angeles, CA 90017<br>Main (213) 334-7000<br>Toll Free (800) 888-8888</p>
+					</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-					<h5 class="footer-header">Other Locations:</h5>
-					<p class="footer-text">Sacramento<br>San Francisco<br>Seattle<br>Las Vegas (Coming Soon)</p>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+						<h5 class="footer-header">Other Locations:</h5>
+						<p class="footer-text">Sacramento<br>San Francisco<br>Seattle<br>Las Vegas (Coming Soon)</p>
+					</div>
 				</div>
 			</div>
 		</div>
