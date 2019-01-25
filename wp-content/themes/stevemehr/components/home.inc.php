@@ -38,7 +38,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row mt-16">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
 				<h4><b>We Handle Most Personal Injuries</b></h4>
 				<p class="regular-p">Our personal injury attorneys handle most form of injuries. From Car, Truck and Motorcycle Accidents to Pedestrian Accidents and Wrongful Death claims – if you or a loved one have been injured by another party– call our experienced lawyers for a Free Confidential Consultation. We will answer your questions and give you a no bullshit assessment if our lawyers can help you with your claim.</p>
@@ -107,7 +107,7 @@
 	</div>
 </div>
 
-<section version="mobile-version" class="d-md-none">
+<!-- <section version="mobile-version" class="d-md-none">
 	<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/mobile-testimonial-min.png'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
 		<div class="container">
 			<div class="row">
@@ -123,7 +123,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <div id="results-row">
 	<div class="container">
@@ -242,9 +242,9 @@
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-6 col-sm-8 col-10">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image">
 								</div>
 							</div>
 						</div>
@@ -252,13 +252,12 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								
 							</div>
 						</div>
 
 						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
+						<h5 class="text-center quote">"Steve Mehr changed my life for the better. Steve Mehr changed my life for the better. Steve Mehr changed my life for the better."</h5>
 					</div>
 				</div>
 			</div>
@@ -268,9 +267,9 @@
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-6 col-sm-8 col-10">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image">
 								</div>
 							</div>
 						</div>
@@ -278,13 +277,12 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								
 							</div>
 						</div>
 
 						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
+						<h5 class="text-center quote">"Steve Mehr changed my life for the better. Steve Mehr changed my life for the better. Steve Mehr changed my life for the better."</h5>
 					</div>
 				</div>
 			</div>
@@ -294,9 +292,9 @@
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-6 col-sm-8 col-10">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image">
 								</div>
 							</div>
 						</div>
@@ -304,13 +302,12 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								
 							</div>
 						</div>
 
 						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
+						<h5 class="text-center quote">"Steve Mehr changed my life for the better. Steve Mehr changed my life for the better. Steve Mehr changed my life for the better."</h5>
 					</div>
 				</div>
 			</div>
@@ -320,9 +317,9 @@
 					<div class="video-image">
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-6 col-sm-8 col-10">
+									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image">
 								</div>
 							</div>
 						</div>
@@ -330,13 +327,12 @@
 					<div class="video-info">
 						<div class="row">
 							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
+								
 							</div>
 						</div>
 
 						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
+						<h5 class="text-center quote">"Steve Mehr changed my life for the better. Steve Mehr changed my life for the better. Steve Mehr changed my life for the better."</h5>
 					</div>
 				</div>
 			</div>

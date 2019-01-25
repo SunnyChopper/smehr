@@ -331,10 +331,6 @@ html, body {
 	position: relative;
 }
 
-.video-box > .video-image:hover {
-	cursor: pointer; 
-}
-
 .video-box > .video-image > .video-bar {
 	position: absolute;
 	bottom: 0;
@@ -367,6 +363,7 @@ html, body {
 
 .video-box > .video-info > .quote {
 	font-size: 16px;
+	font-weight: 100;
 	margin-top: 0px;
 	margin-bottom: 0px;	
 }
