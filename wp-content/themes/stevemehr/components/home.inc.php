@@ -560,9 +560,9 @@
 			<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-12" style="display: flex; margin: auto;">
 				<div class="front-page-form" id="bottom-cta-form">
 					<h3 class="text-center">Get Help Now</h3>
-					<h7 class="text-left"> &#10004; 100% Free Consultation</h7><br/>
-					<h7 class="text-left"> &#10004; No Fee Unless We Win</h7><br/>
-					<h7 class="text-left"> &#10004; Fast Personal Attention</h7><br/><br/>
+					<h7 class="text-left" style="color: #376fed; font-weight: 500;"> <i class="fas fa-check mr-2"></i> 100% Free Consultation</h7><br/>
+					<h7 class="text-left" style="color: #376fed; font-weight: 500"> <i class="fas fa-check mr-2"></i> No Fee Unless We Win</h7><br/>
+					<h7 class="text-left" style="color: #376fed; font-weight: 500"> <i class="fas fa-check mr-2"></i> Fast Personal Attention</h7><br/><br/>
 
 					<form>
 						<div class="row">
