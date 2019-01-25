@@ -329,6 +329,7 @@ html, body {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	position: relative;
+	height: 200px;
 }
 
 .video-box > .video-image > .video-bar {
@@ -343,6 +344,9 @@ html, body {
 .video-box > .video-image > img {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
+	height: -webkit-fill-available;
+    width: fit-content;
+    object-fit: cover;
 }
 
 .video-box > .video-info {
