@@ -9,11 +9,11 @@
 					<?php the_post_thumbnail('large', array('class' => 'regular-image')); ?>
 				<?php endif; ?>
 
-				<h3><?php the_title(); ?></h3>
+				<h3 class="mt-32"><?php the_title(); ?></h3>
 				<hr />
-				<?php the_content(); ?>
+					<?php the_content(); ?>
 				<hr />
-				<?php echo get_the_date(); ?>
+				<p>Published <?php echo get_the_date(); ?></p>
 
 			<?php endwhile; ?>
 			<?php endif; ?>
