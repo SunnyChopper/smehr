@@ -2,18 +2,13 @@
 
 define('FS_METHOD', 'direct');
 add_theme_support( 'post-thumbnails' );
+
+// Hide the admin bar
 show_admin_bar( false );
 
-function dynamic_menu() {
-	register_nav_menus(
-		array(
-			'main-menu' => __('Main Menu'),
-			'footer-menu' => __('Footer Menu')
-		)
-	);
-}
-
-add_action('init', 'dynamic_menu');
+/* ------------------------- *\
+	Scripts for Theme
+\* ------------------------- */
 
 function theme_enqueue_scripts() {
 	wp_register_style('bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
@@ -23,31 +18,21 @@ function theme_enqueue_scripts() {
 	wp_enqueue_style('core', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array(), '3.3.1', true );
 }
-
 add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 
+/* ------------------------- *\
+	Dynamic Menu
+\* ------------------------- */
 
-function add_classes_on_li($classes, $item, $args) {
-    $classes[] = 'nav-item';
-
-    return $classes;
+function dynamic_menu() {
+	register_nav_menus(
+		array(
+			'main-menu' => __('Main Menu'),
+			'footer-menu' => __('Footer Menu')
+		)
+	);
 }
-
-add_filter('nav_menu_css_class', 'add_classes_on_li', 1, 3);
-
-
-function add_classes_on_a($ulclass) {
-    return preg_replace('/<a /', '<a class="nav-link"', $ulclass);
-}
-
-add_filter('wp_nav_menu', 'add_classes_on_a');
-
-function theme_prefix_register_elementor_locations( $elementor_theme_manager ) {
-	$elementor_theme_manager->register_all_core_location();
-}
-
-add_action('elementor/theme/register_locations', 'theme_prefix_register_elementor_locations');
-
+add_action('init', 'dynamic_menu');
 
 function special_nav_class ($classes, $item) {
     if (in_array('current-menu-item', $classes) ){
@@ -55,9 +40,31 @@ function special_nav_class ($classes, $item) {
     }
     return $classes;
 }
-
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
+function add_classes_on_li($classes, $item, $args) {
+    $classes[] = 'nav-item';
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_classes_on_li', 1, 3);
+
+function add_classes_on_a($ulclass) {
+    return preg_replace('/<a /', '<a class="nav-link"', $ulclass);
+}
+add_filter('wp_nav_menu', 'add_classes_on_a');
+
+/* ------------------------- *\
+	Elementor
+\* ------------------------- */
+
+function theme_prefix_register_elementor_locations( $elementor_theme_manager ) {
+	$elementor_theme_manager->register_all_core_location();
+}
+add_action('elementor/theme/register_locations', 'theme_prefix_register_elementor_locations');
+
+/* ------------------------- *\
+	Sidebar
+\* ------------------------- */
 function post_sidebar() {
     register_sidebar(
         array (
@@ -72,5 +79,18 @@ function post_sidebar() {
     );
 }
 add_action( 'widgets_init', 'post_sidebar' );
+
+/* ------------------------- *\
+	Global Modules
+\* ------------------------- */
+
+function theme_settings_page() {
+
+}
+
+function add_theme_menu_item() {
+	add_menu_page("Global Modules", "Global Modules", "manage_options", "theme-panel", "theme_settings_page", null, 99);
+}
+add_action("admin_menu", "add_theme_menu_item");
 
 ?>
