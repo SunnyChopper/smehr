@@ -1,10 +1,10 @@
-<div style="background: url('http://localhost/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
+<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-12 col-12">
-				<h1 id="bottom-cta-number">1-800-219-1919</h1>
+				<h1 id="bottom-cta-number"><?php echo get_option('bottom_cta_phone'); ?></h1>
 				<h2 id="bottom-cta-title">24/7 Access to Your Lawyer</h2>
-				<h4 id="bottom-cta-subtitle">You can email, text, or call us 24/7</h4>
+				<h4 id="bottom-cta-subtitle">Always Local. Can't make it to us? We can come to you.</h4>
 				<p id="bottom-cta-description" class="d-md-none">Our firm prides itself on being available to our clients when they need us, regardless if it’s after hours or the weekend.</p>
 				<div class="row d-none d-md-block mt-4">
 					<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
@@ -19,8 +19,10 @@
 			<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-12" style="display: flex; margin: auto;">
 				<div class="front-page-form" id="bottom-cta-form">
 					<h3 class="text-center">Get Help Now</h3>
-					<h5 class="text-center">Free Consultation</h5>
-					<hr />
+					<h7 class="text-left" style="color: #376fed; font-weight: 500;"> <i class="fas fa-check mr-2"></i> 100% Free Consultation</h7><br/>
+					<h7 class="text-left" style="color: #376fed; font-weight: 500"> <i class="fas fa-check mr-2"></i> No Fee Unless We Win</h7><br/>
+					<h7 class="text-left" style="color: #376fed; font-weight: 500"> <i class="fas fa-check mr-2"></i> Fast Personal Attention</h7><br/><br/>
+
 					<form>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_first_name_field">
