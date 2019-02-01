@@ -20,11 +20,13 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
-			<?php if ( is_active_sidebar( 'post-side-bar' ) ) : ?>
-			    <?php dynamic_sidebar( 'post-side-bar' ); ?>
-			<?php else: ?>
-				<?php get_sidebar(); ?>
-			<?php endif; ?>
+			<div class="gray-box">
+				<?php if ( is_active_sidebar( 'post-side-bar' ) ) : ?>
+				    <?php dynamic_sidebar( 'post-side-bar' ); ?>
+				<?php else: ?>
+					<?php get_sidebar(); ?>
+				<?php endif; ?>
+			</div>
 		</div>
 	</div>
 </div>
