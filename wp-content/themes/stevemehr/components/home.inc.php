@@ -543,7 +543,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-sm-12 col-12">
-				<h1 id="bottom-cta-number">1-800-219-1919</h1>
+				<h1 id="bottom-cta-number"><?php echo get_option('bottom_cta_phone'); ?></h1>
 				<h2 id="bottom-cta-title">24/7 Access to Your Lawyer</h2>
 				<h4 id="bottom-cta-subtitle">Always Local. Can't make it to us? We can come to you.</h4>
 				<p id="bottom-cta-description" class="d-md-none">Our firm prides itself on being available to our clients when they need us, regardless if it’s after hours or the weekend.</p>
