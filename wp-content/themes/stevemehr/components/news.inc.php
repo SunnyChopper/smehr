@@ -16,7 +16,7 @@
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 				<?php
 					$args = array(
-				        'category' => 'featured',
+				        'category_name' => 'featured',
 				        'posts_per_page' => 4
 				    );
 					$featured = new WP_Query($args);
