@@ -47,7 +47,7 @@
 					<a href="" class="footer-link">Disclaimer | </a>
 					<a href="" class="footer-link">Terms of Use | </a>
 					<a href="" class="footer-link">Privacy Policy | </a>
-					<a href="" class="footer-link">Accident News</a>
+					<a href="/accident-news/" class="footer-link">Accident News</a>
 				</div>
 			</div>
 		</div>
