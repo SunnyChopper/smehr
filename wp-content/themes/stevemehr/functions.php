@@ -91,7 +91,8 @@ function theme_settings_page() {
 			<h1>Global Modules</h1>
 			<form method="POST" action="options.php">
 				<?php
-					settings_fields("section");
+					settings_fields("bottom-cta");
+					settings_fields("results");
 					do_settings_sections("theme-options");
 					submit_button();
 				?>
@@ -125,13 +126,13 @@ function handle_result_1_image_upload() {
 }
 
 function display_theme_panel_fields() {
-	add_settings_section("section", "Bottom Call-to-Action Row", null, "theme-options");
-	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "section");
-	register_setting("section", "bottom_cta_phone");
+	add_settings_section("bottom-cta", "Bottom Call-to-Action Row", null, "theme-options");
+	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "bottom-cta");
+	register_setting("bottom-cta", "bottom_cta_phone");
 
-	add_settings_section("section", "Results/Settlements", null, "theme-options");
-	add_settings_field("result_image_1", "Result Image 1", "display_result_image_1", "theme-options", "section");
-	register_setting("section", "result_image_1", "handle_result_1_image_upload");
+	add_settings_section("results", "Results/Settlements", null, "theme-options");
+	add_settings_field("result_image_1", "Result Image 1", "display_result_image_1", "theme-options", "results");
+	register_setting("results", "result_image_1", "handle_result_1_image_upload");
 }
 add_action("admin_init", "display_theme_panel_fields");
 
