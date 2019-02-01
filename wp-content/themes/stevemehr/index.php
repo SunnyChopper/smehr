@@ -3,9 +3,9 @@
 <?php 
 	global $wp;
 	$slug = $wp->request;
+	include('components/navbar.inc.php');
 
-	if (is_front_page()) {
-		include('components/navbar.inc.php');
+	if (is_front_page()) {;
 		include('components/main-banner.inc.php'); 
 		the_content();
 		include('components/firm-info.inc.php');
@@ -16,12 +16,10 @@
 		include('components/steve-bio.inc.php');
 		include('components/bottom-cta.inc.php'); 
 	} elseif (is_home()) {
-		include('components/navbar.inc.php');
 		include('components/news.inc.php');
 		include('components/client-stories.inc.php');
 		include('components/bottom-cta.inc.php'); 
 	} elseif ($slug == "accident-news") {
-		include('components/navbar.inc.php');
 		the_content();
 	} else {
 		if (have_posts()):
