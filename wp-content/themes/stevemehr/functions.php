@@ -103,14 +103,14 @@ function theme_settings_page() {
 // Adding sections
 function display_bottom_cta_phone() {
 	?>
-		<input type="text" name="bottom_cta_phone" id="bottom_cta_phone" value="<?php echo get_option('bottom_cta_phone'); ?>">
+		<input type="text" name="bottom_cta_phone" id="bottom_cta_phone" value="<?php echo get_option('bottom_cta_phone'); ?>" />
 	<?php
 }
 
 function display_theme_panel_fields() {
 	add_settings_section("section", "Bottom Call-to-Action Row", null, "theme-options");
 
-	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_elements", "theme-options", "section");
+	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "section");
 
 	register_setting("section", "bottom_cta_phone");
 }
