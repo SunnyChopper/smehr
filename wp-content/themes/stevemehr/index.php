@@ -1,9 +1,9 @@
 <?php get_header(); ?>
-<?php require_once('components/navbar.inc.php'); ?>
+<?php include('components/navbar.inc.php'); ?>
 <?php 
 	global $wp;
 	$slug = $wp->request;
-	
+
 	if (is_front_page()) {
 		include('components/main-banner.inc.php'); 
 		the_content();
