@@ -103,7 +103,7 @@ function theme_settings_page() {
 // Adding sections
 function display_bottom_cta_phone() {
 	?>
-		<input type="text" name="bottom_cta_phone" id="bottom_cta_phone" value="<?php echo get_option('bottom_cta_phone') ?>">
+		<input type="text" name="bottom_cta_phone" id="bottom_cta_phone" value="<?php echo get_option('bottom_cta_phone'); ?>">
 	<?php
 }
 
