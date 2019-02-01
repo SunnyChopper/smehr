@@ -261,6 +261,12 @@ html, body {
 	Special Divs
 \* ----------------------- */
 
+.gray-box {
+	background-color: #FAFAFA;
+	padding: 16px;
+	border-radius: 8px;
+}
+
 .widget-content {
 	margin-bottom: 16px;
 }
