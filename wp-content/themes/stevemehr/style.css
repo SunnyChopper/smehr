@@ -368,7 +368,7 @@ html, body {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	height: -webkit-fill-available;
-    width: fit-content;
+    width: 100%;
     object-fit: cover;
 }
 
