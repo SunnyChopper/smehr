@@ -107,12 +107,31 @@ function display_bottom_cta_phone() {
 	<?php
 }
 
+function display_result_image_1() {
+	?>
+		<input type="file" name="result_image_1" required>
+		<?php echo get_option('result_image_1'); ?>
+	<?php
+}
+
+function handle_result_1_image_upload() {
+	if (!empty($_FILES['demo-file']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
 function display_theme_panel_fields() {
 	add_settings_section("section", "Bottom Call-to-Action Row", null, "theme-options");
-
 	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "section");
-
 	register_setting("section", "bottom_cta_phone");
+
+	add_settings_section("section", "Results/Settlements", null, "theme-options");
+	add_settings_field("result_image_1", "Result Image 1", "display_result_image_1", "theme-options", "section");
+	register_setting("section", "result_image_1", "handle_result_1_image_upload");
 }
 add_action("admin_init", "display_theme_panel_fields");
 
