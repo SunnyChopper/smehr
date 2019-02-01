@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <?php require_once('components/navbar.inc.php'); ?>
 <?php 
-	
+	global $wp;
+	echo home_url($wp->request);
 	if (is_front_page()) {
 		require_once('components/main-banner.inc.php'); 
 		the_content();
