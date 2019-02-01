@@ -84,10 +84,39 @@ add_action( 'widgets_init', 'post_sidebar' );
 	Global Modules
 \* ------------------------- */
 
+// Adding the basic structure to the admin page
 function theme_settings_page() {
-
+	?>
+		<div class="wrap">
+			<h1>Global Modules</h1>
+			<form method="POST" action="options.php">
+				<?php
+					settings_field("section");
+					do_settings_sections("theme-options");
+					submit_button();
+				?>
+			</form>
+		</div>
+	<?php
 }
 
+// Adding sections
+function display_bottom_cta_phone() {
+	?>
+		<input type="text" name="bottom_cta_phone" id="bottom_cta_phone" value="<?php echo get_option('bottom_cta_phone') ?>">
+	<?php
+}
+
+function display_theme_panel_fields() {
+	add_settings_section("section", "Bottom Call-to-Action Row", null, "theme-options");
+
+	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_elements", "theme-options", "section");
+
+	register_setting("section", "bottom_cta_phone");
+}
+add_action("admin_init", "display_theme_panel_fields");
+
+// Adding the menu item to the navbar
 function add_theme_menu_item() {
 	add_menu_page("Global Modules", "Global Modules", "manage_options", "theme-panel", "theme_settings_page", null, 99);
 }
