@@ -20,7 +20,11 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-sm-12 col-12">
-			<?php get_sidebar(); ?>
+			<?php if ( is_active_sidebar( 'custom-side-bar' ) ) : ?>
+			    <?php dynamic_sidebar( 'custom-side-bar' ); ?>
+			<?php else: ?>
+				<?php get_sidebar(); ?>
+			<?php endif; ?>
 		</div>
 	</div>
 </div>
