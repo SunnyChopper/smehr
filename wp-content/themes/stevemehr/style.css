@@ -262,13 +262,13 @@ html, body {
 \* ----------------------- */
 
 .gray-box {
-	background-color: #FAFAFA;
-	padding: 16px;
+	background-color: #EAEAEA;
+	padding: 32px;
 	border-radius: 8px;
 }
 
 .widget-content {
-	margin-bottom: 16px;
+	margin-bottom: 24px;
 }
 
 .top-section {
@@ -345,7 +345,7 @@ html, body {
 	background-color: #376fed;
     color: white;
     border: none;
-    padding: 3px 32px;
+    padding: 3px 18px;
 }
 
 .video-box > .video-image {
