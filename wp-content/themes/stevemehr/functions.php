@@ -91,7 +91,7 @@ function theme_settings_page() {
 			<h1>Global Modules</h1>
 			<form method="POST" action="options.php">
 				<?php
-					settings_field("section");
+					settings_fields("section");
 					do_settings_sections("theme-options");
 					submit_button();
 				?>
