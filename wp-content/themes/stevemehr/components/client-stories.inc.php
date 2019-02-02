@@ -10,6 +10,7 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
+						<?php get_option('result_image_1'); ?>
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
 						<div class="video-bar">
 							<div class="row justify-content-center">
