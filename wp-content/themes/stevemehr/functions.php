@@ -115,6 +115,12 @@ function display_result_image_1() {
 	<?php
 }
 
+function display_result_amount_1() {
+	?>
+		<input type="text" name="result_amount_1" id="result_amount_1" value="<?php echo get_option('result_amount_1') ?>" required>
+	<?php
+}
+
 function handle_result_1_image_upload($option) {
 	if (!empty($_FILES['result_image_1']['tmp_name'])) {
 		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
@@ -131,7 +137,8 @@ function display_theme_panel_fields() {
 	register_setting("bottom-cta", "bottom_cta_phone");
 
 	add_settings_section("results", "Results/Settlements", null, "theme-options");
-	add_settings_field("result_image_1", "Result Image 1", "display_result_image_1", "theme-options", "results");
+	add_settings_field("result_image_1", "Result 1 Image", "display_result_image_1", "theme-options", "results");
+	add_settings_field("result_amount_1", "Result 1 Amount", "display_result_amount_1", "theme-options", "results");
 	register_setting("results", "result_image_1", "handle_result_1_image_upload");
 }
 add_action("admin_init", "display_theme_panel_fields");
