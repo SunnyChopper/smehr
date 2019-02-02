@@ -140,6 +140,7 @@ function display_theme_panel_fields() {
 	add_settings_field("result_image_1", "Result 1 Image", "display_result_image_1", "theme-options", "results");
 	add_settings_field("result_amount_1", "Result 1 Amount", "display_result_amount_1", "theme-options", "results");
 	register_setting("results", "result_image_1", "handle_result_1_image_upload");
+	register_setting("results", "result_amount_1");
 }
 add_action("admin_init", "display_theme_panel_fields");
 
