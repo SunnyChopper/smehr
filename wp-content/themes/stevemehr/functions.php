@@ -115,7 +115,7 @@ function display_result_image_1() {
 	<?php
 }
 
-function handle_result_1_image_upload() {
+function handle_result_1_image_upload($option) {
 	if (!empty($_FILES['result_image_1']['tmp_name'])) {
 		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
 		$temp = $urls["url"];
