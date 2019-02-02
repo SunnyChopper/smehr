@@ -121,6 +121,18 @@ function display_result_amount_1() {
 	<?php
 }
 
+function display_result_type_1() {
+	?>
+		<input type="text" name="result_type_1" id="result_type_1" value="<?php echo get_option('result_type_1'); ?>" required>
+	<?php
+}
+
+function display_result_claim_1() {
+	?>
+		<input type="text" name="result_claim_1" id="result_claim_1" value="<?php echo get_option('result_claim_1'); ?>" required>
+	<?php
+}
+
 function handle_result_1_image_upload($option) {
 	if (!empty($_FILES['result_image_1']['tmp_name'])) {
 		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
@@ -131,16 +143,240 @@ function handle_result_1_image_upload($option) {
 	return $option;
 }
 
+function display_result_image_2() {
+	?>
+		<input type="file" name="result_image_2" required>
+		<?php echo get_option('result_image_2'); ?>
+	<?php
+}
+
+function display_result_amount_2() {
+	?>
+		<input type="text" name="result_amount_2" id="result_amount_2" value="<?php echo get_option('result_amount_2') ?>" required>
+	<?php
+}
+
+function display_result_type_2() {
+	?>
+		<input type="text" name="result_type_2" id="result_type_2" value="<?php echo get_option('result_type_2'); ?>" required>
+	<?php
+}
+
+function display_result_claim_2() {
+	?>
+		<input type="text" name="result_claim_2" id="result_claim_2" value="<?php echo get_option('result_claim_2'); ?>" required>
+	<?php
+}
+
+function handle_result_2_image_upload($option) {
+	if (!empty($_FILES['result_image_2']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['result_image_2'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_result_image_3() {
+	?>
+		<input type="file" name="result_image_3" required>
+		<?php echo get_option('result_image_3'); ?>
+	<?php
+}
+
+function display_result_amount_3() {
+	?>
+		<input type="text" name="result_amount_3" id="result_amount_3" value="<?php echo get_option('result_amount_3') ?>" required>
+	<?php
+}
+
+function display_result_type_3() {
+	?>
+		<input type="text" name="result_type_3" id="result_type_3" value="<?php echo get_option('result_type_3'); ?>" required>
+	<?php
+}
+
+function display_result_claim_3() {
+	?>
+		<input type="text" name="result_claim_3" id="result_claim_3" value="<?php echo get_option('result_claim_3'); ?>" required>
+	<?php
+}
+
+function handle_result_3_image_upload($option) {
+	if (!empty($_FILES['result_image_3']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['result_image_3'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_result_image_4() {
+	?>
+		<input type="file" name="result_image_4" required>
+		<?php echo get_option('result_image_4'); ?>
+	<?php
+}
+
+function display_result_amount_4() {
+	?>
+		<input type="text" name="result_amount_4" id="result_amount_4" value="<?php echo get_option('result_amount_4') ?>" required>
+	<?php
+}
+
+function display_result_type_4() {
+	?>
+		<input type="text" name="result_type_4" id="result_type_4" value="<?php echo get_option('result_type_4'); ?>" required>
+	<?php
+}
+
+function display_result_claim_4() {
+	?>
+		<input type="text" name="result_claim_4" id="result_claim_4" value="<?php echo get_option('result_claim_4'); ?>" required>
+	<?php
+}
+
+function handle_result_4_image_upload($option) {
+	if (!empty($_FILES['result_image_4']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['result_image_4'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_result_image_5() {
+	?>
+		<input type="file" name="result_image_5" required>
+		<?php echo get_option('result_image_5'); ?>
+	<?php
+}
+
+function display_result_amount_5() {
+	?>
+		<input type="text" name="result_amount_5" id="result_amount_5" value="<?php echo get_option('result_amount_5') ?>" required>
+	<?php
+}
+
+function display_result_type_5() {
+	?>
+		<input type="text" name="result_type_5" id="result_type_5" value="<?php echo get_option('result_type_5'); ?>" required>
+	<?php
+}
+
+function display_result_claim_5() {
+	?>
+		<input type="text" name="result_claim_5" id="result_claim_5" value="<?php echo get_option('result_claim_5'); ?>" required>
+	<?php
+}
+
+function handle_result_5_image_upload($option) {
+	if (!empty($_FILES['result_image_5']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['result_image_5'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_result_image_6() {
+	?>
+		<input type="file" name="result_image_6" required>
+		<?php echo get_option('result_image_4'); ?>
+	<?php
+}
+
+function display_result_amount_6() {
+	?>
+		<input type="text" name="result_amount_6" id="result_amount_6" value="<?php echo get_option('result_amount_6') ?>" required>
+	<?php
+}
+
+function display_result_type_6() {
+	?>
+		<input type="text" name="result_type_6" id="result_type_6" value="<?php echo get_option('result_type6'); ?>" required>
+	<?php
+}
+
+function display_result_claim_6() {
+	?>
+		<input type="text" name="result_claim_6" id="result_claim_6" value="<?php echo get_option('result_claim_6'); ?>" required>
+	<?php
+}
+
+function handle_result_6_image_upload($option) {
+	if (!empty($_FILES['result_image_6']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['result_image_6'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
 function display_theme_panel_fields() {
 	add_settings_section("bottom-cta", "Bottom Call-to-Action Row", null, "theme-options");
 	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "bottom-cta");
 	register_setting("bottom-cta", "bottom_cta_phone");
 
 	add_settings_section("results", "Results/Settlements", null, "theme-options");
+
 	add_settings_field("result_image_1", "Result 1 Image", "display_result_image_1", "theme-options", "results");
 	add_settings_field("result_amount_1", "Result 1 Amount", "display_result_amount_1", "theme-options", "results");
+	add_settings_field("result_type_1", "Result 1 Type", "display_result_type_1", "theme-options", "results");
+	add_settings_field("result_claim_1", "Result 1 Claim", "display_result_claim_1", "theme-options", "results");
 	register_setting("results", "result_image_1", "handle_result_1_image_upload");
 	register_setting("results", "result_amount_1");
+	register_setting("results", "result_type_1");
+	register_setting("results", "result_claim_1");
+
+	add_settings_field("result_image_2", "Result 2 Image", "display_result_image_2", "theme-options", "results");
+	add_settings_field("result_amount_2", "Result 2 Amount", "display_result_amount_2", "theme-options", "results");
+	add_settings_field("result_type_2", "Result 2 Type", "display_result_type_2", "theme-options", "results");
+	add_settings_field("result_claim_2", "Result 2 Claim", "display_result_claim_2", "theme-options", "results");
+	register_setting("results", "result_image_2", "handle_result_2_image_upload");
+	register_setting("results", "result_amount_2");
+	register_setting("results", "result_type_2");
+	register_setting("results", "result_claim_2");
+
+	add_settings_field("result_image_3", "Result 3 Image", "display_result_image_3", "theme-options", "results");
+	add_settings_field("result_amount_3", "Result 3 Amount", "display_result_amount_3", "theme-options", "results");
+	add_settings_field("result_type_3", "Result 3 Type", "display_result_type_3", "theme-options", "results");
+	add_settings_field("result_claim_3", "Result 3 Claim", "display_result_claim_3", "theme-options", "results");
+	register_setting("results", "result_image_3", "handle_result_3_image_upload");
+	register_setting("results", "result_amount_3");
+	register_setting("results", "result_type_3");
+	register_setting("results", "result_claim_3");
+
+	add_settings_field("result_image_4", "Result 4 Image", "display_result_image_4", "theme-options", "results");
+	add_settings_field("result_amount_4", "Result 4 Amount", "display_result_amount_4", "theme-options", "results");
+	add_settings_field("result_type_4", "Result 4 Type", "display_result_type_4", "theme-options", "results");
+	add_settings_field("result_claim_4", "Result 4 Claim", "display_result_claim_4", "theme-options", "results");
+	register_setting("results", "result_image_4", "handle_result_4_image_upload");
+	register_setting("results", "result_amount_4");
+	register_setting("results", "result_type_4");
+	register_setting("results", "result_claim_4");
+
+	add_settings_field("result_image_5", "Result 5 Image", "display_result_image_5", "theme-options", "results");
+	add_settings_field("result_amount_5", "Result 5 Amount", "display_result_amount_5", "theme-options", "results");
+	add_settings_field("result_type_5", "Result 5 Type", "display_result_type_5", "theme-options", "results");
+	add_settings_field("result_claim_5", "Result 5 Claim", "display_result_claim_5", "theme-options", "results");
+	register_setting("results", "result_image_5", "handle_result_5_image_upload");
+	register_setting("results", "result_amount_5");
+	register_setting("results", "result_type_5");
+	register_setting("results", "result_claim_5");
+
+	add_settings_field("result_image_6", "Result 6 Image", "display_result_image_6", "theme-options", "results");
+	add_settings_field("result_amount_6", "Result 6 Amount", "display_result_amount_6", "theme-options", "results");
+	add_settings_field("result_type_6", "Result 6 Type", "display_result_type_6", "theme-options", "results");
+	add_settings_field("result_claim_6", "Result 6 Claim", "display_result_claim_6", "theme-options", "results");
+	register_setting("results", "result_image_6", "handle_result_6_image_upload");
+	register_setting("results", "result_amount_6");
+	register_setting("results", "result_type_6");
+	register_setting("results", "result_claim_6");
 }
 add_action("admin_init", "display_theme_panel_fields");
 
