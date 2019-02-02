@@ -116,7 +116,7 @@ function display_result_image_1() {
 }
 
 function handle_result_1_image_upload() {
-	if (!empty($_FILES['demo-file']['tmp_name'])) {
+	if (!empty($_FILES['result_image_1']['tmp_name'])) {
 		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
 		$temp = $urls["url"];
 		return $temp;
