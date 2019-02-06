@@ -401,13 +401,13 @@
 				<!-- Button for tablets up -->
 				<div class="d-none d-md-block">
 					<a href="" id="front-page-main-cta" class="d-md-block centered">Start Free Chat Consultation <i class="fas fa-arrow-circle-right"></i></a>
-					<p class="online-now"><i class="fas fa-circle"></i> Online Now</p>
+					
 				</div>
 
 				<!-- Button for phones -->
 				<div class="d-md-none">
 					<a href="" id="front-page-main-cta" class="d-md-block"><span class="mr-2"><i class="fa fa-phone"></i></span> Call for your 100% free consultation</a>
-					<p class="online-now"><i class="fas fa-circle"></i> Online Now</p>
+					
 				</div>
 
 			</div>

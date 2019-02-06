@@ -7,7 +7,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="<?php echo get_option('testimonial_image_1'); ?>" class="regular-image">
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="<?php echo get_option('testimonial_image_2'); ?>" class="regular-image">
@@ -45,7 +45,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="<?php echo get_option('testimonial_image_3'); ?>" class="regular-image">
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
 				<div class="video-box">
 					<div class="video-image">
 						<img src="<?php echo get_option('testimonial_image_4'); ?>" class="regular-image">

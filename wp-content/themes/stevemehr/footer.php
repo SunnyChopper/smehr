@@ -2,15 +2,18 @@
 	<div class="container text-center text-md-left">
 
 		<div class="row">
+			<div class="col-12">
+				<p class="text-center mb-4"><b>Nationwide Help | No Fees Until We Win | 24/7 Attorney Access | 100% Free Consultations</b></p>
+			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-lg-4 col-md-4 mt-md-0 mb-sm-3">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/logo-black.png" class="regular-image-80" id="footer-logo">
 			</div>
 
 			<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 				<div class="row">
-					<div class="col-12">
-						<p class="text-center mb-4"><b>Nationwide Help | No Fees Until We Win | 24/7 Attorney Access | 100% Free Consultations</b></p>
-					</div>
 
 					<div class="col-lg-3 col-md-3 col-sm-6 col-6">
 						<h5 class="footer-header">Orange County</h5>
