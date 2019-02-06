@@ -133,7 +133,9 @@ function display_result_image_1() {
 						multiple: false
 					}).on('select', function() {
 						var attachment = custom_uploader.state().get('selection').first().toJSON();
-						$('input[name=result_image_' + result_id + ']').val(attachment.url);
+						var result_image_id = 'input[name=result_image_' + result_id + ']';
+						$(result_image_id).val(attachment.url);
+						console.log(attachment.url);
 					}).open(); 
 				});
 			});
