@@ -4,6 +4,11 @@
 		Banner
 	\* ------------------------- */
 
+	#banner-padded-area {
+		padding: 36px;
+    	margin-bottom: 48px;
+	}
+
 	.what-we-do-banner {
 		background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/banner-header-min.png'); 
 		background-size: cover;
@@ -214,8 +219,6 @@
 		width: 100%;
 		background-color: white;
 		padding: 24px;
-		-webkit-box-shadow: 0px 1px 32px -4px rgba(0,0,0,0.25); 
-		box-shadow: 0px 1px 32px -4px rgba(0,0,0,0.25);
 	}
 
 	.card-box > h2 {
@@ -401,13 +404,11 @@
 				<!-- Button for tablets up -->
 				<div class="d-none d-md-block">
 					<a href="" id="front-page-main-cta" class="d-md-block centered">Start Free Chat Consultation <i class="fas fa-arrow-circle-right"></i></a>
-					
 				</div>
 
 				<!-- Button for phones -->
 				<div class="d-md-none">
 					<a href="" id="front-page-main-cta" class="d-md-block"><span class="mr-2"><i class="fa fa-phone"></i></span> Call for your 100% free consultation</a>
-					
 				</div>
 
 			</div>
@@ -447,16 +448,39 @@
 	<div class="row">
 		<div class="col-lg-8 col-md-7 col-sm-12 col-12">
 			<div class="card-box">
-				<h2>Call our Car Accident Lawyers for a Free Consultation</h2>
-				<p>Our attorneys have years of experience representing innocent victims who have been injured in car accidents. We will do everything in our power to get you the compensation you deserve. We believe that if you were injured, the responsible person should be held accountable for his or her actions. At Steve Mehr Injury Lawyers, our attorneys work hard to get you the attention you deserve and the compensation you deserve.</p>
-				<p>Filing a claim would help you pay for certain damages that will need your attention in the aftermath of a car accident. You could earn money for:</p>
+				<h2>Personal Injury Lawyers</h2>
+				<p>If you or a loved one has been injured as a result of someone’s negligence, you need a personal injury attorney to protect you and your family and defend your rights. Our experienced team of lawyers have represented injured victims throughout California, Nevada, and Washington. Our primary focus is to help recover the compensation that you deserve. We will review your specific case thoroughly and provide you with customized options for seeking the best possible outcome.</p>
+				<p>When personal injuries are serious, they can have catastrophic consequences to you and your family. In addition to the physical pain and suffering, there are often mental and psychological consequences that can result from the injury. Further, the economic impact of missed work and treatment of the injury can be devastating. Medical bills, loss of household income and the resulting debt, can send a family into financial turmoil. Seeking compensation for these losses can help you begin to recover and rebuild your life.</p>
+				<h2>What is a Personal Injury claim? </h2>
+				<p>A Personal Injury is when someone’s negligence or intentional act causes an injury. </p>
+                <h5>Types of Personal Injury Cases </h5>
 				<ul>
-					<li>Medical bills and hospital expenses</li>
-					<li>Funeral costs</li>
-					<li>Loss of wages</li>
-					<li>Property damage</li>
-					<li>Pain and suffering</li>
+					<li>Automobile accidents</li>
+					<li>Truck accidents</li>
+					<li>Motorcycle accidents</li>
+					<li>Work-related injuries</li>
+					<li>Medical malpractice</li>
+					<li>Dangerous drugs and products</li>
+					<li>Slip and fall accidents</li>
+					<li>Dog bites</li>
+					<li>Nursing home negligence</li>
+					<li>Wrongful death</li>
+					<li>and other forms of injury</li>
 				</ul>
+				<h2>Why hire a Personal Injury Attorney?</h2>
+				<p>Insurance companies hire lawyers to protect their interests and pay out the lowest amount. Without an experienced Personal Injury Attorney, you will not be prioritized to receive the best medical care and attention. Why not hire a lawyer yourself? With the Law Offices of Steve Mehr standing by you every step of the way, your case will be strengthened with evidence, witness statements and other important facts. Do not hesitate to contact the Law Offices of Steve Mehr today.</p>
+				<p>Our broad range of experience has allowed us to provide dependable legal advice in a variety of different cases and practice areas. Regardless of how you were injured, our personal injury attorneys are equally dedicated to fighting for the compensation you deserve so that you can begin to recover from your injuries and rebuild your life.</p>
+				<h2>How Our Personal Injury Lawyers Can Help You</h2>
+				<p>The legal system can be complicated and overwhelming for many people. Our legal professionals can guide you through the process and help you:</p>
+				<ul>
+				    <li>Recover medical expenses, lost wages, property damage costs</li>
+				    <li>Get compensation for pain and suffering</li>
+				    <li>Evaluate your case thoroughly</li>
+				    <li>Communicate with insurance companies</li>
+				    <li>Investigate your case and gather necessary documents</li>
+				    <li>Offer expert legal advice and more</li>
+				</ul>
+				<p>If you or a member of your family has suffered a personal injury, please contact our personal injury attorneys to discuss your case and find out more about your rights and options. We will patiently listen to you describe your unfortunate incident and offer sound legal advice about the best course of action to take in order to get the compensation you deserve. Call us now to find out how we can help you through this difficult time.</p>
 				<p class="mb-0">Contact our accident lawyers today for a free consultation to find out how we can help you.</p>
 			</div>
 		</div>
@@ -495,42 +519,6 @@
 		</div>
 	</div>
 </div>
-
-<section version="desktop-version" class="d-none d-md-block">
-	<div class="theme-row">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h3 class="text-center" id="front-page-quote">The most powerful legal team in the country.</h3>
-				</div>
-			</div>
-
-			<div class="row mt-4">
-				<div class="col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-6 offset-sm-3 col-6 offset-3">
-					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/forbes-white-min.png" class="regular-image-60">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section version="mobile-version" class="d-md-none">
-	<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/mobile-testimonial-min.png'); background-size: cover; padding-top: 64px; padding-bottom: 64px;">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h3 class="text-center" style="color: white; font-family: 'Roboto', sans-serif; font-weight: 300;">The most powerful legal team in the country.</h3>
-				</div>
-			</div>
-
-			<div class="row" style="margin-top: 32px;">
-				<div class="col-6 offset-3">
-					<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/forbes-white-min.png" class="regular-image-60">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <div id="results-row">
 	<div class="container">
