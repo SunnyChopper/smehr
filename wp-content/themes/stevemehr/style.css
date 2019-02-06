@@ -291,7 +291,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	display: inline-block;
 }
 
-.footer-row > ul > li > a {
+.footer-row > ul > li > .nav-link {
 	font-size: 12px;
     text-align: center;
     color: #8d9199;
