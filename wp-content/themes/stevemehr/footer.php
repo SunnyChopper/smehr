@@ -39,7 +39,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 				<p id="copyright-text">&copy; 2019 Steve Mehr | All Rights Reserved.</p>
 
-				<p class="footer-link text-center mb-0">Lawyer Advertising.</p>
+				<p class="text-center mb-0">Lawyer Advertising.</p>
 				<?php 
 					wp_nav_menu(
 						array( 
