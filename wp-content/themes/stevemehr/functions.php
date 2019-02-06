@@ -113,26 +113,26 @@ function display_bottom_cta_phone() {
 
 function display_result_image_1() {
 	?>
-		<input type="file" name="result_image_1" required>
+		<input type="file" name="result_image_1" >
 		<?php echo get_option('result_image_1'); ?>
 	<?php
 }
 
 function display_result_amount_1() {
 	?>
-		<input type="text" name="result_amount_1" id="result_amount_1" value="<?php echo get_option('result_amount_1') ?>" required>
+		<input type="text" name="result_amount_1" id="result_amount_1" value="<?php echo get_option('result_amount_1') ?>" >
 	<?php
 }
 
 function display_result_type_1() {
 	?>
-		<input type="text" name="result_type_1" id="result_type_1" value="<?php echo get_option('result_type_1'); ?>" required>
+		<input type="text" name="result_type_1" id="result_type_1" value="<?php echo get_option('result_type_1'); ?>" >
 	<?php
 }
 
 function display_result_claim_1() {
 	?>
-		<input type="text" name="result_claim_1" id="result_claim_1" value="<?php echo get_option('result_claim_1'); ?>" required>
+		<input type="text" name="result_claim_1" id="result_claim_1" value="<?php echo get_option('result_claim_1'); ?>" >
 	<?php
 }
 
@@ -148,26 +148,26 @@ function handle_result_1_image_upload($option) {
 
 function display_result_image_2() {
 	?>
-		<input type="file" name="result_image_2" required>
+		<input type="file" name="result_image_2" >
 		<?php echo get_option('result_image_2'); ?>
 	<?php
 }
 
 function display_result_amount_2() {
 	?>
-		<input type="text" name="result_amount_2" id="result_amount_2" value="<?php echo get_option('result_amount_2') ?>" required>
+		<input type="text" name="result_amount_2" id="result_amount_2" value="<?php echo get_option('result_amount_2') ?>" >
 	<?php
 }
 
 function display_result_type_2() {
 	?>
-		<input type="text" name="result_type_2" id="result_type_2" value="<?php echo get_option('result_type_2'); ?>" required>
+		<input type="text" name="result_type_2" id="result_type_2" value="<?php echo get_option('result_type_2'); ?>" >
 	<?php
 }
 
 function display_result_claim_2() {
 	?>
-		<input type="text" name="result_claim_2" id="result_claim_2" value="<?php echo get_option('result_claim_2'); ?>" required>
+		<input type="text" name="result_claim_2" id="result_claim_2" value="<?php echo get_option('result_claim_2'); ?>" >
 	<?php
 }
 
@@ -183,26 +183,26 @@ function handle_result_2_image_upload($option) {
 
 function display_result_image_3() {
 	?>
-		<input type="file" name="result_image_3" required>
+		<input type="file" name="result_image_3" >
 		<?php echo get_option('result_image_3'); ?>
 	<?php
 }
 
 function display_result_amount_3() {
 	?>
-		<input type="text" name="result_amount_3" id="result_amount_3" value="<?php echo get_option('result_amount_3') ?>" required>
+		<input type="text" name="result_amount_3" id="result_amount_3" value="<?php echo get_option('result_amount_3') ?>" >
 	<?php
 }
 
 function display_result_type_3() {
 	?>
-		<input type="text" name="result_type_3" id="result_type_3" value="<?php echo get_option('result_type_3'); ?>" required>
+		<input type="text" name="result_type_3" id="result_type_3" value="<?php echo get_option('result_type_3'); ?>" >
 	<?php
 }
 
 function display_result_claim_3() {
 	?>
-		<input type="text" name="result_claim_3" id="result_claim_3" value="<?php echo get_option('result_claim_3'); ?>" required>
+		<input type="text" name="result_claim_3" id="result_claim_3" value="<?php echo get_option('result_claim_3'); ?>" >
 	<?php
 }
 
@@ -218,26 +218,26 @@ function handle_result_3_image_upload($option) {
 
 function display_result_image_4() {
 	?>
-		<input type="file" name="result_image_4" required>
+		<input type="file" name="result_image_4" >
 		<?php echo get_option('result_image_4'); ?>
 	<?php
 }
 
 function display_result_amount_4() {
 	?>
-		<input type="text" name="result_amount_4" id="result_amount_4" value="<?php echo get_option('result_amount_4') ?>" required>
+		<input type="text" name="result_amount_4" id="result_amount_4" value="<?php echo get_option('result_amount_4') ?>" >
 	<?php
 }
 
 function display_result_type_4() {
 	?>
-		<input type="text" name="result_type_4" id="result_type_4" value="<?php echo get_option('result_type_4'); ?>" required>
+		<input type="text" name="result_type_4" id="result_type_4" value="<?php echo get_option('result_type_4'); ?>" >
 	<?php
 }
 
 function display_result_claim_4() {
 	?>
-		<input type="text" name="result_claim_4" id="result_claim_4" value="<?php echo get_option('result_claim_4'); ?>" required>
+		<input type="text" name="result_claim_4" id="result_claim_4" value="<?php echo get_option('result_claim_4'); ?>" >
 	<?php
 }
 
@@ -253,26 +253,26 @@ function handle_result_4_image_upload($option) {
 
 function display_result_image_5() {
 	?>
-		<input type="file" name="result_image_5" required>
+		<input type="file" name="result_image_5" >
 		<?php echo get_option('result_image_5'); ?>
 	<?php
 }
 
 function display_result_amount_5() {
 	?>
-		<input type="text" name="result_amount_5" id="result_amount_5" value="<?php echo get_option('result_amount_5') ?>" required>
+		<input type="text" name="result_amount_5" id="result_amount_5" value="<?php echo get_option('result_amount_5') ?>" >
 	<?php
 }
 
 function display_result_type_5() {
 	?>
-		<input type="text" name="result_type_5" id="result_type_5" value="<?php echo get_option('result_type_5'); ?>" required>
+		<input type="text" name="result_type_5" id="result_type_5" value="<?php echo get_option('result_type_5'); ?>" >
 	<?php
 }
 
 function display_result_claim_5() {
 	?>
-		<input type="text" name="result_claim_5" id="result_claim_5" value="<?php echo get_option('result_claim_5'); ?>" required>
+		<input type="text" name="result_claim_5" id="result_claim_5" value="<?php echo get_option('result_claim_5'); ?>" >
 	<?php
 }
 
@@ -288,26 +288,26 @@ function handle_result_5_image_upload($option) {
 
 function display_result_image_6() {
 	?>
-		<input type="file" name="result_image_6" required>
+		<input type="file" name="result_image_6" >
 		<?php echo get_option('result_image_4'); ?>
 	<?php
 }
 
 function display_result_amount_6() {
 	?>
-		<input type="text" name="result_amount_6" id="result_amount_6" value="<?php echo get_option('result_amount_6') ?>" required>
+		<input type="text" name="result_amount_6" id="result_amount_6" value="<?php echo get_option('result_amount_6') ?>" >
 	<?php
 }
 
 function display_result_type_6() {
 	?>
-		<input type="text" name="result_type_6" id="result_type_6" value="<?php echo get_option('result_type6'); ?>" required>
+		<input type="text" name="result_type_6" id="result_type_6" value="<?php echo get_option('result_type6'); ?>" >
 	<?php
 }
 
 function display_result_claim_6() {
 	?>
-		<input type="text" name="result_claim_6" id="result_claim_6" value="<?php echo get_option('result_claim_6'); ?>" required>
+		<input type="text" name="result_claim_6" id="result_claim_6" value="<?php echo get_option('result_claim_6'); ?>" >
 	<?php
 }
 
@@ -323,14 +323,14 @@ function handle_result_6_image_upload($option) {
 
 function display_testimonial_1_image() {
 	?>
-		<input type="file" name="testimonial_image_1" required>
+		<input type="file" name="testimonial_image_1" >
 		<?php echo get_option('testimonial_image_1'); ?>
 	<?php
 }
 
 function display_testimonial_1_text() {
 	?>
-		<input type="text" name="testimonial_quote_1" id="testimonial_quote_1" value="<?php echo get_option('testimonial_quote_1'); ?>" required>
+		<input type="text" name="testimonial_quote_1" id="testimonial_quote_1" value="<?php echo get_option('testimonial_quote_1'); ?>" >
 	<?php
 }
 
@@ -346,14 +346,14 @@ function handle_testimonial_1_image_upload($option) {
 
 function display_testimonial_2_image() {
 	?>
-		<input type="file" name="testimonial_image_2" required>
+		<input type="file" name="testimonial_image_2" >
 		<?php echo get_option('testimonial_image_2'); ?>
 	<?php
 }
 
 function display_testimonial_2_text() {
 	?>
-		<input type="text" name="testimonial_quote_2" id="testimonial_quote_2" value="<?php echo get_option('testimonial_quote_2'); ?>" required>
+		<input type="text" name="testimonial_quote_2" id="testimonial_quote_2" value="<?php echo get_option('testimonial_quote_2'); ?>" >
 	<?php
 }
 
@@ -369,14 +369,14 @@ function handle_testimonial_2_image_upload($option) {
 
 function display_testimonial_3_image() {
 	?>
-		<input type="file" name="testimonial_image_3" required>
+		<input type="file" name="testimonial_image_3" >
 		<?php echo get_option('testimonial_image_3'); ?>
 	<?php
 }
 
 function display_testimonial_3_text() {
 	?>
-		<input type="text" name="testimonial_quote_3" id="testimonial_quote_3" value="<?php echo get_option('testimonial_quote_3'); ?>" required>
+		<input type="text" name="testimonial_quote_3" id="testimonial_quote_3" value="<?php echo get_option('testimonial_quote_3'); ?>" >
 	<?php
 }
 
@@ -392,14 +392,14 @@ function handle_testimonial_3_image_upload($option) {
 
 function display_testimonial_4_image() {
 	?>
-		<input type="file" name="testimonial_image_4" required>
+		<input type="file" name="testimonial_image_4" >
 		<?php echo get_option('testimonial_image_4'); ?>
 	<?php
 }
 
 function display_testimonial_4_text() {
 	?>
-		<input type="text" name="testimonial_quote_4" id="testimonial_quote_4" value="<?php echo get_option('testimonial_quote_4'); ?>" required>
+		<input type="text" name="testimonial_quote_4" id="testimonial_quote_4" value="<?php echo get_option('testimonial_quote_4'); ?>" >
 	<?php
 }
 
