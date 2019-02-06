@@ -11,7 +11,7 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.jpg" class="regular-image">
+						<img src="<?php echo get_option('result_image_1'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
 						<h2 class="text-center">$<?php echo get_option('result_amount_1'); ?></h2>
