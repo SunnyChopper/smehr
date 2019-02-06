@@ -10,6 +10,9 @@ show_admin_bar( false );
 	Scripts for Theme
 \* ------------------------- */
 
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+
 function theme_enqueue_scripts() {
 	wp_register_style('bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
 	$dependencies = array('bootstrap');
@@ -27,8 +30,8 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 function dynamic_menu() {
 	register_nav_menus(
 		array(
-			'main-menu' => __('Main Menu'),
-			'footer-menu' => __('Footer Menu')
+			'main-menu' => __('Main Menu', 'Steve Mehr'),
+			'footer-menu' => __('Footer Menu', 'Steve Mehr')
 		)
 	);
 }
