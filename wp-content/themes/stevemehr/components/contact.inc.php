@@ -393,7 +393,7 @@
 				<h1 class="text-white text-center roboto heavy-font light-letter-spacing" id="title">Contact Us</h1>
 				<p class="text-white text-center roboto light-font" id="subtitle">We are happy to answer any questions you have.</p>
 				<a href="" class="centered light-letter-spacing" id="main-cta-button">Start Free Chat Consultation <i class="fas fa-arrow-circle-right"></i></a>
-				<p class="mb-0 text-center centered" id="chat_status"><i class="fas fa-circle"></i> ONLINE NOW</p>
+				<!-- <p class="mb-0 text-center centered" id="chat_status"><i class="fas fa-circle"></i> ONLINE NOW</p> -->
 			</div>
 		</div>
 	</div>
@@ -413,7 +413,7 @@
 						<h3>Text</h3>
 						<p class="feature-info">Send us a text message and we will let you know how to proceed with the next steps.</p>
 						<h2>949 - 123 - 4567</h2>
-						<p class="available mb-0"><i class="fas fa-circle"></i> AVAILABLE NOW</p>
+						<!-- <p class="available mb-0"><i class="fas fa-circle"></i> AVAILABLE NOW</p> -->
 					</div>
 				</div>
 
@@ -423,7 +423,7 @@
 						<h3>Call</h3>
 						<p class="feature-info">Our operators are standing by to speak with you and discuss how we may be able to help.</p>
 						<h2>800 - 123 - 4567</h2>
-						<p class="available mb-0"><i class="fas fa-circle"></i> AVAILABLE NOW</p>
+						<!-- <p class="available mb-0"><i class="fas fa-circle"></i> AVAILABLE NOW</p> -->
 					</div>
 				</div>
 
@@ -434,7 +434,7 @@
 						<h3>Chat</h3>
 						<p class="feature-info">Launch our live chat support messenger and a representative will be with you shortly.</p>
 						<h5 id="chat-window" class="blue-button"><a href="">Click to launch <br> chat window <i class="fas fa-arrow-circle-right"></i></a></h5>
-						<p class="available mb-0"><i class="fas fa-circle"></i> ONLINE NOW</p>
+						<!-- <p class="available mb-0"><i class="fas fa-circle"></i> ONLINE NOW</p> -->
 					</div>
 				</div>
 
@@ -444,7 +444,7 @@
 						<h3>Email</h3>
 						<p class="feature-info">Please feel free to write us with any questions and concerns, we will get back to you within 24 hours.</p>
 						<h5 id="email">info@stevemehrpc.com</h5>
-						<p class="available mb-0"><i class="fas fa-circle"></i> ONLINE NOW</p>
+						<!-- <p class="available mb-0"><i class="fas fa-circle"></i> ONLINE NOW</p> -->
 					</div>
 				</div>
 			</div>
