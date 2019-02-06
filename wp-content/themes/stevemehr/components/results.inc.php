@@ -14,7 +14,7 @@
 						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.jpg" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$<?php get_option('result_amount_1'); ?></h2>
+						<h2 class="text-center">$<?php echo get_option('result_amount_1'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
 						<p class="text-center" id="type">HIGH STAKES DISPUTE</p>
 						<p class="text-center" id="claim">Fraud Litigation:<br><span>Jury Verdict</span></p>
