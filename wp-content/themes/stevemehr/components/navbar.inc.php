@@ -50,8 +50,9 @@
 						array( 
 						    'theme_location' => 'main-menu', 
 						    'container' => false,
-						    'depth' => 3,
-						    'menu_class' => 'navbar-nav ml-auto'
+						    'depth' => 2,
+							'menu_class' => 'nav',
+							'walker' => new WP_Bootstrap_Navwalker()
 						) 
 					);
 				?>
