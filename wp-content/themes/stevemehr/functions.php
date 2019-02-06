@@ -349,8 +349,33 @@ function handle_result_6_image_upload($option) {
 
 function display_testimonial_1_image() {
 	?>
-		<input type="file" name="testimonial_image_1" >
-		<?php echo get_option('testimonial_image_1'); ?>
+		<input id="testimonial_image_1" type="text" name="testimonial_image_1" size="60" value="<?php echo get_option('testimonial_image_1'); ?>">
+		<a href="#" id="1" class="testimonial_image_upload">Upload</a>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".testimonial_image_upload").on('click', function(e) {
+					var testimonial_id = $(this).attr('id');
+					e.preventDefault();
+
+					var custom_uploader = wp.media({
+						title: 'Testimonial Image',
+						button: { text: 'Upload Image' },
+						multiple: false
+					}).on('select', function() {
+						var attachment = custom_uploader.state().get('selection').first().toJSON();
+						var testimonial_image_id = 'input[name=testimonial_image_' + testimonial_id + ']';
+						$(testimonial_image_id).val(attachment.url);
+					}).open(); 
+				});
+			});
+		</script>
+	<?php
+}
+
+function display_testimonial_1_name() {
+	?>
+		<input type="text" name="testimonial_name_1" id="testimonial_name_1" value="<?php echo get_option('testimonial_name_1'); ?>">
 	<?php
 }
 
@@ -372,8 +397,14 @@ function handle_testimonial_1_image_upload($option) {
 
 function display_testimonial_2_image() {
 	?>
-		<input type="file" name="testimonial_image_2" >
-		<?php echo get_option('testimonial_image_2'); ?>
+		<input id="testimonial_image_2" type="text" name="testimonial_image_2" size="60" value="<?php echo get_option('testimonial_image_2'); ?>">
+		<a href="#" id="2" class="testimonial_image_upload">Upload</a>
+	<?php
+}
+
+function display_testimonial_2_name() {
+	?>
+		<input type="text" name="testimonial_name_2" id="testimonial_name_2" value="<?php echo get_option('testimonial_name_2'); ?>">
 	<?php
 }
 
@@ -395,8 +426,14 @@ function handle_testimonial_2_image_upload($option) {
 
 function display_testimonial_3_image() {
 	?>
-		<input type="file" name="testimonial_image_3" >
-		<?php echo get_option('testimonial_image_3'); ?>
+		<input id="testimonial_image_3" type="text" name="testimonial_image_3" size="60" value="<?php echo get_option('testimonial_image_3'); ?>">
+		<a href="#" id="3" class="testimonial_image_upload">Upload</a>
+	<?php
+}
+
+function display_testimonial_3_name() {
+	?>
+		<input type="text" name="testimonial_name_3" id="testimonial_name_3" value="<?php echo get_option('testimonial_name_3'); ?>">
 	<?php
 }
 
@@ -418,8 +455,14 @@ function handle_testimonial_3_image_upload($option) {
 
 function display_testimonial_4_image() {
 	?>
-		<input type="file" name="testimonial_image_4" >
-		<?php echo get_option('testimonial_image_4'); ?>
+		<input id="testimonial_image_4" type="text" name="testimonial_image_4" size="60" value="<?php echo get_option('testimonial_image_4'); ?>">
+		<a href="#" id="4" class="testimonial_image_upload">Upload</a>
+	<?php
+}
+
+function display_testimonial_4_name() {
+	?>
+		<input type="text" name="testimonial_name_4" id="testimonial_name_4" value="<?php echo get_option('testimonial_name_4'); ?>">
 	<?php
 }
 
