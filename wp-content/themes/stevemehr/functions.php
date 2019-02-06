@@ -20,9 +20,13 @@ function theme_enqueue_scripts() {
 	wp_enqueue_style('layouts', get_template_directory_uri() . "/layouts.css");
 	wp_enqueue_style('core', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_script('bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array(), '3.3.1', true );
-	wp_enqueue_media();
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
+
+function load_wp_media_files() {
+    wp_enqueue_media();
+}
+add_action('admin_enqueue_scripts', 'load_wp_media_files');
 
 /* ------------------------- *\
 	Dynamic Menu
@@ -114,8 +118,26 @@ function display_bottom_cta_phone() {
 
 function display_result_image_1() {
 	?>
-		<input type="file" name="result_image_1" >
-		<?php echo get_option('result_image_1'); ?>
+		<input id="result_image_1" type="text" name="result_image_1" size="60" value="<?php echo get_option('result_image_1'); ?>">
+		<a href="#" id="1" class="result_image_upload">Upload</a>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".result_image_upload").on('click', function(e) {
+					var result_id = $(this).id;
+					e.preventDefault();
+
+					var custom_uploader = wp.media({
+						title: 'Result Image',
+						button: { text: 'Upload Image' },
+						multiple: false
+					}).on('select', function() {
+						var attachment = custom_uploader.state().get('selection').first().toJSON();
+						$('input[name=result_image_' + result_id + ']').val(attachment.url);
+					}).open(); 
+				});
+			});
+		</script>
 	<?php
 }
 
