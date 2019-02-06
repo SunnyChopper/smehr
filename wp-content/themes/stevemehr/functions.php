@@ -136,6 +136,7 @@ function display_result_image_1() {
 						var result_image_id = 'input[name=result_image_' + result_id + ']';
 						$(result_image_id).val(attachment.url);
 						console.log(attachment.url);
+						console.log(result_image_id);
 					}).open(); 
 				});
 			});
