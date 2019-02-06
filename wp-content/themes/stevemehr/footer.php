@@ -61,7 +61,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<p class="text-black text-center mb-2"><small>100% Free Consultation. We Come to You.</small></p>
+				<p class="text-black text-center mb-2"><b><small>100% Free Consultation. We Come to You.</small></b></p>
 			</div>
 		</div>
 
