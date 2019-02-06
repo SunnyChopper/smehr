@@ -24,8 +24,10 @@
 							array( 
 							    'theme_location' => 'main-menu', 
 							    'container' => false,
-							    'depth' => 3,
-							    'menu_class' => 'nav'
+							    'depth' => 2,
+							    'menu_class' => 'nav navbar-nav',
+							    'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+							    'walker' => new wp_bootstrap_navwalker()
 							) 
 						);
 					?>
