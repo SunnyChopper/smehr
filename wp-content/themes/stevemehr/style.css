@@ -22,7 +22,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .menu-item > a {
-	color: black;
+	color: black !important;
 }
 
 .page-banner {
