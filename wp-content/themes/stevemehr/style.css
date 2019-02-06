@@ -285,7 +285,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .footer-row > ul {
 	list-style-type: none;
-    display: -webkit-inline-box;
+}
+
+.footer-row > ul > li {
+	display: inline-block;
 }
 
 .footer-row > ul > li > a {
