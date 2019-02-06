@@ -176,27 +176,6 @@ function display_result_image_2() {
 	?>
 		<input id="result_image_2" type="text" name="result_image_2" size="60" value="<?php echo get_option('result_image_2'); ?>">
 		<a href="#" id="2" class="result_image_upload">Upload</a>
-
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$(".result_image_upload").on('click', function(e) {
-					var result_id = $(this).attr('id');
-					e.preventDefault();
-
-					var custom_uploader = wp.media({
-						title: 'Result Image',
-						button: { text: 'Upload Image' },
-						multiple: false
-					}).on('select', function() {
-						var attachment = custom_uploader.state().get('selection').first().toJSON();
-						var result_image_id = 'input[name=result_image_' + result_id + ']';
-						$(result_image_id).val(attachment.url);
-						console.log(attachment.url);
-						console.log(result_image_id);
-					}).open(); 
-				});
-			});
-		</script>
 	<?php
 }
 
