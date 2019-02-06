@@ -327,7 +327,7 @@ function display_result_amount_6() {
 
 function display_result_type_6() {
 	?>
-		<input type="text" name="result_type_6" id="result_type_6" value="<?php echo get_option('result_type6'); ?>" >
+		<input type="text" name="result_type_6" id="result_type_6" value="<?php echo get_option('result_type_6'); ?>" >
 	<?php
 }
 
