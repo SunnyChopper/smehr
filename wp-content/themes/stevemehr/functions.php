@@ -138,7 +138,7 @@ function display_result_claim_1() {
 }
 
 function handle_result_1_image_upload($option) {
-	if (!empty($_FILES['result_image_1']['tmp_name'])) {
+	if (isset($_FILES['result_image_1']) && (!empty($_FILES['logo']['name']))) {
 		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
 		$temp = $urls["url"];
 		return $temp;
