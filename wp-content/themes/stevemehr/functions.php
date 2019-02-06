@@ -101,6 +101,7 @@ function theme_settings_page() {
 				<?php
 					settings_fields("bottom-cta");
 					settings_fields("results");
+					settings_fields("testimonials");
 					do_settings_sections("theme-options");
 					submit_button();
 				?>
