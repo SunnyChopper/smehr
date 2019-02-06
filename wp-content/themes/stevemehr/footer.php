@@ -38,12 +38,22 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 				<p id="copyright-text">&copy; 2019 Steve Mehr | All Rights Reserved.</p>
-				<div style="display: block; margin-left: auto; margin-right: auto; width: fit-content; font-size: 12px; color: #8d9199;">
+				<div class="footer-row">
 					<p class="footer-link mb-0">Lawyer Advertising. | </p>
 					<a href="" class="footer-link">Disclaimer | </a>
 					<a href="" class="footer-link">Terms of Use | </a>
 					<a href="" class="footer-link">Privacy Policy | </a>
 					<a href="/accident-news/" class="footer-link">Accident News</a>
+					<?php 
+						wp_nav_menu(
+							array( 
+							    'theme_location' => 'footer-menu', 
+							    'container' => false,
+							    'depth' => 1,
+								'menu_class' => 'footer-row'
+							) 
+						);
+					?>
 				</div>
 			</div>
 		</div>
