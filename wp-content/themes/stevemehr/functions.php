@@ -317,8 +317,102 @@ function handle_result_6_image_upload($option) {
 
 	return $option;
 }
+
+function display_testimonial_1_image() {
+	?>
+		<input type="file" name="testimonial_image_1" required>
+		<?php echo get_option('testimonial_image_1'); ?>
+	<?php
+}
+
+function display_testimonial_1_text() {
+	?>
+		<input type="text" name="testimonial_quote_1" id="testimonial_quote_1" value="<?php echo get_option('testimonial_quote_1'); ?>" required>
+	<?php
+}
+
+function handle_testimonial_1_image_upload($option) {
+	if (!empty($_FILES['testimonial_image_1']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['testimonial_image_1'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_testimonial_2_image() {
+	?>
+		<input type="file" name="testimonial_image_2" required>
+		<?php echo get_option('testimonial_image_2'); ?>
+	<?php
+}
+
+function display_testimonial_2_text() {
+	?>
+		<input type="text" name="testimonial_quote_2" id="testimonial_quote_2" value="<?php echo get_option('testimonial_quote_2'); ?>" required>
+	<?php
+}
+
+function handle_testimonial_2_image_upload($option) {
+	if (!empty($_FILES['testimonial_image_2']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['testimonial_image_2'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_testimonial_3_image() {
+	?>
+		<input type="file" name="testimonial_image_3" required>
+		<?php echo get_option('testimonial_image_3'); ?>
+	<?php
+}
+
+function display_testimonial_3_text() {
+	?>
+		<input type="text" name="testimonial_quote_3" id="testimonial_quote_3" value="<?php echo get_option('testimonial_quote_3'); ?>" required>
+	<?php
+}
+
+function handle_testimonial_3_image_upload($option) {
+	if (!empty($_FILES['testimonial_image_3']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['testimonial_image_3'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
+function display_testimonial_4_image() {
+	?>
+		<input type="file" name="testimonial_image_4" required>
+		<?php echo get_option('testimonial_image_4'); ?>
+	<?php
+}
+
+function display_testimonial_4_text() {
+	?>
+		<input type="text" name="testimonial_quote_4" id="testimonial_quote_4" value="<?php echo get_option('testimonial_quote_4'); ?>" required>
+	<?php
+}
+
+function handle_testimonial_4_image_upload($option) {
+	if (!empty($_FILES['testimonial_image_4']['tmp_name'])) {
+		$urls = wp_handle_upload($_FILES['testimonial_image_4'], array('test_form' => FALSE));
+		$temp = $urls["url"];
+		return $temp;
+	}
+
+	return $option;
+}
+
 function display_theme_panel_fields() {
 	add_settings_section("bottom-cta", "Bottom Call-to-Action Row", null, "theme-options");
+
 	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "bottom-cta");
 	register_setting("bottom-cta", "bottom_cta_phone");
 
@@ -377,6 +471,28 @@ function display_theme_panel_fields() {
 	register_setting("results", "result_amount_6");
 	register_setting("results", "result_type_6");
 	register_setting("results", "result_claim_6");
+
+	add_settings_section("testimonials", "Testimonials", null, "theme-options");
+
+	add_settings_field("testimonial_image_1", "Testimonial 1 Image", "display_testimonial_1_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_quote_1", "Testimonial 1 Quote", "display_testimonial_1_text", "theme-options", "testimonials");
+	register_setting("testimonials", "testimonial_image_1", "handle_testimonial_1_image_upload");
+	register_setting("testimonials", "testimonial_quote_1");
+
+	add_settings_field("testimonial_image_2", "Testimonial 2 Image", "display_testimonial_2_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_quote_2", "Testimonial 2 Quote", "display_testimonial_2_text", "theme-options", "testimonials");
+	register_setting("testimonials", "testimonial_image_2", "handle_testimonial_2_image_upload");
+	register_setting("testimonials", "testimonial_quote_2");
+
+	add_settings_field("testimonial_image_3", "Testimonial 3 Image", "display_testimonial_3_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_quote_3", "Testimonial 3 Quote", "display_testimonial_3_text", "theme-options", "testimonials");
+	register_setting("testimonials", "testimonial_image_3", "handle_testimonial_3_image_upload");
+	register_setting("testimonials", "testimonial_quote_3");
+
+	add_settings_field("testimonial_image_4", "Testimonial 4 Image", "display_testimonial_4_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_quote_4", "Testimonial 4 Quote", "display_testimonial_4_text", "theme-options", "testimonials");
+	register_setting("testimonials", "testimonial_image_4", "handle_testimonial_4_image_upload");
+	register_setting("testimonials", "testimonial_quote_4");
 }
 add_action("admin_init", "display_theme_panel_fields");
 
