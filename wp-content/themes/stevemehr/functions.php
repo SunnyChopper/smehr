@@ -547,21 +547,25 @@ function display_theme_panel_fields() {
 	add_settings_section("testimonials", "Testimonials", null, "theme-options");
 
 	add_settings_field("testimonial_image_1", "Testimonial 1 Image", "display_testimonial_1_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_name_1", "Testimonial 1 Name", "display_testimonial_1_name", "theme-options", "testimonials");
 	add_settings_field("testimonial_quote_1", "Testimonial 1 Quote", "display_testimonial_1_text", "theme-options", "testimonials");
 	register_setting("testimonials", "testimonial_image_1", "handle_testimonial_1_image_upload");
 	register_setting("testimonials", "testimonial_quote_1");
 
 	add_settings_field("testimonial_image_2", "Testimonial 2 Image", "display_testimonial_2_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_name_2", "Testimonial 2 Name", "display_testimonial_2_name", "theme-options", "testimonials");
 	add_settings_field("testimonial_quote_2", "Testimonial 2 Quote", "display_testimonial_2_text", "theme-options", "testimonials");
 	register_setting("testimonials", "testimonial_image_2", "handle_testimonial_2_image_upload");
 	register_setting("testimonials", "testimonial_quote_2");
 
 	add_settings_field("testimonial_image_3", "Testimonial 3 Image", "display_testimonial_3_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_name_3", "Testimonial 3 Name", "display_testimonial_3_name", "theme-options", "testimonials");
 	add_settings_field("testimonial_quote_3", "Testimonial 3 Quote", "display_testimonial_3_text", "theme-options", "testimonials");
 	register_setting("testimonials", "testimonial_image_3", "handle_testimonial_3_image_upload");
 	register_setting("testimonials", "testimonial_quote_3");
 
 	add_settings_field("testimonial_image_4", "Testimonial 4 Image", "display_testimonial_4_image", "theme-options", "testimonials");
+	add_settings_field("testimonial_name_4", "Testimonial 4 Name", "display_testimonial_4_name", "theme-options", "testimonials");
 	add_settings_field("testimonial_quote_4", "Testimonial 4 Quote", "display_testimonial_4_text", "theme-options", "testimonials");
 	register_setting("testimonials", "testimonial_image_4", "handle_testimonial_4_image_upload");
 	register_setting("testimonials", "testimonial_quote_4");
