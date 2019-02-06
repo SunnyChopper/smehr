@@ -448,40 +448,60 @@
 	<div class="row">
 		<div class="col-lg-8 col-md-7 col-sm-12 col-12">
 			<div class="card-box">
-				<h2>Personal Injury Lawyers</h2>
-				<p>If you or a loved one has been injured as a result of someone’s negligence, you need a personal injury attorney to protect you and your family and defend your rights. Our experienced team of lawyers have represented injured victims throughout California, Nevada, and Washington. Our primary focus is to help recover the compensation that you deserve. We will review your specific case thoroughly and provide you with customized options for seeking the best possible outcome.</p>
-				<p>When personal injuries are serious, they can have catastrophic consequences to you and your family. In addition to the physical pain and suffering, there are often mental and psychological consequences that can result from the injury. Further, the economic impact of missed work and treatment of the injury can be devastating. Medical bills, loss of household income and the resulting debt, can send a family into financial turmoil. Seeking compensation for these losses can help you begin to recover and rebuild your life.</p>
-				<h2>What is a Personal Injury claim? </h2>
-				<p>A Personal Injury is when someone’s negligence or intentional act causes an injury. </p>
-                <h5>Types of Personal Injury Cases </h5>
+				<h2>Experienced Car Accident Lawyers</h2>
+				<p>If you or a loved one have been injured in a car accident, our attorneys will be by your side to ease the stress following the incident.  With experience handling car accidents in many states, we understand that insurance companies will try to give you the lowest compensation possible.  Our team of attorneys knows how to handle insurance companies and will strengthen your case with evidence, witness statements and other important facts. We are here to help solidify your claim and obtain the maximum amount of compensation in your unique case.</p>
+				<h2>Affordable Injury Attorneys</h2>
+				<p>Many people worry that they cannot afford an experienced lawyer, but our compassionate attorneys believe that everyone has the right to justice. We provide free legal advice with no hidden costs. There are no upfront fees, and you won’t pay anything unless we recover money for you. Call the Law Offices of Steve Mehr today to get the compensation you deserve.</p>
+				<h2>Don’t Fight Insurance Companies Alone </h2>
+				<p>Insurance companies always aim to pay victims the minimum amount by hiring lawyers to protect their interests. So it makes sense to hire a lawyer to fight back for you and your family. Never settle for less than you deserve. We’ll stand by your side and demand fair results.</p>
+				<h2>Why Choose the Law Offices of Steve Mehr ? </h2>
+				<p>The Law Offices of Steve Mehr’s proven record of success is attributed to our extensive experience. Our experience in handling a wide variety of cases, from straightforward to complex, has enabled us to understand the critical details in every case. We know how to maneuver around the tactics that insurance companies use and understand the fair value of each unique claim. Our lawyers come equipped with decades of experience and will not settle for less than what our clients deserve.</p>
+				<h2>Do I Have A Case?</h2>
+				<p>Car accident victims can file claims when one or more negligent parties are involved. This typically occurs when:</p>
 				<ul>
-					<li>Automobile accidents</li>
-					<li>Truck accidents</li>
-					<li>Motorcycle accidents</li>
-					<li>Work-related injuries</li>
-					<li>Medical malpractice</li>
-					<li>Dangerous drugs and products</li>
-					<li>Slip and fall accidents</li>
-					<li>Dog bites</li>
-					<li>Nursing home negligence</li>
-					<li>Wrongful death</li>
-					<li>and other forms of injury</li>
+					<li>The at-fault party owed the victim a duty of care. In car accident cases, this means the at-fault party was required to follow drivers safety laws.</li>
+					<li>The at-fault party breached their duty of care. In car accidents, this means the at-fault party failed to follow safety laws and use reasonable care in operating a vehicle. This includes running a stop sign and driving under the influence.</li>
+					<li>The parties who failed to operate a vehicle with reasonable care caused harm to the victim(s). Victims of car accidents are entitled to compensation when they are able to prove that their injuries are a direct result of the car accident and nothing else.</li>
 				</ul>
-				<h2>Why hire a Personal Injury Attorney?</h2>
-				<p>Insurance companies hire lawyers to protect their interests and pay out the lowest amount. Without an experienced Personal Injury Attorney, you will not be prioritized to receive the best medical care and attention. Why not hire a lawyer yourself? With the Law Offices of Steve Mehr standing by you every step of the way, your case will be strengthened with evidence, witness statements and other important facts. Do not hesitate to contact the Law Offices of Steve Mehr today.</p>
-				<p>Our broad range of experience has allowed us to provide dependable legal advice in a variety of different cases and practice areas. Regardless of how you were injured, our personal injury attorneys are equally dedicated to fighting for the compensation you deserve so that you can begin to recover from your injuries and rebuild your life.</p>
-				<h2>How Our Personal Injury Lawyers Can Help You</h2>
-				<p>The legal system can be complicated and overwhelming for many people. Our legal professionals can guide you through the process and help you:</p>
+				<p>It is imperative that you turn to an experienced lawyer in order to provide the proper details nad documentation for building a strong case. </p>
+				<h2>Common Causes of Car Accidents</h2>
+				<p>The two primary causes of automobile accidents are negligent drivers and vehicle malfunctions. These negligent drivers are often:</p>
+				<strong>Distracted</strong>
 				<ul>
-				    <li>Recover medical expenses, lost wages, property damage costs</li>
-				    <li>Get compensation for pain and suffering</li>
-				    <li>Evaluate your case thoroughly</li>
-				    <li>Communicate with insurance companies</li>
-				    <li>Investigate your case and gather necessary documents</li>
-				    <li>Offer expert legal advice and more</li>
+				    <li>Texting while driving</li>
+				    <li>Talking on the phone or with other passengers</li>
+				    <li>Simply not paying attention</li>
 				</ul>
-				<p>If you or a member of your family has suffered a personal injury, please contact our personal injury attorneys to discuss your case and find out more about your rights and options. We will patiently listen to you describe your unfortunate incident and offer sound legal advice about the best course of action to take in order to get the compensation you deserve. Call us now to find out how we can help you through this difficult time.</p>
-				<p class="mb-0">Contact our accident lawyers today for a free consultation to find out how we can help you.</p>
+				<strong>Aggressive</strong>
+				<ul>
+				    <li>Driving with road-rage</li>
+				    <li>Tailgating</li>
+				    <li>Weaving through traffic</li>
+				</ul>
+			    <strong>Reckless</strong>
+				<ul>
+				    <li>Speeding</li>
+				    <li>Under the influence of drugs and/or alcohol</li>
+				    <li>Breaking traffic safety laws</li>
+				</ul>
+				<p>Car accidents are also caused by vehicle malfunctions. Reasons for vehicle malfunctions include:</p>
+				<ul>
+					<li>Defective tires and tire blowouts</li>
+					<li>Battery trouble</li>
+					<li>Vehicle recall</li>
+					<li>Steering malfunctions</li>
+					<li>Brake malfunctions</li>
+					<li>Other vehicle equipment failures</li>
+				</ul>
+				<h2>Types of Compensation from a Car Accident Lawsuit</h2>
+				<p>The amount of compensation that a victim is entitled to depends on the circumstances. Regardless of the circumstances, many cases involve awards for both economic and non-economic damages.</p>
+				<p><strong>Economic damages:</strong> Includes reimbursement for direct expenses for you or your loved-one including current and future medical bills, current and future lost wages, lost future earning capacity and funeral expenses.</p>
+				<p><strong>Noneconomic damages:</strong> Includes awards for pain and suffering, emotional distress, loss of companionship and loss of quality of life.</p>
+				<p>We do not want you to miss out on the opportunity for a full recovery. At the Law Offices of Steve Mehr, we offer a balance between offering compassion and the maximum compensation you are entitled to. </p>
+				<p>Do not accept an offer from an insurance company until you have spoken with a knowledgeable and experienced attorney. Also, do not wait to get treatment or contact a lawyer. If the specific statute of limitations expires before you file your claim, you will miss out on the opportunity to collect damages. </p>
+
+                <p>If you think you have a car accident case, but you are not sure where to start; contact the law offices of Steve Mehr for a 100% free consultation and case evaluation. We can handle the details of your case and deal with the insurance company on your behalf so you can focus on recovery.</p>
+
 			</div>
 		</div>
 		<div class="col-lg-4 col-md-5 col-sm-12 col-12 mt-32-mobile">
@@ -515,543 +535,6 @@
 						</div>
 					</div>
 				</form>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="results-row">
-	<div class="container">
-		<div clas="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h2 class="text-center" id="proof_title"><b>Over $1 Billion Dollars in Verdicts & Settlements.</b></h2>
-				<p class="text-center proof_text">Don't buy into lawyer advertising hype - let the results speak for themselves.</p>
-			</div>
-		</div>
-
-		<div class="row mt-4">
-			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
-				<div class="proof-box">
-					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.jpg" class="regular-image">
-					</div>
-					<div class="proof-box-text">
-						<h2 class="text-center">$12.8</h2>
-						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Brain Injury</span></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
-				<div class="proof-box">
-					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident.jpg" class="regular-image">
-					</div>
-					<div class="proof-box-text">
-						<h2 class="text-center">$10.5</h2>
-						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Truck Accident:<br><span>Death Claim</span></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
-				<div class="proof-box">
-					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-2.jpg" class="regular-image">
-					</div>
-					<div class="proof-box-text">
-						<h2 class="text-center">$10.4</h2>
-						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Jury Verdict</span></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
-				<div class="proof-box">
-					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-3.jpg" class="regular-image">
-					</div>
-					<div class="proof-box-text">
-						<h2 class="text-center">$7.5</h2>
-						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Brain Injury</span></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
-				<div class="proof-box">
-					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/pedestrian-accident.jpg" class="regular-image">
-					</div>
-					<div class="proof-box-text">
-						<h2 class="text-center">$6.1</h2>
-						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Pedestrain Accident:<br><span>Brain Injury</span></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
-				<div class="proof-box">
-					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-4.jpg" class="regular-image">
-					</div>
-					<div class="proof-box-text">
-						<h2 class="text-center">$3.2</h2>
-						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Back Injury</span></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="clients-row">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<h4 style="margin-bottom: 24px; font-weight: 700; font-family: 'Roboto', sans-serif;" id="client-headline">Client Success Stories</h4>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
-				<div class="video-box">
-					<div class="video-image">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
-						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="video-info">
-						<div class="row">
-							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
-							</div>
-						</div>
-
-						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
-				<div class="video-box">
-					<div class="video-image">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
-						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="video-info">
-						<div class="row">
-							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
-							</div>
-						</div>
-
-						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
-				<div class="video-box">
-					<div class="video-image">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
-						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="video-info">
-						<div class="row">
-							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
-							</div>
-						</div>
-
-						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-3 col-sm-6 col-6 low-padding-left-mobile low-padding-right-mobile">
-				<div class="video-box">
-					<div class="video-image">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/client-1.png" class="regular-image">
-						<div class="video-bar">
-							<div class="row">
-								<div class="col-lg-6 col-md-8 col-sm-6 col-8">
-									<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/play-video.png" class="regular-image" style="margin-left: 0.5em;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="video-info">
-						<div class="row">
-							<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/stars.png" class="regular-image" style="margin-top: 0px; margin-bottom: 8px;">
-							</div>
-						</div>
-
-						<p class="text-center name"><b>Roberta R. Roberts</b></p>
-						<p class="text-center title"><small>SCHOOLTEACHER</small></p>
-						<h5 class="text-center quote">"Steve Mehr changed my life for the better."</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="image-row">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-4">
-				<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/badge-min.png" id="badge_image" class="regular-image">
-			</div>
-			<div class="col-lg-10 col-md-10 col-sm-10 col-8" style="margin: auto;">
-				<h1 class="text-center" id="awarded_title">Awarded "Best Attorneys of America"</h1>
-				<p class="text-center d-none d-md-block" id="awarded_subtitle" style="">We Get Hired Because We Win • 100% Free Phone Consultations</p>
-			</div>
-		</div>
-
-		<div class="row" style="margin-top: 24px;">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-				<div class="row">
-					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-1.png" class="regular-image-80 regular-image-100-mobile">
-					</div>
-					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">98.7% Win Rate</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
-					</div>
-				</div>
-
-				<div class="row mt-16 mt-8-mobile">
-					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-2.png" class="regular-image-80 regular-image-100-mobile">
-					</div>
-					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">100% Free Consultation</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Get a free no-obligation consultation to find out how we can help you if you have a case.</p>
-					</div>
-				</div>
-
-				<div class="row mt-16 mt-8-mobile">
-					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-3.png" class="regular-image-80 regular-image-100-mobile">
-					</div>
-					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">Award Winning Attorneys</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Our team consists of some of the nation's top attorneys, retired judges and former prosecutors.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-8-mobile">
-				<div class="row">
-					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-4.png" class="regular-image-80 regular-image-100-mobile">
-					</div>
-					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">No Fees Unless We Win</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">We work on a contingency basis, which means we don't charge a penny unless we win your case.</p>
-					</div>
-				</div>
-
-				<div class="row mt-16 mt-8-mobile">
-					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-5.png" class="regular-image-80 regular-image-100-mobile">
-					</div>
-					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">Immediate Response 24/7</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Our staff is always available for you when you need to get in touch with us.</p>
-					</div>
-				</div>
-
-				<div class="row mt-16 mt-8-mobile">
-					<div class="col-lg-2 col-md-3 col-sm-2 col-2">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/awarded-icon-6.png" class="regular-image-80 regular-image-100-mobile">
-					</div>
-					<div class="col-lg-10 col-md-9 col-sm-10 col-10">
-						<h3 class="roboto bold-font white awarded-title">Over $1 Billion+ Recovered</h3>
-						<p class="roboto light-font white light-letter-spacing awarded-description">Not your average law firm. Clients hire us because we're committed, relentless, and we win.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div style="background-color: #eef0f1; padding: 24px;">
-	<section version="desktop-version" class="d-none d-md-block">
-		<div class="container">
-			<div class="row" style="margin-bottom: 24px;">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h3><b>Featured Attorneys</b></h3>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
-					<div class="attorney-box">
-						<div class="attorney-box-image">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-1-min.png" class="regular-image">
-						</div>
-
-						<div class="attorney-box-info">
-							<h4>Attorney Name</h4>
-							<p class="role">Managing Attorney</p>
-							<p>Former Federal Prosecutor</p>
-							<p>Former chief of the Orange County<br>Division of the Office of the United States Attorney, Central District of California</p>
-							<p>Awards from two Attorneys Generals of the United States and the Director of the FBI</p> 
-						</div>
-
-						<div class="attorney-box-footer">
-							<a href="" class="attorney-link">View Full Bio</a> 
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
-					<div class="attorney-box">
-						<div class="attorney-box-image">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-2-min.png" class="regular-image">
-						</div>
-
-						<div class="attorney-box-info">
-							<h4>Attorney Name</h4>
-							<p class="role">Partner</p>
-							<p>Former Federal Prosecutor</p>
-							<p>Former chief of the Orange County<br>Division of the Office of the United States Attorney, Central District of California</p>
-							<p>Awards from two Attorneys Generals of the United States and the Director of the FBI</p>
-						</div>
-
-						<div class="attorney-box-footer">
-							<a href="" class="attorney-link">View Full Bio</a> 
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
-					<div class="attorney-box">
-						<div class="attorney-box-image">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-3-min.png" class="regular-image">
-						</div>
-
-						<div class="attorney-box-info">
-							<h4>Honorable Judge</h4>
-							<p class="role">Retired Judge</p>
-							<p>Recent $50.3 million jury verdict</p>
-							<p>Awarded in The Best Lawyers in America</p>
-							<p>Martindale Hubbell peer review rating of AV Preeminent, 5.0 out of 5.0, 15+ years</p>
-							<p>Board of Directors, Orange County Bar Foundation</p>
-						</div>
-
-						<div class="attorney-box-footer">
-							<a href="" class="attorney-link">View Full Bio</a> 
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-12 col-12">
-					<div class="attorney-box">
-						<div class="attorney-box-image">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-4-min.png" class="regular-image">
-						</div>
-
-						<div class="attorney-box-info">
-							<h4>Senator Name</h4>
-							<p class="role">Former CA Senator</p>
-							<p>Former Assistant U.S. Attorney, U.S. Department of Justice; Civil Fraud Section, Deputy Chief</p>
-							<p>Decades of experience working with major federal agencies, including Medicare and Medicaid, Dept. of Defense., NASA, National Reconnaissance Office</p>
-							<p>Recovered Over $1 Billion Dollars</p>
-						</div>
-
-						<div class="attorney-box-footer">
-							<a href="" class="attorney-link">View Full Bio</a> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section version="mobile-version" class="d-md-none">
-		<div class="container">
-			<div class="row" style="margin-bottom: 24px;">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-					<h4 class="text-center"><b>Featured Attorneys</b></h4>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="scrolling-wrapper">
-					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
-						<div class="attorney-box">
-							<div class="attorney-box-image">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-1-min.png" class="regular-image">
-							</div>
-
-							<div class="attorney-box-info">
-								<h4>Attorney Name</h4>
-								<p class="role">Managing Attorney</p>
-								<p>Former Federal Prosecutor</p>
-								<p>Former chief of the Orange County<br>Division of the Office of the United States Attorney, Central District of California</p>
-								<p>Awards from two Attorneys Generals of the United States and the Director of the FBI</p> 
-							</div>
-
-							<div class="attorney-box-footer">
-								<a href="" class="attorney-link">View Full Bio</a> 
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
-						<div class="attorney-box">
-							<div class="attorney-box-image">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-2-min.png" class="regular-image">
-							</div>
-
-							<div class="attorney-box-info">
-								<h4>Attorney Name</h4>
-								<p class="role">Partner</p>
-								<p>Former Federal Prosecutor</p>
-								<p>Former chief of the Orange County<br>Division of the Office of the United States Attorney, Central District of California</p>
-								<p>Awards from two Attorneys Generals of the United States and the Director of the FBI</p>
-							</div>
-
-							<div class="attorney-box-footer">
-								<a href="" class="attorney-link">View Full Bio</a> 
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
-						<div class="attorney-box">
-							<div class="attorney-box-image">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-3-min.png" class="regular-image">
-							</div>
-
-							<div class="attorney-box-info">
-								<h4>Honorable Judge</h4>
-								<p class="role">Retired Judge</p>
-								<p>Recent $50.3 million jury verdict</p>
-								<p>Awarded in The Best Lawyers in America</p>
-								<p>Martindale Hubbell peer review rating of AV Preeminent, 5.0 out of 5.0, 15+ years</p>
-								<p>Board of Directors, Orange County Bar Foundation</p>
-							</div>
-
-							<div class="attorney-box-footer">
-								<a href="" class="attorney-link">View Full Bio</a> 
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-5 col-md-5 col-sm-5 col-11 scroll-card">
-						<div class="attorney-box">
-							<div class="attorney-box-image">
-								<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/attorney-4-min.png" class="regular-image">
-							</div>
-
-							<div class="attorney-box-info">
-								<h4>Senator Name</h4>
-								<p class="role">Former CA Senator</p>
-								<p>Former Assistant U.S. Attorney, U.S. Department of Justice; Civil Fraud Section, Deputy Chief</p>
-								<p>Decades of experience working with major federal agencies, including Medicare and Medicaid, Dept. of Defense., NASA, National Reconnaissance Office</p>
-								<p>Recovered Over $1 Billion Dollars</p>
-							</div>
-
-							<div class="attorney-box-footer">
-								<a href="" class="attorney-link">View Full Bio</a> 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
-<div style="background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/Bottom-CTA-Background.png'); background-size: cover; padding: 32px; background-position: center;">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-md-7 col-sm-12 col-12">
-				<h1 id="bottom-cta-number">1-800-219-1919</h1>
-				<h2 id="bottom-cta-title">24/7 Access to Your Lawyer</h2>
-				<h4 id="bottom-cta-subtitle">You can email, text, or call us 24/7</h4>
-				<p id="bottom-cta-description" class="d-md-none">Our firm prides itself on being available to our clients when they need us, regardless if it’s after hours or the weekend.</p>
-				<div class="row d-none d-md-block mt-4">
-					<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
-						<div class="videoWrapper">
-						    <!-- Copy & Pasted from YouTube -->
-						    <iframe width="560" height="349" src="http://www.youtube.com/embed/mZapfmWPxl4?modestbranding=1&hd=1" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-4 offset-lg-0 col-md-5 offset-md-0 col-sm-10 offset-sm-1 col-12" style="display: flex; margin: auto;">
-				<div class="front-page-form" id="bottom-cta-form">
-					<h3 class="text-center">Get Help Now</h3>
-					<h5 class="text-center">Free Consultation</h5>
-					<hr />
-					<form>
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_first_name_field">
-								<input type="text" class="form-control" placeholder="First Name" name="first_name" required>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group" id="front_page_form_last_name_field">
-								<input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_email_field">
-								<input type="email" class="form-control" placeholder="Email" name="email" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_phone_field">
-								<input type="tel" class="form-control" placeholder="Phone" name="email" required>
-							</div>
-
-							<div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group" id="front_page_form_message_field">
-								<textarea class="form-control" placeholder="Tell us what happened" name="message"></textarea>
-							</div>
-
-							<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
-								<input type="submit" value="Start Now" id="bottom_cta_submit_button">
-							</div>
-						</div>
-					</form>
-				</div>
 			</div>
 		</div>
 	</div>

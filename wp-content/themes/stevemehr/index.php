@@ -21,6 +21,9 @@
 		include('components/bottom-cta.inc.php'); 
 	} elseif ($slug == "accident-news") {
 		the_content();
+	} elseif ($slug == "contact-faq") {
+		include('components/contact.inc.php');
+		include('components/bottom-cta.inc.php'); 
 	} else {
 		if (have_posts()):
 		  while (have_posts()) : the_post();
