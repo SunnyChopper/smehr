@@ -26,7 +26,6 @@
 							    'container' => false,
 							    'depth' => 2,
 								'menu_class' => 'nav',
-								'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
 								'walker' => new WP_Bootstrap_Navwalker()
 							) 
 						);
