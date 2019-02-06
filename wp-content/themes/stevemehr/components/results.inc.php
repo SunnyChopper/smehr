@@ -11,13 +11,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="<?php echoget_option('result_image_1'); ?>" class="regular-image">
+						<img src="<?php echo get_option('result_image_1'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
 						<h2 class="text-center">$<?php echo get_option('result_amount_1'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">HIGH STAKES DISPUTE</p>
-						<p class="text-center" id="claim">Fraud Litigation:<br><span>Jury Verdict</span></p>
+						<p class="text-center" id="type"><?php echo get_option('result_type_1'); ?></p>
+						<p class="text-center" id="claim"><?php echo get_option('result_claim_1'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -25,13 +25,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident.jpg" class="regular-image">
+						<img src="<?php echo get_option('result_image_2'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$12.8</h2>
+						<h2 class="text-center">$<?php echo get_option('result_amount_2'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Truck Accident:<br><span>Death Claim</span></p>
+						<p class="text-center" id="type"><?php echo get_option('result_type_2'); ?></p>
+						<p class="text-center" id="claim"><?php echo get_option('result_claim_2'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -39,13 +39,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-2.jpg" class="regular-image">
+						<img src="<?php echo get_option('result_image_3'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$10.5</h2>
+						<h2 class="text-center">$<?php echo get_option('result_amount_3'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Jury Verdict</span></p>
+						<p class="text-center" id="type"><?php echo get_option('result_type_3'); ?></p>
+						<p class="text-center" id="claim"><?php echo get_option('result_claim_3'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -53,13 +53,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-3.jpg" class="regular-image">
+						<img src="<?php echo get_option('result_image_4'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$7.5</h2>
+						<h2 class="text-center">$<?php echo get_option('result_amount_4'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Brain Injury</span></p>
+						<p class="text-center" id="type"><?php echo get_option('result_type_4'); ?></p>
+						<p class="text-center" id="claim"><?php echo get_option('result_claim_4'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -67,13 +67,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/pedestrian-accident.jpg" class="regular-image">
+						<img src="<?php echo get_option('result_image_5'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$6.1</h2>
+						<h2 class="text-center">$<?php echo get_option('result_amount_5'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Pedestrain Accident:<br><span>Brain Injury</span></p>
+						<p class="text-center" id="type"><?php echo get_option('result_type_5'); ?></p>
+						<p class="text-center" id="claim"><?php echo get_option('result_claim_5'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -81,13 +81,13 @@
 			<div class="col-lg-2 col-md-4 col-sm-4 col-6 low-mobile-padding">
 				<div class="proof-box">
 					<div class="proof-image-box">
-						<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-4.jpg" class="regular-image">
+						<img src="<?php echo get_option('result_image_6'); ?>" class="regular-image">
 					</div>
 					<div class="proof-box-text">
-						<h2 class="text-center">$3.2</h2>
+						<h2 class="text-center">$<?php echo get_option('result_amount_6'); ?></h2>
 						<h4 class="text-center">MILLION</h4>
-						<p class="text-center" id="type">PERSONAL INJURY</p>
-						<p class="text-center" id="claim">Car Accident:<br><span>Back Injury</span></p>
+						<p class="text-center" id="type"><?php echo get_option('result_type_6'); ?></p>
+						<p class="text-center" id="claim"><?php echo get_option('result_claim_6'); ?></p>
 					</div>
 				</div>
 			</div>
