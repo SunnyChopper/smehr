@@ -124,7 +124,7 @@ function display_result_image_1() {
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(".result_image_upload").on('click', function(e) {
-					var result_id = $(this).id;
+					var result_id = $(this).attr('id');
 					e.preventDefault();
 
 					var custom_uploader = wp.media({
