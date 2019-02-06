@@ -382,7 +382,7 @@ function display_testimonial_1_name() {
 
 function display_testimonial_1_text() {
 	?>
-		<input type="text" name="testimonial_quote_1" id="testimonial_quote_1" value="<?php echo get_option('testimonial_quote_1'); ?>" >
+		<input type="text" name="testimonial_quote_1" id="testimonial_quote_1" value="<?php echo get_option('testimonial_quote_1'); ?>">
 	<?php
 }
 
@@ -411,7 +411,7 @@ function display_testimonial_2_name() {
 
 function display_testimonial_2_text() {
 	?>
-		<input type="text" name="testimonial_quote_2" id="testimonial_quote_2" value="<?php echo get_option('testimonial_quote_2'); ?>" >
+		<input type="text" name="testimonial_quote_2" id="testimonial_quote_2" value="<?php echo get_option('testimonial_quote_2'); ?>">
 	<?php
 }
 
@@ -440,7 +440,7 @@ function display_testimonial_3_name() {
 
 function display_testimonial_3_text() {
 	?>
-		<input type="text" name="testimonial_quote_3" id="testimonial_quote_3" value="<?php echo get_option('testimonial_quote_3'); ?>" >
+		<input type="text" name="testimonial_quote_3" id="testimonial_quote_3" value="<?php echo get_option('testimonial_quote_3'); ?>">
 	<?php
 }
 
@@ -469,7 +469,7 @@ function display_testimonial_4_name() {
 
 function display_testimonial_4_text() {
 	?>
-		<input type="text" name="testimonial_quote_4" id="testimonial_quote_4" value="<?php echo get_option('testimonial_quote_4'); ?>" >
+		<input type="text" name="testimonial_quote_4" id="testimonial_quote_4" value="<?php echo get_option('testimonial_quote_4'); ?>">
 	<?php
 }
 
