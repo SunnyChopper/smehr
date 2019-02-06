@@ -17,6 +17,10 @@ html, body {
 	top: 22px;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;    
+}
+
 .page-banner {
 	background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/page-banner.png');
 	background-size: cover;
@@ -256,7 +260,7 @@ html, body {
 		line-height: 1.25em;
 	}
 
-	
+
 	.menu-item {
 		width: 100%;
 	}
