@@ -283,6 +283,23 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	color: #8d9199;
 }
 
+.footer-row > ul {
+	list-style-type: none;
+    display: -webkit-inline-box;
+}
+
+.footer-row > ul > li > a:before {
+	content: "|";
+	margin-left: 8px;
+}
+
+.footer-row > ul > li > a {
+	font-size: 12px;
+    text-align: center;
+    color: #8d9199;
+    display: inline-block;
+}
+
 .gray-box {
 	background-color: #EAEAEA;
 	padding: 32px;
