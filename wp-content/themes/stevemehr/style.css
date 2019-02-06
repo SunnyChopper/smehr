@@ -21,6 +21,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	display: block;    
 }
 
+.menu-item > a {
+	color: black;
+}
+
 .page-banner {
 	background: url('http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/page-banner.png');
 	background-size: cover;
