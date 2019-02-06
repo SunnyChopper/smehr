@@ -24,4 +24,5 @@
  	<?php wp_head(); ?>
 </head>
 <body>
+	<?php include('components/navbar.inc.php'); ?>
 </body>

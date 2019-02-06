@@ -3,7 +3,7 @@
 <?php 
 	global $wp;
 	$slug = $wp->request;
-	include('components/navbar.inc.php');
+	
 
 	if (is_front_page()) {;
 		include('components/main-banner.inc.php'); 
