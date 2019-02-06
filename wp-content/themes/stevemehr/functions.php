@@ -209,8 +209,8 @@ function handle_result_2_image_upload($option) {
 
 function display_result_image_3() {
 	?>
-		<input type="file" name="result_image_3" >
-		<?php echo get_option('result_image_3'); ?>
+		<input id="result_image_3" type="text" name="result_image_3" size="60" value="<?php echo get_option('result_image_3'); ?>">
+		<a href="#" id="3" class="result_image_upload">Upload</a>
 	<?php
 }
 
@@ -244,8 +244,8 @@ function handle_result_3_image_upload($option) {
 
 function display_result_image_4() {
 	?>
-		<input type="file" name="result_image_4" >
-		<?php echo get_option('result_image_4'); ?>
+		<input id="result_image_4" type="text" name="result_image_4" size="60" value="<?php echo get_option('result_image_4'); ?>">
+		<a href="#" id="4" class="result_image_upload">Upload</a>
 	<?php
 }
 
@@ -279,8 +279,8 @@ function handle_result_4_image_upload($option) {
 
 function display_result_image_5() {
 	?>
-		<input type="file" name="result_image_5" >
-		<?php echo get_option('result_image_5'); ?>
+		<input id="result_image_5" type="text" name="result_image_5" size="60" value="<?php echo get_option('result_image_5'); ?>">
+		<a href="#" id="5" class="result_image_upload">Upload</a>
 	<?php
 }
 
@@ -314,8 +314,8 @@ function handle_result_5_image_upload($option) {
 
 function display_result_image_6() {
 	?>
-		<input type="file" name="result_image_6" >
-		<?php echo get_option('result_image_4'); ?>
+		<input id="result_image_6" type="text" name="result_image_6" size="60" value="<?php echo get_option('result_image_6'); ?>">
+		<a href="#" id="6" class="result_image_upload">Upload</a>
 	<?php
 }
 
