@@ -15,7 +15,7 @@ get_header();
 include('components/results.inc.php');
 include('components/client-stories.inc.php');
 include('components/features.inc.php');
-include('components/attorneys.inc.php');
+include('components/steve-bio.inc.php');
 include('components/bottom-cta.inc.php');
 get_footer();
 
