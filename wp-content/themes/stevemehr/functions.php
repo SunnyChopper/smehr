@@ -175,7 +175,7 @@ function handle_result_1_image_upload($option) {
 function display_result_image_2() {
 	?>
 		<input id="result_image_2" type="text" name="result_image_2" size="60" value="<?php echo get_option('result_image_2'); ?>">
-		<a href="#" id="1" class="result_image_upload">Upload</a>
+		<a href="#" id="2" class="result_image_upload">Upload</a>
 
 		<script type="text/javascript">
 			$(document).ready(function(){
