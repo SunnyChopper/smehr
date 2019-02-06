@@ -9,7 +9,7 @@
 
 			<div class="row">
 				<div class="col-lg-5 col-md-12 col-sm-12 col-12">
-					<img src="http://rich20something.com/wp-content/uploads/2015/10/maxresdefault-5.jpg" class="regular-image">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/steve.jpg" class="regular-image">
 				</div>
 
 				<div class="col-lg-7 col-md-12 col-sm-12 col-12 mt-32-tablet mt-32-mobile">
