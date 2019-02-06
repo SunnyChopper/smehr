@@ -58,17 +58,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<p class="text-white text-center mb-2"><small>100% Free Consultation. We Come to You.</small></p>
+				<p class="text-black text-center mb-2"><small>100% Free Consultation. We Come to You.</small></p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-				<a href="" class="btn btn-sm btn-primary full-width-button"><span class="mr-2"><i class="fa fa-phone"></i></span> Call</a>
+				<a href="" class="btn btn-sm btn-primary full-width-button" style="font-size: 16px;"><span class="mr-2"><i class="fa fa-phone"></i></span> Call</a>
 			</div>
 
 			<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-				<a href="" class="btn btn-sm btn-primary full-width-button"><span class="mr-2"><i class="fa fa-mobile"></i></span> Chat</a>
+				<a href="" class="btn btn-sm btn-primary full-width-button" style="font-size: 16px;"><span class="mr-2"><i class="fa fa-mobile"></i></span> Chat</a>
 			</div>
 		</div>
 	</div>

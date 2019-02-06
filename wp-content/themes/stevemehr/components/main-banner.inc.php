@@ -32,7 +32,7 @@
 
 				<section version="mobile-version" class="d-md-none">
 					<div class="row">
-						<div class='col-12'>
+						<div class='col-sm-8 offset-sm-2 col-12'>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/mobile-bar.png" class="regular-image">
 						</div>
 					</div>

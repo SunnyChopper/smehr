@@ -47,7 +47,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #main-banner-tagline {
 	color: white;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 	margin-top: 15vh;
 	font-size: 48px;
@@ -477,8 +477,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #0f1323;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 8px;
 }
 
@@ -1871,6 +1871,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	#tagline-person {
 		margin-bottom: 2px;
 		text-shadow: 0px 1px 8px black;
+		font-size: 20px;
 	}
 
 	#tagline-ref {
