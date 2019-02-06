@@ -25,7 +25,7 @@
 							    'theme_location' => 'main-menu', 
 							    'container' => false,
 							    'depth' => 2,
-							    'menu_class' => 'nav navbar-nav',
+							    'menu_class' => 'nav',
 							    'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
 							    'walker' => new wp_bootstrap_navwalker()
 							) 
