@@ -51,6 +51,9 @@ function special_nav_class ($classes, $item) {
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 function add_classes_on_li($classes, $item, $args) {
+	if($args->theme_location == 'footer-menu') {
+		$classes[] = 'footer-link';
+	}
     $classes[] = 'nav-item';
     return $classes;
 }
