@@ -283,15 +283,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	color: #8d9199;
 }
 
-.footer-row > ul {
+#menu-footer-menu > ul {
 	list-style-type: none;
 }
 
-.footer-row > ul > li {
+#menu-footer-menu  > ul > li {
 	display: inline-block;
 }
 
-.footer-row > ul > li > .nav-link {
+#menu-footer-menu  > ul > li > .nav-link {
 	font-size: 12px;
     text-align: center;
     color: #8d9199;
