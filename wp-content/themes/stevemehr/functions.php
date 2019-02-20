@@ -102,9 +102,7 @@ function theme_settings_page() {
 			<h1>Global Modules</h1>
 			<form method="POST" action="options.php">
 				<?php
-					settings_fields("bottom-cta");
-					settings_fields("results");
-					settings_fields("testimonials");
+					settings_fields("settings_all");
 					do_settings_sections("theme-options");
 					submit_button();
 				?>
