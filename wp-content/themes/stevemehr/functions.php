@@ -102,9 +102,7 @@ function theme_settings_page() {
 			<h1>Global Modules</h1>
 			<form method="POST" action="options.php">
 				<?php
-					settings_fields("bottom-cta");
-					settings_fields("results");
-					settings_fields("testimonials");
+					settings_fields("settings_all");
 					do_settings_sections("theme-options");
 					submit_button();
 				?>
@@ -486,96 +484,96 @@ function handle_testimonial_4_image_upload($option) {
 }
 
 function display_theme_panel_fields() {
-	add_settings_section("bottom-cta", "Bottom Call-to-Action Row", null, "theme-options");
+	add_settings_section("settings_all", "Bottom Call-to-Action Row", null, "theme-options");
 
-	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "bottom-cta");
-	register_setting("bottom-cta", "bottom_cta_phone");
+	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "settings_all");
+	register_setting("settings_all", "bottom_cta_phone");
 
-	add_settings_section("results", "Results/Settlements", null, "theme-options");
+	add_settings_section("settings_all", "settings_all/Settlements", null, "theme-options");
 
-	add_settings_field("result_image_1", "Result 1 Image", "display_result_image_1", "theme-options", "results");
-	add_settings_field("result_amount_1", "Result 1 Amount", "display_result_amount_1", "theme-options", "results");
-	add_settings_field("result_type_1", "Result 1 Type", "display_result_type_1", "theme-options", "results");
-	add_settings_field("result_claim_1", "Result 1 Claim", "display_result_claim_1", "theme-options", "results");
-	register_setting("results", "result_image_1", "handle_result_1_image_upload");
-	register_setting("results", "result_amount_1");
-	register_setting("results", "result_type_1");
-	register_setting("results", "result_claim_1");
+	add_settings_field("result_image_1", "Result 1 Image", "display_result_image_1", "theme-options", "settings_all");
+	add_settings_field("result_amount_1", "Result 1 Amount", "display_result_amount_1", "theme-options", "settings_all");
+	add_settings_field("result_type_1", "Result 1 Type", "display_result_type_1", "theme-options", "settings_all");
+	add_settings_field("result_claim_1", "Result 1 Claim", "display_result_claim_1", "theme-options", "settings_all");
+	register_setting("settings_all", "result_image_1", "handle_result_1_image_upload");
+	register_setting("settings_all", "result_amount_1");
+	register_setting("settings_all", "result_type_1");
+	register_setting("settings_all", "result_claim_1");
 
-	add_settings_field("result_image_2", "Result 2 Image", "display_result_image_2", "theme-options", "results");
-	add_settings_field("result_amount_2", "Result 2 Amount", "display_result_amount_2", "theme-options", "results");
-	add_settings_field("result_type_2", "Result 2 Type", "display_result_type_2", "theme-options", "results");
-	add_settings_field("result_claim_2", "Result 2 Claim", "display_result_claim_2", "theme-options", "results");
-	register_setting("results", "result_image_2", "handle_result_2_image_upload");
-	register_setting("results", "result_amount_2");
-	register_setting("results", "result_type_2");
-	register_setting("results", "result_claim_2");
+	add_settings_field("result_image_2", "Result 2 Image", "display_result_image_2", "theme-options", "settings_all");
+	add_settings_field("result_amount_2", "Result 2 Amount", "display_result_amount_2", "theme-options", "settings_all");
+	add_settings_field("result_type_2", "Result 2 Type", "display_result_type_2", "theme-options", "settings_all");
+	add_settings_field("result_claim_2", "Result 2 Claim", "display_result_claim_2", "theme-options", "settings_all");
+	register_setting("settings_all", "result_image_2", "handle_result_2_image_upload");
+	register_setting("settings_all", "result_amount_2");
+	register_setting("settings_all", "result_type_2");
+	register_setting("settings_all", "result_claim_2");
 
-	add_settings_field("result_image_3", "Result 3 Image", "display_result_image_3", "theme-options", "results");
-	add_settings_field("result_amount_3", "Result 3 Amount", "display_result_amount_3", "theme-options", "results");
-	add_settings_field("result_type_3", "Result 3 Type", "display_result_type_3", "theme-options", "results");
-	add_settings_field("result_claim_3", "Result 3 Claim", "display_result_claim_3", "theme-options", "results");
-	register_setting("results", "result_image_3", "handle_result_3_image_upload");
-	register_setting("results", "result_amount_3");
-	register_setting("results", "result_type_3");
-	register_setting("results", "result_claim_3");
+	add_settings_field("result_image_3", "Result 3 Image", "display_result_image_3", "theme-options", "settings_all");
+	add_settings_field("result_amount_3", "Result 3 Amount", "display_result_amount_3", "theme-options", "settings_all");
+	add_settings_field("result_type_3", "Result 3 Type", "display_result_type_3", "theme-options", "settings_all");
+	add_settings_field("result_claim_3", "Result 3 Claim", "display_result_claim_3", "theme-options", "settings_all");
+	register_setting("settings_all", "result_image_3", "handle_result_3_image_upload");
+	register_setting("settings_all", "result_amount_3");
+	register_setting("settings_all", "result_type_3");
+	register_setting("settings_all", "result_claim_3");
 
-	add_settings_field("result_image_4", "Result 4 Image", "display_result_image_4", "theme-options", "results");
-	add_settings_field("result_amount_4", "Result 4 Amount", "display_result_amount_4", "theme-options", "results");
-	add_settings_field("result_type_4", "Result 4 Type", "display_result_type_4", "theme-options", "results");
-	add_settings_field("result_claim_4", "Result 4 Claim", "display_result_claim_4", "theme-options", "results");
-	register_setting("results", "result_image_4", "handle_result_4_image_upload");
-	register_setting("results", "result_amount_4");
-	register_setting("results", "result_type_4");
-	register_setting("results", "result_claim_4");
+	add_settings_field("result_image_4", "Result 4 Image", "display_result_image_4", "theme-options", "settings_all");
+	add_settings_field("result_amount_4", "Result 4 Amount", "display_result_amount_4", "theme-options", "settings_all");
+	add_settings_field("result_type_4", "Result 4 Type", "display_result_type_4", "theme-options", "settings_all");
+	add_settings_field("result_claim_4", "Result 4 Claim", "display_result_claim_4", "theme-options", "settings_all");
+	register_setting("settings_all", "result_image_4", "handle_result_4_image_upload");
+	register_setting("settings_all", "result_amount_4");
+	register_setting("settings_all", "result_type_4");
+	register_setting("settings_all", "result_claim_4");
 
-	add_settings_field("result_image_5", "Result 5 Image", "display_result_image_5", "theme-options", "results");
-	add_settings_field("result_amount_5", "Result 5 Amount", "display_result_amount_5", "theme-options", "results");
-	add_settings_field("result_type_5", "Result 5 Type", "display_result_type_5", "theme-options", "results");
-	add_settings_field("result_claim_5", "Result 5 Claim", "display_result_claim_5", "theme-options", "results");
-	register_setting("results", "result_image_5", "handle_result_5_image_upload");
-	register_setting("results", "result_amount_5");
-	register_setting("results", "result_type_5");
-	register_setting("results", "result_claim_5");
+	add_settings_field("result_image_5", "Result 5 Image", "display_result_image_5", "theme-options", "settings_all");
+	add_settings_field("result_amount_5", "Result 5 Amount", "display_result_amount_5", "theme-options", "settings_all");
+	add_settings_field("result_type_5", "Result 5 Type", "display_result_type_5", "theme-options", "settings_all");
+	add_settings_field("result_claim_5", "Result 5 Claim", "display_result_claim_5", "theme-options", "settings_all");
+	register_setting("settings_all", "result_image_5", "handle_result_5_image_upload");
+	register_setting("settings_all", "result_amount_5");
+	register_setting("settings_all", "result_type_5");
+	register_setting("settings_all", "result_claim_5");
 
-	add_settings_field("result_image_6", "Result 6 Image", "display_result_image_6", "theme-options", "results");
-	add_settings_field("result_amount_6", "Result 6 Amount", "display_result_amount_6", "theme-options", "results");
-	add_settings_field("result_type_6", "Result 6 Type", "display_result_type_6", "theme-options", "results");
-	add_settings_field("result_claim_6", "Result 6 Claim", "display_result_claim_6", "theme-options", "results");
-	register_setting("results", "result_image_6", "handle_result_6_image_upload");
-	register_setting("results", "result_amount_6");
-	register_setting("results", "result_type_6");
-	register_setting("results", "result_claim_6");
+	add_settings_field("result_image_6", "Result 6 Image", "display_result_image_6", "theme-options", "settings_all");
+	add_settings_field("result_amount_6", "Result 6 Amount", "display_result_amount_6", "theme-options", "settings_all");
+	add_settings_field("result_type_6", "Result 6 Type", "display_result_type_6", "theme-options", "settings_all");
+	add_settings_field("result_claim_6", "Result 6 Claim", "display_result_claim_6", "theme-options", "settings_all");
+	register_setting("settings_all", "result_image_6", "handle_result_6_image_upload");
+	register_setting("settings_all", "result_amount_6");
+	register_setting("settings_all", "result_type_6");
+	register_setting("settings_all", "result_claim_6");
 
-	add_settings_section("testimonials", "Testimonials", null, "theme-options");
+	add_settings_section("settings_all", "settings_all", null, "theme-options");
 
-	add_settings_field("testimonial_image_1", "Testimonial 1 Image", "display_testimonial_1_image", "theme-options", "testimonials");
-	add_settings_field("testimonial_name_1", "Testimonial 1 Name", "display_testimonial_1_name", "theme-options", "testimonials");
-	add_settings_field("testimonial_quote_1", "Testimonial 1 Quote", "display_testimonial_1_text", "theme-options", "testimonials");
-	register_setting("testimonials", "testimonial_image_1", "handle_testimonial_1_image_upload");
-	register_setting("testimonials", "testimonial_name_1");
-	register_setting("testimonials", "testimonial_quote_1");
+	add_settings_field("testimonial_image_1", "Testimonial 1 Image", "display_testimonial_1_image", "theme-options", "settings_all");
+	add_settings_field("testimonial_name_1", "Testimonial 1 Name", "display_testimonial_1_name", "theme-options", "settings_all");
+	add_settings_field("testimonial_quote_1", "Testimonial 1 Quote", "display_testimonial_1_text", "theme-options", "settings_all");
+	register_setting("settings_all", "testimonial_image_1", "handle_testimonial_1_image_upload");
+	register_setting("settings_all", "testimonial_name_1");
+	register_setting("settings_all", "testimonial_quote_1");
 
-	add_settings_field("testimonial_image_2", "Testimonial 2 Image", "display_testimonial_2_image", "theme-options", "testimonials");
-	add_settings_field("testimonial_name_2", "Testimonial 2 Name", "display_testimonial_2_name", "theme-options", "testimonials");
-	add_settings_field("testimonial_quote_2", "Testimonial 2 Quote", "display_testimonial_2_text", "theme-options", "testimonials");
-	register_setting("testimonials", "testimonial_image_2", "handle_testimonial_2_image_upload");
-	register_setting("testimonials", "testimonial_name_2");
-	register_setting("testimonials", "testimonial_quote_2");
+	add_settings_field("testimonial_image_2", "Testimonial 2 Image", "display_testimonial_2_image", "theme-options", "settings_all");
+	add_settings_field("testimonial_name_2", "Testimonial 2 Name", "display_testimonial_2_name", "theme-options", "settings_all");
+	add_settings_field("testimonial_quote_2", "Testimonial 2 Quote", "display_testimonial_2_text", "theme-options", "settings_all");
+	register_setting("settings_all", "testimonial_image_2", "handle_testimonial_2_image_upload");
+	register_setting("settings_all", "testimonial_name_2");
+	register_setting("settings_all", "testimonial_quote_2");
 
-	add_settings_field("testimonial_image_3", "Testimonial 3 Image", "display_testimonial_3_image", "theme-options", "testimonials");
-	add_settings_field("testimonial_name_3", "Testimonial 3 Name", "display_testimonial_3_name", "theme-options", "testimonials");
-	add_settings_field("testimonial_quote_3", "Testimonial 3 Quote", "display_testimonial_3_text", "theme-options", "testimonials");
-	register_setting("testimonials", "testimonial_image_3", "handle_testimonial_3_image_upload");
-	register_setting("testimonials", "testimonial_name_3");
-	register_setting("testimonials", "testimonial_quote_3");
+	add_settings_field("testimonial_image_3", "Testimonial 3 Image", "display_testimonial_3_image", "theme-options", "settings_all");
+	add_settings_field("testimonial_name_3", "Testimonial 3 Name", "display_testimonial_3_name", "theme-options", "settings_all");
+	add_settings_field("testimonial_quote_3", "Testimonial 3 Quote", "display_testimonial_3_text", "theme-options", "settings_all");
+	register_setting("settings_all", "testimonial_image_3", "handle_testimonial_3_image_upload");
+	register_setting("settings_all", "testimonial_name_3");
+	register_setting("settings_all", "testimonial_quote_3");
 
-	add_settings_field("testimonial_image_4", "Testimonial 4 Image", "display_testimonial_4_image", "theme-options", "testimonials");
-	add_settings_field("testimonial_name_4", "Testimonial 4 Name", "display_testimonial_4_name", "theme-options", "testimonials");
-	add_settings_field("testimonial_quote_4", "Testimonial 4 Quote", "display_testimonial_4_text", "theme-options", "testimonials");
-	register_setting("testimonials", "testimonial_image_4", "handle_testimonial_4_image_upload");
-	register_setting("testimonials", "testimonial_name_4");
-	register_setting("testimonials", "testimonial_quote_4");
+	add_settings_field("testimonial_image_4", "Testimonial 4 Image", "display_testimonial_4_image", "theme-options", "settings_all");
+	add_settings_field("testimonial_name_4", "Testimonial 4 Name", "display_testimonial_4_name", "theme-options", "settings_all");
+	add_settings_field("testimonial_quote_4", "Testimonial 4 Quote", "display_testimonial_4_text", "theme-options", "settings_all");
+	register_setting("settings_all", "testimonial_image_4", "handle_testimonial_4_image_upload");
+	register_setting("settings_all", "testimonial_name_4");
+	register_setting("settings_all", "testimonial_quote_4");
 }
 add_action("admin_init", "display_theme_panel_fields");
 
