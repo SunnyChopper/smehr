@@ -5,24 +5,18 @@
 	<div class="row">
 		<div class="col-lg-8 col-md-8 col-sm-12 col-12">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+				<h3 class="mb-16"><?php the_title(); ?></h3>
+
 				<?php if (has_post_thumbnail()) : ?>
 					<?php the_post_thumbnail('large', array('class' => 'regular-image')); ?>
 				<?php endif; ?>
 
-				<h3 class="mt-32"><?php the_title(); ?></h3>
+				
 				<hr />
 					<?php the_content(); ?>
 				<hr />
-				<p><strong>Tags:</strong></p>
-				<?php 
-					$post_tags = get_the_tags();
- 
-					if ( $post_tags ) {
-					    foreach( $post_tags as $tag ) {
-					    echo $tag->name . ', '; 
-					    }
-					}
-				?>
+				[jpshare]
+				<p><?php the_tags(); ?></p>
 
 			<?php endwhile; ?>
 			<?php endif; ?>
