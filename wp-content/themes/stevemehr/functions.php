@@ -103,6 +103,7 @@ function theme_settings_page() {
 			<form method="POST" action="options.php">
 				<?php
 					settings_fields("settings_all");
+					do_settings_sections("settings_all");
 					do_settings_sections("theme-options");
 					submit_button();
 				?>
