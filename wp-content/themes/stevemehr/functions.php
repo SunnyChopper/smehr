@@ -138,6 +138,7 @@ function display_result_image_1() {
 					}).on('select', function() {
 						var attachment = custom_uploader.state().get('selection').first().toJSON();
 						var result_image_id = '#result_image_' + result_id;
+						$(result_image_id).val(attachment.url);
 						$(result_image_id).attr("value", attachment.url);
 						console.log(attachment.url);
 						console.log(result_image_id);
