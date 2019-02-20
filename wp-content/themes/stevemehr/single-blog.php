@@ -11,12 +11,13 @@
 					<?php the_post_thumbnail('large', array('class' => 'regular-image')); ?>
 				<?php endif; ?>
 
-				
-				<hr />
-					<?php the_content(); ?>
+				<?php the_content(); ?>
+
 				<hr />
 				[jpshare]
+				<?php echo do_shortcode( '[labnol_related]' ); ?>
 				<p><?php the_tags(); ?></p>
+
 
 			<?php endwhile; ?>
 			<?php endif; ?>

@@ -93,7 +93,7 @@ add_action( 'widgets_init', 'post_sidebar' );
 
 
 /* ------------------------- *\
-	Custom Post Type
+	Custom Post Page
 \* ------------------------- */
 
 add_filter('single_template', function ($single_template) {
@@ -106,6 +106,63 @@ add_filter('single_template', function ($single_template) {
      return $single_template;
 
 }, 10, 3 );
+
+/* ------------------------- *\
+	Jetpack Related Posts
+\* ------------------------- */
+
+/* This is required to remove the CSS and JS enqueued in the header */
+function jetpackme_no_related_posts($options) {
+    if (is_single()) {
+        $options['enabled'] = false;
+    }
+    return $options;
+}
+
+add_filter('jetpack_relatedposts_filter_options', 'jetpackme_no_related_posts');
+
+/* Create shortcode for displaying related posts anywhere in the post */
+function labnol_related_shortcode($atts) {
+    $related_posts = "";
+    if (class_exists('Jetpack_RelatedPosts') && method_exists('Jetpack_RelatedPosts', 'init_raw')) {
+
+        $related = Jetpack_RelatedPosts::init_raw()
+            ->set_query_name('jetpackme-shortcode')
+            ->get_for_post_id(
+                get_the_ID(),
+                array( 'size' => 3 ) // How many related posts?
+            );
+
+        if ($related) {
+
+            foreach ( $related as $result ) {
+                $related_post = get_post( $result[ 'id' ] );
+                $url = get_permalink($related_post->ID);
+                $title = $related_post->post_title;
+                $related_posts .= "<li><a href='" . $url . "'>$title</a></li>";
+            }
+            $related_posts = '<ol>' . $related_posts . '</ol>';
+        }
+    }
+
+    return $related_posts;
+}
+
+/* Create a new shortcode for Jetpack related posts */
+add_shortcode( 'labnol_related', 'labnol_related_shortcode' );
+
+/* Do not load the one-big Jetpack concatenated CSS file */
+add_filter('jetpack_implode_frontend_css', '__return_false');
+
+/* Dequeue the default styles and jQuery for Jetpack module */
+function add_labnol_scripts() {
+    if (!is_admin()) {
+        wp_dequeue_script('jetpack-related_posts');
+        wp_dequeue_style('jetpack-related_posts');
+    }
+}
+
+add_action("wp_enqueue_scripts", "add_labnol_scripts", 20);
 
 /* ------------------------- *\
 	Global Modules
