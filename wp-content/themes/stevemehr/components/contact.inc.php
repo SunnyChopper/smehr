@@ -177,7 +177,7 @@
 
 	.feature-card > #chat-window {
 		font-size: 16px;
-		margin-bottom: -10px;
+		margin-bottom: -2px;
 	}
 
 	.feature-card > #chat-window > a {
@@ -187,7 +187,7 @@
 
 	.feature-card > #email {
 		font-size: 16px;
-		margin-bottom: 35px;
+		margin-bottom: 16px;
 	}
 
 	.blue-button {
