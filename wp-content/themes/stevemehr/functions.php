@@ -486,7 +486,7 @@ function handle_testimonial_4_image_upload($option) {
 function display_theme_panel_fields() {
 	add_settings_section("settings_all", "Bottom Call-to-Action Row", null, "theme-options");
 
-	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "settings_all");
+	add_settings_field("bottom_cta_phone", "Bottom Call-to-Action Row Phone Number", "display_bottom_cta_phone", "theme-options", "settings_all");
 	register_setting("settings_all", "bottom_cta_phone");
 
 	add_settings_section("settings_all", "settings_all/Settlements", null, "theme-options");
