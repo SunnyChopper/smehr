@@ -137,7 +137,7 @@ function display_result_image_1() {
 						multiple: false
 					}).on('select', function() {
 						var attachment = custom_uploader.state().get('selection').first().toJSON();
-						var result_image_id = '#result_image_' + result_id;
+						var result_image_id = 'input[name=result_image_' + result_id + ']';
 						$(result_image_id).val(attachment.url);
 						$(result_image_id).attr("value", attachment.url);
 					}).open(); 
@@ -487,11 +487,13 @@ function handle_testimonial_4_image_upload($option) {
 
 function display_theme_panel_fields() {
 	add_settings_section("bottom-cta", "Bottom Call-to-Action Row", null, "theme-options");
+	register_setting("settings_all", "bottom-cta");
 
 	add_settings_field("bottom_cta_phone", "Phone Number", "display_bottom_cta_phone", "theme-options", "bottom-cta");
 	register_setting("bottom-cta", "bottom_cta_phone");
 
 	add_settings_section("results", "Results/Settlements", null, "theme-options");
+	register_setting("settings_all", "results");
 
 	add_settings_field("result_image_1", "Result 1 Image", "display_result_image_1", "theme-options", "results");
 	add_settings_field("result_amount_1", "Result 1 Amount", "display_result_amount_1", "theme-options", "results");
@@ -548,6 +550,7 @@ function display_theme_panel_fields() {
 	register_setting("results", "result_claim_6");
 
 	add_settings_section("testimonials", "Testimonials", null, "theme-options");
+	register_setting("settings_all", "testimonials");
 
 	add_settings_field("testimonial_image_1", "Testimonial 1 Image", "display_testimonial_1_image", "theme-options", "testimonials");
 	add_settings_field("testimonial_name_1", "Testimonial 1 Name", "display_testimonial_1_name", "theme-options", "testimonials");
