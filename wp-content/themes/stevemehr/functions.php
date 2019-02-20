@@ -140,8 +140,6 @@ function display_result_image_1() {
 						var result_image_id = '#result_image_' + result_id;
 						$(result_image_id).val(attachment.url);
 						$(result_image_id).attr("value", attachment.url);
-						console.log(attachment.url);
-						console.log(result_image_id);
 					}).open(); 
 				});
 			});
@@ -168,7 +166,7 @@ function display_result_claim_1() {
 }
 
 function handle_result_1_image_upload($option) {
-	if (isset($_FILES['result_image_1']) && !empty($_FILES['result_image_1']['name'])) {
+	if (!empty($_FILES['result_image_1']['tmp_name'])) {
 		$urls = wp_handle_upload($_FILES['result_image_1'], array('test_form' => FALSE));
 		$temp = $urls["url"];
 		return $temp;
