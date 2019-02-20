@@ -26,7 +26,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/steve.jpg" class="regular-image">
 		</div>
 
-		<div class="mobile-margin col-lg-6 col-md-7 col-sm-12 col-12 mt-32-tablet mt-32-mobile" style="float: right; display: inline-block; background-color: rgba(66, 99, 155, 1); padding: 32px; color: white;">
+		<div class="mobile-margin col-lg-6 col-md-7 col-sm-12 col-12" style="float: right; display: inline-block; background-color: rgba(66, 99, 155, 1); padding: 32px; color: white;">
 			<div style="height: 100%; display: flex;">
 				<div style="margin: auto;">
 					<h4 style="font-family: 'Roboto', sans-serif;"><b>A Little Bit About Steve Mehr Injury Lawyers</b></h4>
