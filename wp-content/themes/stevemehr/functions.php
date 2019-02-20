@@ -137,8 +137,8 @@ function display_result_image_1() {
 						multiple: false
 					}).on('select', function() {
 						var attachment = custom_uploader.state().get('selection').first().toJSON();
-						var result_image_id = '#result_image_' + result_id;
-						$(result_image_id).val(attachment.url);
+						var result_image_id = 'result_image_' + result_id;
+						document.getElementById(result_image_id).value = attachment.url;
 						console.log(attachment.url);
 						console.log(result_image_id);
 					}).open(); 
