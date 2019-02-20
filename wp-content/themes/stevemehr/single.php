@@ -12,16 +12,6 @@
 				<h3 class="mt-32"><?php the_title(); ?></h3>
 				<hr />
 					<?php the_content(); ?>
-				<hr />
-				<?php 
-					$post_tags = get_the_tags();
- 
-					if ( $post_tags ) {
-					    foreach( $post_tags as $tag ) {
-					    echo $tag->name . ', '; 
-					    }
-					}
-				?>
 
 			<?php endwhile; ?>
 			<?php endif; ?>

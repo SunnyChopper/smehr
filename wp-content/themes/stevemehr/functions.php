@@ -91,6 +91,23 @@ function post_sidebar() {
 }
 add_action( 'widgets_init', 'post_sidebar' );
 
+
+/* ------------------------- *\
+	Custom Post Type
+\* ------------------------- */
+
+add_filter( 'news-template', 'news_post_template' );
+function news_post_template($single_template)
+{
+    if (in_category('Blog')) {
+        $file = get_template_directory() . '/single-blog.php';
+        if (file_exists($file)) {
+            return $file;
+        }
+    }
+    return $single_template;
+}
+
 /* ------------------------- *\
 	Global Modules
 \* ------------------------- */
