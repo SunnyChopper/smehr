@@ -4,7 +4,7 @@ define('FS_METHOD', 'direct');
 add_theme_support( 'post-thumbnails' );
 
 // Hide the admin bar
-show_admin_bar( false );
+show_admin_bar( true );
 
 /* ------------------------- *\
 	Scripts for Theme
@@ -137,7 +137,7 @@ function display_result_image_1() {
 						multiple: false
 					}).on('select', function() {
 						var attachment = custom_uploader.state().get('selection').first().toJSON();
-						var result_image_id = 'input[name=result_image_' + result_id + ']';
+						var result_image_id = '#result_image_' + result_id;
 						$(result_image_id).val(attachment.url);
 						console.log(attachment.url);
 						console.log(result_image_id);

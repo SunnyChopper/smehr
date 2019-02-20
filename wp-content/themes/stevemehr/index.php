@@ -23,6 +23,7 @@
 		the_content();
 	} elseif ($slug == "contact-faq") {
 		include('components/contact.inc.php');
+		the_content();
 		include('components/bottom-cta.inc.php'); 
 	} else {
 		if (have_posts()):
