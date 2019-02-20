@@ -96,17 +96,16 @@ add_action( 'widgets_init', 'post_sidebar' );
 	Custom Post Type
 \* ------------------------- */
 
-add_filter( 'news-template', 'news_post_template' );
-function news_post_template($single_template)
-{
+add_filter('single_template', function ($single_template) {
+
+    global $post;
+
     if (in_category('Blog')) {
-        $file = get_template_directory() . '/single-blog.php';
-        if (file_exists($file)) {
-            return $file;
-        }
-    }
-    return $single_template;
-}
+          $single_template = dirname( __FILE__ ) . '/single-blog.php';
+     }
+     return $single_template;
+
+}, 10, 3 );
 
 /* ------------------------- *\
 	Global Modules
