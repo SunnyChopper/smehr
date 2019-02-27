@@ -1,0 +1,335 @@
+/* -------------------------- *\
+	Banner Area
+\* -------------------------- */
+
+.banner-area {
+	width: 100%;
+	padding-top: 128px;
+	background: url('../img/banner-header.png');
+	background-size: cover;
+	padding-bottom: 32px;
+}
+
+#title {
+	font-size: 48px;
+}
+
+#subtitle {
+	font-size: 30px;
+}
+
+#main-cta-button {
+	font-family: 'Rubik';
+	font-size: 22px;
+	font-weight: normal;
+	color: white;
+	background-color: #f05a4b;
+	border-radius: 50px;
+	padding: 8px 36px;
+	margin-top: 32px;
+	transition: 0.2s all;
+	-webkit-transition: 0.2s all;
+}
+
+#main-cta-button:hover {
+	text-decoration: none;
+	background-color: #c0483c;
+}
+
+#chat_status {
+	font-family: 'Rubik';
+	font-size: 14px;
+	color: #1cecb4;
+	letter-spacing: 1px;
+	margin-top: 16px;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+	#subtitle {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+	#subtitle {
+		font-size: 18px;
+		line-height: 1.2em;
+	}
+
+	#main-cta-button {
+		font-family: 'Rubik';
+		font-size: 16px;
+		font-weight: normal;
+		color: white;
+		background-color: #f05a4b;
+		border-radius: 50px;
+		padding: 8px 36px;
+		margin-top: 32px;
+		transition: 0.2s all;
+		-webkit-transition: 0.2s all;
+	}
+
+	#chat_status {
+		font-family: 'Rubik';
+		font-size: 12px;
+		color: #1cecb4;
+		letter-spacing: 1px;
+		margin-top: 16px;
+	}
+
+	.banner-area {
+		padding-top: 108px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#subtitle {
+		font-size: 18px;
+		line-height: 1.2em;
+	}
+
+	#main-cta-button {
+		font-family: 'Rubik';
+		font-size: 16px;
+		font-weight: normal;
+		color: white;
+		background-color: #f05a4b;
+		border-radius: 50px;
+		padding: 8px 36px;
+		margin-top: 32px;
+		transition: 0.2s all;
+		-webkit-transition: 0.2s all;
+	}
+
+	#chat_status {
+		font-family: 'Rubik';
+		font-size: 12px;
+		color: #1cecb4;
+		letter-spacing: 1px;
+		margin-top: 16px;
+	}
+
+	.banner-area {
+		padding-top: 108px;
+	}
+}
+
+/* -------------------------- *\
+	Features Area
+\* -------------------------- */
+
+.feature-bar {
+	background-color: #2d3756;
+	padding: 32px;
+}
+
+#feature-title {
+	font-size: 22px;
+}
+
+.feature-card {
+	background: white;
+	border-radius: 10px;
+	padding: 24px 24px;
+	text-align: center;
+}
+
+.feature-card > i {
+	font-size: 64px;
+	margin-bottom: 24px;
+}
+
+.feature-card > h3 {
+	font-family: 'Roboto';
+	font-weight: lighter;
+	font-size: 24px;
+}
+
+.feature-card > h2 {
+	font-size: 24px;
+}
+
+.feature-card > .feature-info {
+	font-family: 'Roboto';
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.feature-card > .available {
+	color: #13b4ff;
+	font-size: 12px;
+	margin-top: 26px;
+}
+
+.feature-card > #chat-window {
+	font-size: 16px;
+	margin-bottom: -10px;
+}
+
+.feature-card > #chat-window > a {
+	color: black;
+	text-decoration: none;
+}
+
+.feature-card > #email {
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#feature-title {
+		font-size: 20px;
+	}
+
+	.feature-card {
+		background: white;
+		border-radius: 10px;
+		padding: 24px 27px;
+		text-align: center;
+	}
+
+	.feature-card > h2 {
+		font-size: 18px;
+	}
+
+	.feature-card > .feature-info {
+		font-family: 'Roboto';
+		font-size: 13px;
+		font-weight: lighter;
+	}
+
+	.feature-card > #email {
+		font-size: 14px;
+		margin-bottom: 32px;
+	}
+
+	.feature-card > #chat-window {
+		font-size: 16px;
+		margin-bottom: -16px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.feature-card {
+		background: white;
+		border-radius: 10px;
+		padding: 24px 24px;
+		text-align: center;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.feature-card > #email {
+		font-size: 16px;
+		margin-bottom: -10px;
+	}
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+	.feature-card {
+		background: white;
+		border-radius: 10px;
+		padding: 24px 20px;
+		text-align: center;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.feature-card > #email {
+		font-size: 16px;
+		margin-bottom: -10px;
+	}
+
+	.feature-card > h2 {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+	.feature-card {
+		background: white;
+		border-radius: 10px;
+		padding: 24px 36px;
+		text-align: center;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.feature-card > #email {
+		font-size: 16px;
+		margin-bottom: -10px;
+	}
+
+	.feature-card > h2 {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.feature-card {
+		background: white;
+		border-radius: 10px;
+		padding: 24px 36px;
+		text-align: center;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.feature-card > #email {
+		font-size: 16px;
+		margin-bottom: -10px;
+	}
+
+	.feature-card > h2 {
+		font-size: 24px;
+	}
+}
+
+/* -------------------------- *\
+	FAQ Area
+\* -------------------------- */
+
+#faq-title {
+	font-size: 24px;
+	margin-bottom: 32px;
+	margin-top: 16px;
+}
+
+.faq-box {
+	padding: 24px;
+	font-family: 'Roboto';
+}
+
+.faq-box > .question {
+	font-size: 18px;
+}
+
+.faq-box > .answer {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.faq-box > .answer > a {
+	font-weight: bold;
+	color: red;
+}
+
+.faq-box > .answer > a:hover {
+	color: red;
+}
+
+.faq-box > .question:before {
+	content: 'Q. ';
+	display: inline-block;
+	margin-left: calc(-1em - 8px);
+	margin-right: 8px;
+	font-weight: 900;
+}
+
+.faq-box > .answer:before {
+	content: 'A. ';
+	display: inline-block;
+	margin-left: calc(-1em - 8px);
+	margin-right: 8px;
+	font-weight: 900;
+}

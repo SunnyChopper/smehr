@@ -89,79 +89,73 @@
 					<p style="text-transform: uppercase; text-align: center;">Noteworthy Settlements</p>
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-1.jpg" class="regular-image">
+							<img src="<?php echo get_option('result_image_1'); ?>" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$12.8</h2>
+							<h2 class="sidebar-number">$<?php echo get_option('result_amount_1'); ?></h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Brain Injury</p>
+							<h6 class="sidebar-type"><?php echo get_option('result_type_1'); ?></h6>
 						</div>
 					</div>
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/truck-accident.jpg" class="regular-image">
+							<img src="<?php echo get_option('result_image_2'); ?>" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$10.5</h2>
+							<h2 class="sidebar-number">$<?php echo get_option('result_amount_2'); ?></h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Truck Accident:</h6>
-							<p class="sidebar-claim">Death Claim</p>
+							<h6 class="sidebar-type"><?php echo get_option('result_type_2'); ?></h6>
 						</div>
 					</div>
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-2.jpg" class="regular-image">
+							<img src="<?php echo get_option('result_image_3'); ?>" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$10.4</h2>
+							<h2 class="sidebar-number">$<?php echo get_option('result_amount_3'); ?></h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Jury Verdict</p>
+							<h6 class="sidebar-type"><?php echo get_option('result_type_3'); ?></h6>
 						</div>
 					</div>
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-3.jpg" class="regular-image">
+							<img src="<?php echo get_option('result_image_4'); ?>" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$7.5</h2>
+							<h2 class="sidebar-number">$<?php echo get_option('result_amount_4'); ?></h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Brain Injury</p>
+							<h6 class="sidebar-type"><?php echo get_option('result_type_4'); ?></h6>
 						</div>
 					</div>
 
 					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/pedestrian-accident.jpg" class="regular-image">
+							<img src="<?php echo get_option('result_image_5'); ?>" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$6.1</h2>
+							<h2 class="sidebar-number">$<?php echo get_option('result_amount_5'); ?></h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Pedestrian Accident:</h6>
-							<p class="sidebar-claim">Brain Injury</p>
+							<h6 class="sidebar-type"><?php echo get_option('result_type_5'); ?></h6>
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row mb-4">
 						<div class="col-lg-6 col-md-8 col-sm-6 col-6">
-							<img src="http://ec2-18-234-73-162.compute-1.amazonaws.com/wp-content/themes/stevemehr/images/car-accident-4.jpg" class="regular-image">
+							<img src="<?php echo get_option('result_image_6'); ?>" class="regular-image">
 						</div>
 
 						<div class="col-lg-6 col-md-4 col-sm-6 col-6 tablet-down-no-padding">
-							<h2 class="sidebar-number">$3.2</h2>
+							<h2 class="sidebar-number">$<?php echo get_option('result_amount_6'); ?></h2>
 							<h4 class="sidebar-million">MILLION</h4>
-							<h6 class="sidebar-type">Car Accident:</h6>
-							<p class="sidebar-claim">Back Injury</p>
+							<h6 class="sidebar-type"><?php echo get_option('result_type_6'); ?></h6>
 						</div>
 					</div>
 				</div>

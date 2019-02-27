@@ -12,8 +12,6 @@
 				<h3 class="mt-32"><?php the_title(); ?></h3>
 				<hr />
 					<?php the_content(); ?>
-				<hr />
-				<p>Published <?php echo get_the_date(); ?></p>
 
 			<?php endwhile; ?>
 			<?php endif; ?>
