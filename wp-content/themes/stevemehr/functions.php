@@ -3,9 +3,6 @@
 define('FS_METHOD', 'direct');
 add_theme_support( 'post-thumbnails' );
 
-// Hide the admin bar
-show_admin_bar( true );
-
 /* ------------------------- *\
 	Scripts for Theme
 \* ------------------------- */
